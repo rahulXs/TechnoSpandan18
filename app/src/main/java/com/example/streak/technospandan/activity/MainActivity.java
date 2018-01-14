@@ -1,4 +1,4 @@
-package com.example.streak.technospandan;
+package com.example.streak.technospandan.activity;
 
 import android.app.Fragment;
 import android.content.res.TypedArray;
@@ -13,6 +13,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 
+import com.example.streak.technospandan.R;
 import com.example.streak.technospandan.fragment.CenteredTextFragment;
 import com.example.streak.technospandan.menu.DrawerAdapter;
 import com.example.streak.technospandan.menu.DrawerItem;

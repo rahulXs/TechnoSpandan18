@@ -15,7 +15,7 @@
         android:paddingLeft="24dp"
         android:paddingRight="24dp"
         android:paddingStart="24dp"
-        android:text="@string/account_balance"
+        android:text="@string/college_name"
         android:textSize="12sp" />
 
     <LinearLayout
@@ -26,16 +26,11 @@
         android:paddingLeft="24dp"
         android:paddingRight="24dp">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="6dp"
-            android:text="@string/balance_currency" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/balance_amount"
+            android:text="@string/event_name"
             android:textSize="24sp" />
 
     </LinearLayout>

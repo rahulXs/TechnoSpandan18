@@ -1,6 +1,15 @@
 <resources>
     <string name="app_name">TechnoSpandan</string>
-    <string name="account_balance">UIET</string>
-    <string name="balance_currency"> </string>
-    <string name="balance_amount">TechnoSpandan\'18</string>
+    <string name="college_name">UIET</string>
+    <string name="event_name">TechnoSpandan\'18</string>
+
+    <string-array name="nav_item_activity_titles">
+        <item>Home</item>
+        <item>Organising Team</item>
+        <item>Notifications</item>
+        <item>Settings</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

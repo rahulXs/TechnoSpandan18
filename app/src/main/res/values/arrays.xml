@@ -10,6 +10,7 @@
         <item>Exit</item>
     </string-array>
 
+
     <array name="ld_activityScreenIcons">
         <item>@drawable/ic_action_home</item>
         <item>@drawable/ic_action_team</item>
