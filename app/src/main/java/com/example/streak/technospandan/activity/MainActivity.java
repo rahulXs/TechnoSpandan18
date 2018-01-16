@@ -15,6 +15,7 @@ import android.support.v7.widget.Toolbar;
 
 import com.example.streak.technospandan.R;
 import com.example.streak.technospandan.fragment.CenteredTextFragment;
+import com.example.streak.technospandan.fragment.HomeFragment;
 import com.example.streak.technospandan.menu.DrawerAdapter;
 import com.example.streak.technospandan.menu.DrawerItem;
 import com.example.streak.technospandan.menu.SimpleItem;
@@ -35,12 +36,15 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
     private String[] screenTitles;
     private Drawable[] screenIcons;
 
+
+
     private SlidingRootNav slidingRootNav;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -79,8 +83,15 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
             finish();
         }
         slidingRootNav.closeMenu();
-        Fragment selectedScreen = CenteredTextFragment.createFor(screenTitles[position]);
-        showFragment(selectedScreen);
+
+       if(position==POS_HOME){
+           Fragment fragment=HomeFragment.createFor(screenTitles[position]);
+           showFragment(fragment);
+       }
+       else {
+           Fragment selectedScreen = CenteredTextFragment.createFor(screenTitles[position]);
+           showFragment(selectedScreen);
+       }
     }
 
     private void showFragment(Fragment fragment) {
@@ -88,6 +99,7 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
                 .replace(R.id.container, fragment)
                 .commit();
     }
+
 
     private DrawerItem createItemFor(int position) {
         return new SimpleItem(screenIcons[position], screenTitles[position])
