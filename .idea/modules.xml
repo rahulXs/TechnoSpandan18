@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/TechnoSpandan.iml" filepath="$PROJECT_DIR$/TechnoSpandan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TechnoSpandan18.iml" filepath="$PROJECT_DIR$/TechnoSpandan18.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
