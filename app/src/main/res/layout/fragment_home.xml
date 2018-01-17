@@ -3,13 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.streak.technospandan.fragment.HomeFragment">
-
-    <android.support.v4.view.ViewPager
-        android:id="@+id/viewPager"
-        android:layout_width="match_parent"
-        android:layout_height="190dp"
-        android:layout_marginBottom="8dp"/>
+    tools:context="com.example.streak.technospandan.fragment.HomeFragment"
+    android:background="@drawable/home_background">
 
     <LinearLayout
         android:id="@+id/SliderDots"
@@ -24,31 +19,48 @@
         android:layout_width="135dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="270dp"
-        android:text="date" />
+        android:background="#890890"
+        android:textColor="#ffffff"
+        android:layout_marginTop="350dp"
+        android:text="Events by date" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="154dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="200dp"
-        android:layout_marginTop="270dp"
-        android:text="Category" />
+        android:layout_marginTop="350dp"
+        android:background="#890890"
+        android:textColor="#ffffff"
+        android:text="Events by Category" />
 
     <Button
         android:id="@+id/button6"
         android:layout_width="154dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="200dp"
-        android:layout_marginTop="350dp"
+        android:layout_marginTop="425dp"
+        android:background="#890890"
+        android:textColor="#ffffff"
         android:text="Login" />
 
     <Button
         android:id="@+id/button5"
         android:layout_width="135dp"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="350dp"
-        android:text="QR CODE" />
+        android:layout_marginTop="425dp"
+        android:background="#890890"
+        android:textColor="#ffffff"
+        android:text="Scan QR CODE" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="320dp"
+        android:layout_height="300dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp" />
 
 </FrameLayout>

@@ -1,6 +1,7 @@
 package com.example.streak.technospandan.activity;
 
 import android.app.Fragment;
+import android.app.FragmentTransaction;
 import android.content.res.TypedArray;
 import android.graphics.drawable.Drawable;
 import android.support.annotation.ColorInt;
@@ -35,6 +36,9 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
 
     private String[] screenTitles;
     private Drawable[] screenIcons;
+
+
+    Fragment fragment=null;
 
 
 
@@ -73,22 +77,25 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
         list.setNestedScrollingEnabled(false);
         list.setLayoutManager(new LinearLayoutManager(this));
         list.setAdapter(adapter);
-
         adapter.setSelected(POS_HOME);
     }
 
     @Override
     public void onItemSelected(int position) {
         if (position == POS_EXIT) {
+            HomeFragment f=(HomeFragment)fragment;
+            f.setFlag(1);
             finish();
         }
         slidingRootNav.closeMenu();
 
        if(position==POS_HOME){
-           Fragment fragment=HomeFragment.createFor(screenTitles[position]);
+           fragment=HomeFragment.createFor(screenTitles[position]);
            showFragment(fragment);
        }
        else {
+           HomeFragment f=(HomeFragment)fragment;
+           f.setFlag(1);
            Fragment selectedScreen = CenteredTextFragment.createFor(screenTitles[position]);
            showFragment(selectedScreen);
        }
@@ -129,5 +136,12 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
     @ColorInt
     private int color(@ColorRes int res) {
         return ContextCompat.getColor(this, res);
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        HomeFragment f=(HomeFragment)fragment;
+        f.setFlag(1);
     }
 }
