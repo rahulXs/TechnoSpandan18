@@ -5,7 +5,9 @@ import android.net.Uri;
 import android.os.Bundle;
 
 import android.app.Fragment;
+import android.os.Handler;
 import android.support.annotation.Nullable;
+import android.support.v4.app.ActivityOptionsCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
@@ -14,9 +16,15 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
+import com.ToxicBakery.viewpager.transforms.AccordionTransformer;
+import com.ToxicBakery.viewpager.transforms.CubeInTransformer;
+import com.ToxicBakery.viewpager.transforms.RotateUpTransformer;
+import com.ToxicBakery.viewpager.transforms.TabletTransformer;
 import com.example.streak.technospandan.R;
 import com.example.streak.technospandan.utils.ViewPagerAdapter;
 
+import java.util.Timer;
+import java.util.TimerTask;
 
 
 public class HomeFragment extends Fragment {
@@ -26,6 +34,18 @@ public class HomeFragment extends Fragment {
     LinearLayout sliderDotsPanel;
     private int dotsCount;
     private ImageView[] dots;
+
+
+    int flag=0;                     //to make app not to crash
+    int currentPage = 0;
+    Timer timer;
+    final long DELAY_MS = 2000;//delay in milliseconds before task is to be executed
+    final long PERIOD_MS = 3000; // time in milliseconds between successive task executions.
+
+    public void setFlag(int f){
+        flag = f;
+    }
+
 
 
     private static final String ARG_PARAM1 = "param1";
@@ -57,6 +77,34 @@ public class HomeFragment extends Fragment {
         ViewPagerAdapter viewPagerAdapter = new ViewPagerAdapter(getActivity());
 
         viewPager.setAdapter(viewPagerAdapter);
+        try {
+        /*After setting the adapter use the timer */
+            final Handler handler = new Handler();
+            final Runnable Update = new Runnable() {
+                public void run() {
+                    if (currentPage == (new ViewPagerAdapter(getActivity()).getCount())) {
+                        currentPage = 0;
+                    }
+                    if (flag==0)
+                        viewPager.setCurrentItem(currentPage++, true);
+                    else
+                        onDestroyView();
+                }
+            };
+
+            timer = new Timer(); // This will create a new Thread
+            timer.schedule(new TimerTask() { // task to be scheduled
+
+                @Override
+                public void run() {
+                    handler.post(Update);
+                }
+            }, DELAY_MS, PERIOD_MS);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+
+        viewPager.setPageTransformer(true,new RotateUpTransformer());
         dotsCount = viewPagerAdapter.getCount();
         dots = new ImageView[dotsCount];
 
@@ -98,4 +146,6 @@ public class HomeFragment extends Fragment {
             }
         });
     }
+
+
 }
