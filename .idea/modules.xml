@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://C:\Users\PIYUSH\Downloads\Compressed\TechnoSpandan18\TechnoSpandan.iml" filepath="C:\Users\PIYUSH\Downloads\Compressed\TechnoSpandan18\TechnoSpandan.iml" />
       <module fileurl="file://$PROJECT_DIR$/TechnoSpandan18.iml" filepath="$PROJECT_DIR$/TechnoSpandan18.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>

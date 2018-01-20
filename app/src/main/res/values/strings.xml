@@ -7,7 +7,9 @@
         <item>Home</item>
         <item>Organising Team</item>
         <item>Notifications</item>
-        <item>Settings</item>
+        <item />
+        <item />
+        <item>Exit</item>
     </string-array>
 
     <!-- TODO: Remove or change this placeholder text -->
