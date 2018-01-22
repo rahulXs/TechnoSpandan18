@@ -13,9 +13,11 @@ import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
 
 import com.example.streak.technospandan.R;
 import com.example.streak.technospandan.fragment.HomeFragment;
@@ -102,9 +104,9 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
     public void onItemSelected(int position) {
 
         if (position == POS_EXIT) {
-            HomeFragment.setFlag(1);
+          /*  HomeFragment.setFlag(1);
             TeamFragment.setFlag(1);
-            NotificationsFragment.setFlag(1);
+            NotificationsFragment.setFlag(1); */
             finish();
         }
         slidingRootNav.closeMenu();
@@ -184,4 +186,13 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
         HomeFragment f=(HomeFragment)fragment;
         f.setFlag(1);
     }
+    public void buttonOnClick(View view){
+        switch(view.getId()) {
+            case R.id.button2:
+                Intent myIntent = new Intent(this,CategoryView.class);
+                startActivity(myIntent);
+                break;
+        }
+    }
+
 }

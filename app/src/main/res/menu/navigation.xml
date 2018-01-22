@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_shop"
+        android:icon="@drawable/ic_store_white_24dp"
+        android:title="@string/title_cultural" />
+
+    <item
+        android:id="@+id/navigation_gifts"
+        android:icon="@drawable/ic_card_giftcard_white_24dp"
+        android:title="@string/title_technical" />
+
+    <item
+        android:id="@+id/navigation_cart"
+        android:icon="@drawable/ic_sports"
+        android:title="@string/title_sports" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_other"
+        android:title="@string/title_other" />
+
+</menu>
