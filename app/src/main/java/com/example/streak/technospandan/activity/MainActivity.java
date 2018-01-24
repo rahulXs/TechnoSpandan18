@@ -123,7 +123,8 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
 
             HomeFragment.setFlag(1);
             //TeamFragment.setFlag(1);
-            NotificationsFragment.setFlag(1);fragment= TeamFragment.createFor(screenTitles[position]);
+            NotificationsFragment.setFlag(1);
+            fragment= TeamFragment.createFor(screenTitles[position]);
             showFragment(fragment);
         }
         else if (position==POS_NOTIFICATIONS){

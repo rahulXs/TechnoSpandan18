@@ -17,8 +17,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/logo_bg"
-        />
+        android:src="@drawable/log" />
 
     <ImageView
         android:id="@+id/logo"
@@ -26,7 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="100dp"
-        android:src="@drawable/logo"
+        android:src="@drawable/log"
         android:layout_below="@+id/toolbarMain"
         android:clickable="true"/>
 
