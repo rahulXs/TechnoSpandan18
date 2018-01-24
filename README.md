@@ -1,9 +1,34 @@
-# TechnoSpandan18
-Official Android app for college fest of UIET Kanpur.
+## TechnoSpandan18
 
-----------------Development track-----------
-Commit 1- January 14, 2018 - Created repository and did initial commits.
-Commit 2- January 15, 2018 - Restructured project, moved MainActivity.java under directory activity.
-                             Created various fragments HomeFragment, TeamFragment, NotificationsFragment, SettingsFragment under directoy                              fragment.
-Commit 3- January 16,2018  - HomeFragment is attached successfully, created a directory utils for utility adapters in java directory.                                  Added some layout file custom_layout,fragment_home for attaching fragment.
-Commit 4- January 17,2018  - Added animation to the fragment along with some minor changes in background and button design.
+### Android Application Source for TechnoSpandan 2018.
+
+TechnoSpandan is annual technical,cultural and sports fest of UIET, CSJMU, Kanpur.
+Its a three day extravaganza which has students from different colleges participating in various out of the box events.
+
+### Application Features
+
+#### Different Views for Events
+Searching for any event is fun and super easy now.
+
+- Events by day
+
+- Events by Category (bottom navigation view)
+
+- Events classified under various groups (fanlayout manager)
+
+#### Event Notifications
+We know how important it is to be at the right time at a must attend event, thus we have a remind feature for you. In case of change in venue or timing of any event, you will get notifications regarding the same.
+
+#### Register/Login
+Register and login feature for participants.
+
+#### Organising Team Info
+
+#### Sponsors List
+
+#### Settings Activity
+
+#### Open Source
+We Share love | We share Code.
+
+### This project is under development now. More features coming soon...
