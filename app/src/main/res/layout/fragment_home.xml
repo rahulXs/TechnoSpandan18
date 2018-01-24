@@ -90,7 +90,8 @@
             android:layout_below="@+id/button1"
             android:layout_marginTop="56dp"
             android:drawableLeft="@drawable/qr1"
-            android:text="Scan QR Code"
+            android:text="Group view"
+            android:onClick="buttonOnClick"
             app:layout_constraintLeft_toLeftOf="parent"
             tools:layout_editor_absoluteY="174dp" />
 

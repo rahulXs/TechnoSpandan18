@@ -19,7 +19,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".activity.SettingsActivity" />
-        <activity android:name=".activity.CategoryView"></activity>
+        <activity android:name=".activity.CategoryView" />
+        <activity android:name=".activity.GroupView"></activity>
     </application>
 
 </manifest>

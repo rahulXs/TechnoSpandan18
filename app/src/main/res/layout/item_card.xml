@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="4dp"
+        android:paddingEnd="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingStart="8dp"
+        android:paddingTop="4dp"
+        tools:background="@color/dim_gray">
+
+        <RelativeLayout
+            android:id="@+id/rlTitleContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvEventTitle"
+                style="@style/SportCardStyle.SportTile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:ellipsize="end"
+                android:lines="1"
+                android:maxLines="1"
+                tools:text="Table tennis" />
+
+            <TextView
+                android:id="@+id/tvEventSubtitle"
+                style="@style/SportCardStyle.SportSubtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvEventTitle"
+                android:layout_centerHorizontal="true"
+                android:ellipsize="end"
+                android:lines="1"
+                android:maxLines="1"
+                tools:text="Women's singles" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/ivEventPreview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_below="@+id/rlTitleContainer"
+            android:layout_centerHorizontal="true" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ivEventPreview">
+
+            <TextView
+                android:id="@+id/tvDayPart"
+                style="@style/SportCardStyle.DayPart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                tools:text="PM" />
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

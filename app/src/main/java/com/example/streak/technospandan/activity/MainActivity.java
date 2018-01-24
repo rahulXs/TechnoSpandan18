@@ -192,6 +192,10 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
                 Intent myIntent = new Intent(this,CategoryView.class);
                 startActivity(myIntent);
                 break;
+            case R.id.button3:
+                Intent myIntent3 = new Intent(this,GroupView.class);
+                startActivity(myIntent3);
+                break;
         }
     }
 
