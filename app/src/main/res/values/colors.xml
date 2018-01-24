@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#de717c</color>
-    <color name="colorPrimaryDark">#31499f</color>
-    <color name="colorAccent">#FF4081</color>
     <color name="textColorPrimary">#212121</color>
     <color name="textColorSecondary">#757575</color>
+    <color name="colorPrimary">#7b4bff</color>
+    <color name="colorPrimaryDark">#6539ba</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bgBottomNavigation">#fe485a</color>
+    <color name="viewBg">#f1f5f8</color>
+    <color name="black">#000000</color>
+    <color name="dark_cerulean">#134785</color>
+    <color name="dodger_blue">#249ff4</color>
+    <color name="mantis">#55b859</color>
+    <color name="dim_gray">#6f6f6f</color>
+    <color name="manatee">#979797</color>
+    <color name="dark_orchid">#a62ab9</color>
+    <color name="timberwolf">#d8d8d8</color>
+    <color name="portland_orange">#fc5f23</color>
+    <color name="usc_gold">#fec804</color>
+    <color name="white">#ffffff</color>
 </resources>
 
 

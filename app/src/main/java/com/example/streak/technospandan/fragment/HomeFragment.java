@@ -1,25 +1,18 @@
 package com.example.streak.technospandan.fragment;
-
-import android.content.Context;
-import android.net.Uri;
 import android.os.Bundle;
-
 import android.app.Fragment;
 import android.os.Handler;
 import android.support.annotation.Nullable;
-import android.support.v4.app.ActivityOptionsCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.view.ViewPager;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-
-import com.ToxicBakery.viewpager.transforms.AccordionTransformer;
-import com.ToxicBakery.viewpager.transforms.CubeInTransformer;
 import com.ToxicBakery.viewpager.transforms.RotateUpTransformer;
-import com.ToxicBakery.viewpager.transforms.TabletTransformer;
 import com.example.streak.technospandan.R;
 import com.example.streak.technospandan.utils.ViewPagerAdapter;
 
@@ -29,27 +22,22 @@ import java.util.TimerTask;
 
 public class HomeFragment extends Fragment {
 
-
     ViewPager viewPager;
     LinearLayout sliderDotsPanel;
     private int dotsCount;
     private ImageView[] dots;
 
-
-    int flag=0;                     //to make app not to crash
+    static int flag=0;                     //to make app not to crash
     int currentPage = 0;
     Timer timer;
     final long DELAY_MS = 2000;//delay in milliseconds before task is to be executed
     final long PERIOD_MS = 3000; // time in milliseconds between successive task executions.
 
-    public void setFlag(int f){
+    public static void setFlag(int f){
         flag = f;
     }
 
-
-
     private static final String ARG_PARAM1 = "param1";
-
 
     public static HomeFragment createFor(String param1) {
         HomeFragment fragment = new HomeFragment();
@@ -58,7 +46,6 @@ public class HomeFragment extends Fragment {
         fragment.setArguments(args);
         return fragment;
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -71,6 +58,7 @@ public class HomeFragment extends Fragment {
 
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
+        getActivity().setTitle("Home");
         viewPager=(ViewPager) view.findViewById(R.id.viewPager);
         sliderDotsPanel = (LinearLayout) view.findViewById(R.id.SliderDots);
 
@@ -146,6 +134,8 @@ public class HomeFragment extends Fragment {
             }
         });
     }
+
+
 
 
 }
