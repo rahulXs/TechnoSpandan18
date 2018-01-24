@@ -82,9 +82,9 @@ public class FullInfoTabFragment extends Fragment {
         List<EventsModel> items = new ArrayList<>();
         for (int i = 10; i > 0; i--) {
             int points = i * 100;
-            items.add(new EventsModel("Vae, mirabilis tumultumque", AllEvents.CODING, --points));
-            items.add(new EventsModel("Cobaltums favere", AllEvents.ROBOTICS, --points));
-            items.add(new EventsModel("Stella de peritus lixa", AllEvents.ELECTRONICS, --points));
+            items.add(new EventsModel("Event name here", AllEvents.CODING));
+            items.add(new EventsModel("event name herer", AllEvents.ROBOTICS));
+            items.add(new EventsModel("evente name here", AllEvents.ELECTRONICS));
         }
 
         MyAdapter2 myAdapter2 = new MyAdapter2();

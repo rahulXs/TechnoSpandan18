@@ -4,12 +4,12 @@ public class EventsModel {
 
     private String name;
     private AllEvents event;
-    private long score;
 
-    public EventsModel(String name, AllEvents event, long score) {
+
+    public EventsModel(String name, AllEvents event) {
         this.name = name;
         this.event = event;
-        this.score = score;
+
     }
 
     public String getName() {
@@ -20,7 +20,4 @@ public class EventsModel {
         return event;
     }
 
-    public long getScore() {
-        return score;
-    }
 }
