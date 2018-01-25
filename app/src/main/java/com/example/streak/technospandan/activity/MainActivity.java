@@ -1,7 +1,6 @@
 package com.example.streak.technospandan.activity;
 
 import android.app.Fragment;;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.res.TypedArray;
 import android.graphics.drawable.Drawable;
@@ -10,7 +9,6 @@ import android.support.annotation.ColorRes;
 import android.support.annotation.Nullable;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.content.ContextCompat;
-import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -32,9 +30,7 @@ import com.example.streak.technospandan.menu.SimpleItem;
 import com.example.streak.technospandan.menu.SpaceItem;
 import com.yarolegovich.slidingrootnav.SlidingRootNav;
 import com.yarolegovich.slidingrootnav.SlidingRootNavBuilder;
-
 import java.util.Arrays;
-
 import es.dmoral.toasty.Toasty;
 
 import static android.R.attr.id;

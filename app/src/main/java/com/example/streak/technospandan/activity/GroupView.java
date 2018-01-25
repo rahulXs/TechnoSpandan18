@@ -40,7 +40,6 @@ public class GroupView extends AppCompatActivity {
         }
     }
 
-
     @Override
     public void onSaveInstanceState(Bundle outState, PersistableBundle outPersistentState) {
         super.onSaveInstanceState(outState, outPersistentState);

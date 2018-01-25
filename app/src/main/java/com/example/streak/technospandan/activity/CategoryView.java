@@ -31,8 +31,10 @@ public class CategoryView extends AppCompatActivity implements
 
             BottomNavigationView navigation = findViewById(R.id.navigation);
             navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
-
-         toolbar.setTitle("Cultural");
+            toolbar.setTitle("Cultural Events");
+            Fragment fragment;
+            fragment = new CulturalFragment();
+            loadFragment(fragment);
         }
 
         private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
@@ -76,7 +78,7 @@ public class CategoryView extends AppCompatActivity implements
         }
         @Override
         public void onFragmentInteraction(Uri uri){
-            //you can leave it empty
+            //can leave it empty
         }
         @Override
         public void onBackPressed(){
