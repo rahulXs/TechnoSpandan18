@@ -5,23 +5,16 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.support.v7.widget.RecyclerView;
 
 import com.example.streak.technospandan.utils.MyAdapter;
 
-/**
- * A simple {@link Fragment} subclass.
- * Activities that contain this fragment must implement the
- * {@link CulturalFragment.OnFragmentInteractionListener} interface
- * to handle interaction events.
- * Use the {@link CulturalFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
+
 import com.example.streak.technospandan.R;
-public class CulturalFragment extends Fragment {
+public class OtherFragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -34,12 +27,12 @@ public class CulturalFragment extends Fragment {
 
     private OnFragmentInteractionListener mListener;
 
-    public CulturalFragment() {
+    public OtherFragment() {
         // Required empty public constructor
     }
 
-    public static CulturalFragment newInstance(String param1, String param2) {
-        CulturalFragment fragment = new CulturalFragment();
+    public static OtherFragment newInstance(String param1, String param2) {
+        OtherFragment fragment = new OtherFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -56,11 +49,11 @@ public class CulturalFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View rootView = inflater.inflate(R.layout.fragment_cultural, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_other, container, false);
 
         RecyclerView rv = (RecyclerView) rootView.findViewById(R.id.rv_recycler_view);
         rv.setHasFixedSize(true);
-        MyAdapter adapter = new MyAdapter(new String[]{"hello one", "hello one", "hello one", "hello one", "hello one", "hello one", "test two", "test three", "test four", "test five" , "test six"});
+        MyAdapter adapter = new MyAdapter(new String[]{"other one", "other two", "other three", "oter four", "ohter five" , "sports six" , "sports seven","test two", "test three", "test four", "test five" , "test six"});
         rv.setAdapter(adapter);
 
         LinearLayoutManager llm = new LinearLayoutManager(getActivity());

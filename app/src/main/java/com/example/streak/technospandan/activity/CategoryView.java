@@ -13,10 +13,12 @@ import android.view.MenuItem;
 
 import com.example.streak.technospandan.R;
 import com.example.streak.technospandan.fragment.CulturalFragment;
+import com.example.streak.technospandan.fragment.OtherFragment;
+import com.example.streak.technospandan.fragment.SportsFragment;
 import com.example.streak.technospandan.fragment.TechnicalFragment;
 
 public class CategoryView extends AppCompatActivity implements
-        TechnicalFragment.OnFragmentInteractionListener, CulturalFragment.OnFragmentInteractionListener{
+        TechnicalFragment.OnFragmentInteractionListener, CulturalFragment.OnFragmentInteractionListener, SportsFragment.OnFragmentInteractionListener , OtherFragment.OnFragmentInteractionListener{
 
         private ActionBar toolbar;
 
@@ -43,19 +45,23 @@ public class CategoryView extends AppCompatActivity implements
                 switch (item.getItemId()) {
                     case R.id.navigation_shop:
                         toolbar.setTitle("Cultural Events");
-                        fragment = new TechnicalFragment();
+                        fragment = new CulturalFragment();
                         loadFragment(fragment);
                         return true;
                     case R.id.navigation_gifts:
                         toolbar.setTitle("Technical Events");
-                        fragment = new CulturalFragment();
+                        fragment = new TechnicalFragment();
                         loadFragment(fragment);
                         return true;
                     case R.id.navigation_cart:
                         toolbar.setTitle("Sports Events");
+                        fragment = new SportsFragment();
+                        loadFragment(fragment);
                         return true;
                     case R.id.navigation_profile:
-                        toolbar.setTitle("Workshops");
+                        toolbar.setTitle("Workshops & Other Activities");
+                        fragment = new OtherFragment();
+                        loadFragment(fragment);
                         return true;
                 }
 
