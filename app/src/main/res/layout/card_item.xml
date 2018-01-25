@@ -14,33 +14,30 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="50dp">
 
             <ImageView
                 android:id="@+id/iv_image"
-                android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
-                android:src="@drawable/qr_code">
-            </ImageView>
+                android:layout_height="wrap_content"
+                android:src="@drawable/qr_code"></ImageView>
 
             <TextView
                 android:id="@+id/tv_text"
 
-                android:layout_toRightOf ="@+id/iv_image"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center" >
-            </TextView>
+                android:layout_toRightOf="@+id/iv_image"
+                android:gravity="center"></TextView>
 
             <TextView
                 android:id="@+id/tv_blah"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Events Details here..."
                 android:layout_below="@+id/tv_text"
+                android:layout_toEndOf="@+id/iv_image"
                 android:layout_toRightOf="@+id/iv_image"
-                android:layout_toEndOf="@+id/iv_image">
-            </TextView>
+                android:text="Events Details here..."></TextView>
 
         </RelativeLayout>
     </android.support.v7.widget.CardView>

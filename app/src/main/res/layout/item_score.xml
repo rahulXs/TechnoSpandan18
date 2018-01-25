@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="180dp">
+    android:layout_height="150dp">
 
     <ImageView
         android:id="@+id/ivAthleticFlag"
@@ -16,15 +16,13 @@
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:layout_toEndOf="@+id/ivAthleticFlag"
-        android:layout_toLeftOf="@+id/tvScore"
-        android:layout_toRightOf="@+id/ivAthleticFlag"
-        android:layout_toStartOf="@+id/tvScore">
+        android:layout_toRightOf="@+id/ivAthleticFlag">
 
         <TextView
             android:id="@+id/tvCountry"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="18sp"
+            android:textSize="20sp"
             android:textStyle="bold" />
 
     </RelativeLayout>

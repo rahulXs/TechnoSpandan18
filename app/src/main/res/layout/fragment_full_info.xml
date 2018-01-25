@@ -27,23 +27,6 @@
 
         android:layout_below="@+id/ivPhoto">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:padding="16dp"
-            android:text="Country"
-            android:textStyle="bold" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:padding="16dp"
-            android:text="Score"
-            android:textStyle="bold" />
     </RelativeLayout>
 
     <android.support.v7.widget.RecyclerView

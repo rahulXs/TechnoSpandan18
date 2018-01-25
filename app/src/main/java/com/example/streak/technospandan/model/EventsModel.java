@@ -16,7 +16,7 @@ public class EventsModel {
         return name;
     }
 
-    public AllEvents getCountry() {
+    public AllEvents getEvent() {
         return event;
     }
 

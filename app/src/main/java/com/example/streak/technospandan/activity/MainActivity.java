@@ -7,6 +7,7 @@ import android.graphics.drawable.Drawable;
 import android.support.annotation.ColorInt;
 import android.support.annotation.ColorRes;
 import android.support.annotation.Nullable;
+import android.support.v4.app.FragmentManager;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -17,6 +18,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Toast;
 
 import com.example.streak.technospandan.R;
 import com.example.streak.technospandan.fragment.HomeFragment;
@@ -28,8 +30,8 @@ import com.example.streak.technospandan.menu.SimpleItem;
 import com.example.streak.technospandan.menu.SpaceItem;
 import com.yarolegovich.slidingrootnav.SlidingRootNav;
 import com.yarolegovich.slidingrootnav.SlidingRootNavBuilder;
-
 import java.util.Arrays;
+import es.dmoral.toasty.Toasty;
 
 public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnItemSelectedListener {
 
@@ -37,6 +39,9 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
     private static final int POS_TEAM = 1;
     private static final int POS_NOTIFICATIONS = 2;
     private static final int POS_EXIT = 5;
+
+    private static long back_pressed_time;
+    private static long PERIOD = 2000;
 
     private String[] screenTitles;
     private Drawable[] screenIcons;
@@ -50,7 +55,6 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
         MenuInflater inflater= getMenuInflater();
         inflater.inflate(R.menu.menu_items,menu);
         return true;
-
     }
 
     @Override
@@ -68,7 +72,7 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
         slidingRootNav = new SlidingRootNavBuilder(this)
@@ -90,7 +94,7 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
                 createItemFor(POS_EXIT)));
         adapter.setListener(this);
 
-        RecyclerView list = (RecyclerView) findViewById(R.id.list);
+        RecyclerView list = findViewById(R.id.list);
         list.setNestedScrollingEnabled(false);
         list.setLayoutManager(new LinearLayoutManager(this));
         list.setAdapter(adapter);
@@ -99,16 +103,11 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
 
     @Override
     public void onItemSelected(int position) {
-
-        if (position == POS_EXIT) {
-          /*  HomeFragment.setFlag(1);
-            TeamFragment.setFlag(1);
-            NotificationsFragment.setFlag(1); */
-            finish();
-        }
         slidingRootNav.closeMenu();
-
-        if(position==POS_HOME){
+        if (position == POS_EXIT) {
+            //TO-D0 FINISH
+        }
+        else if(position==POS_HOME){
 
            // HomeFragment.setFlag(1);
             TeamFragment.setFlag(1);
@@ -133,12 +132,6 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
             showFragment(fragment);
         }
 
-        /*else {
-            SettingsFragment f=(SettingsFragment)fragment;
-            f.setFlag(1);
-            Fragment selectedScreen = CenteredTextFragment.createFor(screenTitles[position]);
-            showFragment(selectedScreen);
-        }*/
     }
 
     private void showFragment(Fragment fragment) {
@@ -146,8 +139,6 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
                 .replace(R.id.container, fragment)
                 .commit();
     }
-
-
     private DrawerItem createItemFor(int position) {
         return new SimpleItem(screenIcons[position], screenTitles[position])
                 .withIconTint(color(R.color.textColorSecondary))
@@ -180,9 +171,16 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
 
     @Override
     public void onBackPressed() {
-        super.onBackPressed();
-        HomeFragment f=(HomeFragment)fragment;
-        f.setFlag(1);
+        FragmentManager manager = getSupportFragmentManager();
+            if (manager.getBackStackEntryCount() > 1 ) {
+                manager.popBackStack();
+
+            } else {
+
+                if (back_pressed_time + PERIOD > System.currentTimeMillis()) super.onBackPressed();
+                else Toasty.error(getBaseContext(), "Press once again to exit!", Toast.LENGTH_SHORT, true).show();
+                back_pressed_time = System.currentTimeMillis();
+            }
     }
     public void buttonOnClick(View view){
         switch(view.getId()) {
