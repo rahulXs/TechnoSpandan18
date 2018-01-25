@@ -1,9 +1,10 @@
 package com.example.streak.technospandan.model;
 
 public enum AllEvents {
-    CODING("Coding Events"),
-    ROBOTICS("Robotics Events"),
-    ELECTRONICS("Electrade");
+    CODING("Codetrex, Play with codes, App-athon, Crypto"),
+    ROBOTICS("The Robo Knight, Robo Race, LFR"),
+    ELECTRONICS("Electrade, Electromatrix");
+
 
     private final String event;
 

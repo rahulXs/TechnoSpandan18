@@ -17,9 +17,8 @@ public class EventCardsUtils {
             eventCardModels.add(EventCardModel
                     .newBuilder()
                     .withEventTitle("Robotics")
-                    .withEventSubtitle("short desc")
-                    .withImageResId(R.drawable.pic_card_1)
-                    .withDayPart("category")
+                    .withImageResId(R.drawable.robotics)
+                    .withDayPart("Technical")
                     .withBackgroundColorResId(R.color.dark_orchid)
                     .build());
 
@@ -28,10 +27,9 @@ public class EventCardsUtils {
         {
             eventCardModels.add(EventCardModel
                     .newBuilder()
-                    .withEventTitle("coding")
-                    .withEventSubtitle("short desc")
-                    .withImageResId(R.drawable.pic_card_2)
-                    .withDayPart("category")
+                    .withEventTitle("Coding")
+                    .withImageResId(R.drawable.coding)
+                    .withDayPart("Technical")
                     .withBackgroundColorResId(R.color.mantis)
                     .build());
 
@@ -40,10 +38,9 @@ public class EventCardsUtils {
         {
             eventCardModels.add(EventCardModel
                     .newBuilder()
-                    .withEventTitle("hfsdjhjk")
-                    .withEventSubtitle("shdfoijh")
+                    .withEventTitle("Electronics")
                     .withImageResId(R.drawable.pic_card_3)
-                    .withDayPart("hjdsfj")
+                    .withDayPart("Technical")
                     .withBackgroundColorResId(R.color.usc_gold)
                     .build());
 
@@ -52,10 +49,9 @@ public class EventCardsUtils {
         {
             eventCardModels.add(EventCardModel
                     .newBuilder()
-                    .withEventTitle("jslkdfj")
-                    .withEventSubtitle("jhsdfh")
-                    .withImageResId(R.drawable.pic_card_5)
-                    .withDayPart("hjdsfhj")
+                    .withEventTitle("Singing")
+                    .withImageResId(R.drawable.singing)
+                    .withDayPart("Cultural")
                     .withBackgroundColorResId(R.color.portland_orange)
                     .build());
 
@@ -64,10 +60,9 @@ public class EventCardsUtils {
         {
             eventCardModels.add(EventCardModel
                     .newBuilder()
-                    .withEventTitle("jhsdkjfhj")
-                    .withEventSubtitle("hds")
-                    .withImageResId(R.drawable.pic_card_4)
-                    .withDayPart("jsdhfjh")
+                    .withEventTitle("Dancing")
+                    .withImageResId(R.drawable.dancing)
+                    .withDayPart("Cultural")
                     .withBackgroundColorResId(R.color.dodger_blue)
                     .build());
 

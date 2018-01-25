@@ -32,18 +32,6 @@
                 android:maxLines="1"
                 tools:text="Table tennis" />
 
-            <TextView
-                android:id="@+id/tvEventSubtitle"
-                style="@style/SportCardStyle.SportSubtitle"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/tvEventTitle"
-                android:layout_centerHorizontal="true"
-                android:ellipsize="end"
-                android:lines="1"
-                android:maxLines="1"
-                tools:text="Women's singles" />
-
         </RelativeLayout>
 
         <ImageView

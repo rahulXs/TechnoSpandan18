@@ -14,10 +14,6 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-import static com.example.streak.technospandan.model.AllEvents.CODING;
-import static com.example.streak.technospandan.model.AllEvents.ELECTRONICS;
-import static com.example.streak.technospandan.model.AllEvents.ROBOTICS;
-
 public class MyAdapter2 extends RecyclerView.Adapter<MyAdapter2.AthleticHolder> {
 
     private final List<EventsModel> mItems = new ArrayList<>();
@@ -41,18 +37,18 @@ public class MyAdapter2 extends RecyclerView.Adapter<MyAdapter2.AthleticHolder> 
     @Override
     public void onBindViewHolder(AthleticHolder holder, int position) {
         EventsModel item = mItems.get(position);
-        holder.tvCountry.setText(item.getCountry().getEvent());
-        switch (item.getCountry()) {
+        holder.tvCountry.setText(item.getEvent().getEvent());
+        switch (item.getEvent()) {
             case ROBOTICS: {
-                holder.ivAthleticFlag.setImageResource(R.drawable.us_flag);
+                holder.ivAthleticFlag.setImageResource(R.drawable.categ);
                 break;
             }
             case ELECTRONICS: {
-                holder.ivAthleticFlag.setImageResource(R.drawable.flag_korea);
+                holder.ivAthleticFlag.setImageResource(R.drawable.categ);
                 break;
             }
             case CODING: {
-                holder.ivAthleticFlag.setImageResource(R.drawable.italy_flag);
+                holder.ivAthleticFlag.setImageResource(R.drawable.categ);
                 break;
             }
         }

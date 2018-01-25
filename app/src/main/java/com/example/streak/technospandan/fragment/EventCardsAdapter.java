@@ -17,7 +17,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-public class EventCardsAdapter extends RecyclerView.Adapter<EventCardsAdapter.SportCardViewHolder> {
+public class EventCardsAdapter extends RecyclerView.Adapter<EventCardsAdapter.EventCardViewHolder> {
     private final List<EventCardModel> mItems = new ArrayList<>();
     private Context mContext;
     private OnItemClickListener mOnItemClickListener;
@@ -48,16 +48,15 @@ public class EventCardsAdapter extends RecyclerView.Adapter<EventCardsAdapter.Sp
     }
 
     @Override
-    public SportCardViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+    public EventCardViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_card, parent, false);
-        return new SportCardViewHolder(view);
+        return new EventCardViewHolder(view);
     }
 
     @Override
-    public void onBindViewHolder(final SportCardViewHolder holder, int position) {
+    public void onBindViewHolder(final EventCardViewHolder holder, int position) {
         EventCardModel item = mItems.get(position);
         holder.tvEventTitle.setText(item.getEventTitle());
-        holder.tvEventSubtitle.setText(item.getEventSubtitle());
         holder.ivEventPreview.setImageResource(item.getImageResId());
         holder.tvDayPart.setText(item.getDayPart());
 
@@ -100,17 +99,15 @@ public class EventCardsAdapter extends RecyclerView.Adapter<EventCardsAdapter.Sp
         void onItemClicked(int pos, View view);
     }
 
-    class SportCardViewHolder extends RecyclerView.ViewHolder {
+    class EventCardViewHolder extends RecyclerView.ViewHolder {
 
         final TextView tvEventTitle;
-        final TextView tvEventSubtitle;
         final TextView tvDayPart;
         ImageView ivEventPreview;
 
-        SportCardViewHolder(View itemView) {
+        EventCardViewHolder(View itemView) {
             super(itemView);
             tvEventTitle = (TextView) itemView.findViewById(R.id.tvEventTitle);
-            tvEventSubtitle = (TextView) itemView.findViewById(R.id.tvEventSubtitle);
             ivEventPreview = (ImageView) itemView.findViewById(R.id.ivEventPreview);
             tvDayPart = (TextView) itemView.findViewById(R.id.tvDayPart);
         }

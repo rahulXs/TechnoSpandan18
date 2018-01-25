@@ -24,24 +24,19 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
         public MyViewHolder(View v) {
             super(v);
 
-            mCardView = (CardView) v.findViewById(R.id.card_view);
-            mTextView = (TextView) v.findViewById(R.id.tv_text);
+            mCardView = v.findViewById(R.id.card_view);
+            mTextView = v.findViewById(R.id.tv_text);
         }
     }
-
-    // Provide a suitable constructor (depends on the kind of dataset)
     public MyAdapter(String[] myDataset) {
         mDataset = myDataset;
     }
 
-    // Create new views (invoked by the layout manager)
     @Override
     public MyAdapter.MyViewHolder onCreateViewHolder(ViewGroup parent,
                                                      int viewType) {
-        // create a new view
         View v = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.card_item, parent, false);
-        // set the view's size, margins, paddings and layout parameters
         MyViewHolder vh = new MyViewHolder(v);
         return vh;
     }

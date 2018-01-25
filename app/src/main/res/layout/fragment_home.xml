@@ -35,11 +35,12 @@
         <Button
             android:id="@+id/button4"
             android:layout_width="160dp"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:layout_alignEnd="@+id/button2"
             android:layout_alignRight="@+id/button2"
             android:layout_alignTop="@+id/button3"
             android:drawableLeft="@drawable/log"
+            android:elevation="0dp"
             android:text="Signup/Login"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintLeft_toRightOf="@+id/button3"
@@ -49,7 +50,10 @@
         <Button
             android:id="@+id/button1"
             android:layout_width="160dp"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
             android:layout_marginLeft="18dp"
             android:layout_marginStart="18dp"
             android:layout_marginTop="61dp"
@@ -61,15 +65,12 @@
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toLeftOf="@+id/button2"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.191"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
+            app:layout_constraintVertical_bias="0.191" />
 
         <Button
             android:id="@+id/button2"
             android:layout_width="160dp"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:layout_above="@+id/button3"
             android:layout_marginLeft="15dp"
             android:layout_marginStart="15dp"
@@ -84,14 +85,14 @@
         <Button
             android:id="@+id/button3"
             android:layout_width="160dp"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:layout_alignLeft="@+id/button1"
             android:layout_alignStart="@+id/button1"
             android:layout_below="@+id/button1"
             android:layout_marginTop="56dp"
             android:drawableLeft="@drawable/qr1"
-            android:text="Group view"
             android:onClick="buttonOnClick"
+            android:text="Group view"
             app:layout_constraintLeft_toLeftOf="parent"
             tools:layout_editor_absoluteY="174dp" />
 

@@ -5,7 +5,6 @@ import android.os.Parcelable;
 
 public class EventCardModel implements Parcelable {
     private String eventTitle;
-    private String eventSubtitle;
 
     private int imageResId;
     private String dayPart;
@@ -14,7 +13,6 @@ public class EventCardModel implements Parcelable {
 
     private EventCardModel(Builder builder) {
         eventTitle = builder.eventTitle;
-        eventSubtitle = builder.eventSubtitle;
         imageResId = builder.imageResId;
         dayPart = builder.dayPart;
         backgroundColorResId = builder.backgroundColorResId;
@@ -26,10 +24,6 @@ public class EventCardModel implements Parcelable {
 
     public String getEventTitle() {
         return eventTitle;
-    }
-
-    public String getEventSubtitle() {
-        return eventSubtitle;
     }
 
     public int getImageResId() {
@@ -46,7 +40,6 @@ public class EventCardModel implements Parcelable {
 
     private EventCardModel(Parcel parcel) {
         eventTitle = parcel.readString();
-        eventSubtitle = parcel.readString();
         imageResId = parcel.readInt();
         dayPart = parcel.readString();
         backgroundColorResId = parcel.readInt();
@@ -60,7 +53,6 @@ public class EventCardModel implements Parcelable {
     @Override
     public void writeToParcel(Parcel parcel, int i) {
         parcel.writeString(eventTitle);
-        parcel.writeString(eventSubtitle);
         parcel.writeInt(imageResId);
         parcel.writeString(dayPart);
         parcel.writeInt(backgroundColorResId);
@@ -82,7 +74,6 @@ public class EventCardModel implements Parcelable {
 
     public static final class Builder {
         private String eventTitle;
-        private String eventSubtitle;
         private int imageResId;
         private String dayPart;
         private int backgroundColorResId;
@@ -92,11 +83,6 @@ public class EventCardModel implements Parcelable {
 
         public Builder withEventTitle(String sportTitle) {
             this.eventTitle = sportTitle;
-            return this;
-        }
-
-        public Builder withEventSubtitle(String sportSubtitle) {
-            this.eventSubtitle = sportSubtitle;
             return this;
         }
 
