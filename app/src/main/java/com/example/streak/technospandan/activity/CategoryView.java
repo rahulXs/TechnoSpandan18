@@ -10,7 +10,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 
-
 import com.example.streak.technospandan.R;
 import com.example.streak.technospandan.fragment.CulturalFragment;
 import com.example.streak.technospandan.fragment.OtherFragment;
@@ -30,7 +29,7 @@ public class CategoryView extends AppCompatActivity implements
 
             toolbar = getSupportActionBar();
 
-            BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
+            BottomNavigationView navigation = findViewById(R.id.navigation);
             navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
 
          toolbar.setTitle("Cultural");
@@ -43,22 +42,22 @@ public class CategoryView extends AppCompatActivity implements
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 Fragment fragment;
                 switch (item.getItemId()) {
-                    case R.id.navigation_shop:
+                    case R.id.nav_cultural:
                         toolbar.setTitle("Cultural Events");
                         fragment = new CulturalFragment();
                         loadFragment(fragment);
                         return true;
-                    case R.id.navigation_gifts:
+                    case R.id.nav_technical:
                         toolbar.setTitle("Technical Events");
                         fragment = new TechnicalFragment();
                         loadFragment(fragment);
                         return true;
-                    case R.id.navigation_cart:
+                    case R.id.nav_sports:
                         toolbar.setTitle("Sports Events");
                         fragment = new SportsFragment();
                         loadFragment(fragment);
                         return true;
-                    case R.id.navigation_profile:
+                    case R.id.nav_other:
                         toolbar.setTitle("Workshops & Other Activities");
                         fragment = new OtherFragment();
                         loadFragment(fragment);
@@ -70,7 +69,6 @@ public class CategoryView extends AppCompatActivity implements
         };
 
         private void loadFragment(Fragment fragment) {
-            // load fragment
             FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
             transaction.replace(R.id.frame_container, fragment);
             transaction.addToBackStack(null);
@@ -80,7 +78,10 @@ public class CategoryView extends AppCompatActivity implements
         public void onFragmentInteraction(Uri uri){
             //you can leave it empty
         }
-
+        @Override
+        public void onBackPressed(){
+           finish();
+        }
 
     }
 
