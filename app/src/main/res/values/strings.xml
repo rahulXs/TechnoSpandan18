@@ -9,7 +9,46 @@
     <string name="title_sports">Sports</string>
     <string name="title_other">Other</string>
 
+    <string name="title_day0">Day 0</string>
+    <string name="title_day1">Day 1</string>
+    <string name="title_day2">Day 2</string>
+
     <!-- TODO: Remove or change this placeholder text -->
+
+    <string-array name="day_0_events">
+        <item>Bite the Bits</item>
+        <item>Crypto</item>
+        <item>Chemwizz</item>
+        <item>Showbuzz</item>
+        <item>Chess</item>
+        <item>Badminton</item>
+        <item>TT</item>
+
+    </string-array>
+
+    <string-array name="day_1_events">
+        <item>Constructomania</item>
+        <item>RocketWar</item>
+        <item>Cricket</item>
+        <item>Football</item>
+        <item>Counter Strike</item>
+        <item>Youth parliament</item>
+        <item>Stage Play</item>
+
+    </string-array>
+
+    <string-array name="day_2_events">
+        <item>Mini Militia</item>
+        <item>Nukkad Natak</item>
+        <item>Appathon</item>
+        <item>Carrom</item>
+        <item>Egg Drop Challenge</item>
+        <item>Boat Race</item>
+        <item>Dj Nights</item>
+
+    </string-array>
+
+
 
     <string-array name="nav_item_activity_titles">
         <item>Home</item>

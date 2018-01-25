@@ -13,7 +13,6 @@ import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -31,8 +30,6 @@ import com.yarolegovich.slidingrootnav.SlidingRootNav;
 import com.yarolegovich.slidingrootnav.SlidingRootNavBuilder;
 
 import java.util.Arrays;
-
-import static android.R.attr.id;
 
 public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnItemSelectedListener {
 
@@ -189,6 +186,10 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
     }
     public void buttonOnClick(View view){
         switch(view.getId()) {
+            case R.id.button1:
+                Intent myIndent=new Intent(this,EventDays.class);
+                startActivity(myIndent);
+                break;
             case R.id.button2:
                 Intent myIntent = new Intent(this,CategoryView.class);
                 startActivity(myIntent);
