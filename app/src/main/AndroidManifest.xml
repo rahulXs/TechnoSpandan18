@@ -20,7 +20,8 @@
         </activity>
         <activity android:name=".activity.SettingsActivity" />
         <activity android:name=".activity.CategoryView" />
-        <activity android:name=".activity.GroupView"></activity>
+        <activity android:name=".activity.GroupView" />
+        <activity android:name=".activity.EventDays"></activity>
     </application>
 
 </manifest>

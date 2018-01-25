@@ -33,8 +33,6 @@ import com.yarolegovich.slidingrootnav.SlidingRootNavBuilder;
 import java.util.Arrays;
 import es.dmoral.toasty.Toasty;
 
-import static android.R.attr.id;
-
 public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnItemSelectedListener {
 
     private static final int POS_HOME = 0;
@@ -121,7 +119,8 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
 
             HomeFragment.setFlag(1);
             //TeamFragment.setFlag(1);
-            NotificationsFragment.setFlag(1);fragment= TeamFragment.createFor(screenTitles[position]);
+            NotificationsFragment.setFlag(1);
+            fragment= TeamFragment.createFor(screenTitles[position]);
             showFragment(fragment);
         }
         else if (position==POS_NOTIFICATIONS){
@@ -178,13 +177,22 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
 
             } else {
 
-                if (back_pressed_time + PERIOD > System.currentTimeMillis()) super.onBackPressed();
+                if (back_pressed_time + PERIOD > System.currentTimeMillis()) {
+                    super.onBackPressed();
+                    HomeFragment.setFlag(1);
+                    TeamFragment.setFlag(1);
+                    NotificationsFragment.setFlag(1);
+                }
                 else Toasty.error(getBaseContext(), "Press once again to exit!", Toast.LENGTH_SHORT, true).show();
                 back_pressed_time = System.currentTimeMillis();
             }
     }
     public void buttonOnClick(View view){
         switch(view.getId()) {
+            case R.id.button1:
+                Intent myIndent=new Intent(this,EventDays.class);
+                startActivity(myIndent);
+                break;
             case R.id.button2:
                 Intent myIntent = new Intent(this,CategoryView.class);
                 startActivity(myIntent);
