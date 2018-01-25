@@ -177,7 +177,12 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
 
             } else {
 
-                if (back_pressed_time + PERIOD > System.currentTimeMillis()) super.onBackPressed();
+                if (back_pressed_time + PERIOD > System.currentTimeMillis()) {
+                    super.onBackPressed();
+                    HomeFragment.setFlag(1);
+                    TeamFragment.setFlag(1);
+                    NotificationsFragment.setFlag(1);
+                }
                 else Toasty.error(getBaseContext(), "Press once again to exit!", Toast.LENGTH_SHORT, true).show();
                 back_pressed_time = System.currentTimeMillis();
             }

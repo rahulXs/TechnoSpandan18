@@ -16,35 +16,69 @@
     <!-- TODO: Remove or change this placeholder text -->
 
     <string-array name="day_0_events">
-        <item>Bite the Bits</item>
-        <item>Crypto</item>
+        <item>VC's Note</item>
+        <item>Director Note</item>
+        <item>TechnoSpandan Conveyor Note</item>
+        <item>StartUp</item>
         <item>Chemwizz</item>
-        <item>Showbuzz</item>
-        <item>Chess</item>
+        <item>CodeTrex</item>
+        <item>RoboRace</item>
+        <item>Electrade</item>
+        <item>Rocket War</item>
+        <item>Lan Gaming</item>
+        <item>Play with codes</item>
+        <item>Tatva</item>
+        <item>Nirmaan</item>
+        <item>Open Mic</item>
+        <item>Voice</item>
+        <item>Stock King</item>
+        <item>Once upon a time</item>
+        <item>AdWar</item>
+        <item>Dance</item>
+        <item>Marathon</item>
+        <item>Push Up Challenge</item>
+        <item>Skipping</item>
+        <item>Cricket</item>
         <item>Badminton</item>
-        <item>TT</item>
-
+        <item>Chess</item>
     </string-array>
 
     <string-array name="day_1_events">
-        <item>Constructomania</item>
-        <item>RocketWar</item>
+        <item>Robo War</item>
+        <item>Crypto</item>
+        <item>Chemwizz(Final)</item>
+        <item>Fumes</item>
+        <item>Appathon</item>
+        <item>Electomatrix</item>
+        <item>Nirmaan(Final)</item>
+        <item>SpellBee</item>
+        <item>The Stage</item>
+        <item>Parliamentary Debate</item>
+        <item>Ad War(Final)</item>
+        <item>Showbuzz</item>
+        <item>Band War</item>
+        <item>Push Up Challenge</item>
+        <item>Skipping</item>
         <item>Cricket</item>
-        <item>Football</item>
-        <item>Counter Strike</item>
-        <item>Youth parliament</item>
-        <item>Stage Play</item>
+        <item>Badminton</item>
+        <item>Chess</item>
+        <item>Table Tennis</item>
+        <item>BasketBall</item>
+
 
     </string-array>
 
     <string-array name="day_2_events">
-        <item>Mini Militia</item>
+        <item>Junkyard</item>
+        <item>LFR</item>
+        <item>Air Strike</item>
+        <item>Treasure Hunt</item>
+        <item>Mizaz Huya Shayarana</item>
+        <item>Dance</item>
         <item>Nukkad Natak</item>
-        <item>Appathon</item>
-        <item>Carrom</item>
-        <item>Egg Drop Challenge</item>
-        <item>Boat Race</item>
-        <item>Dj Nights</item>
+        <item>Ritanbhara</item>
+        <item>Cricket</item>
+
 
     </string-array>
 

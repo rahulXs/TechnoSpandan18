@@ -18,7 +18,7 @@ public class EventDays extends AppCompatActivity implements
         DayFragment.OnFragmentInteractionListener{
 
     private ActionBar toolbar;
-
+    private Fragment fragment;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         setTheme(R.style.AppThemeNav);
@@ -31,6 +31,8 @@ public class EventDays extends AppCompatActivity implements
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
 
         toolbar.setTitle("DAY 0");
+        fragment = DayFragment.newInstance(getResources().getStringArray(R.array.day_0_events));
+        loadFragment(fragment);
     }
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
@@ -38,7 +40,6 @@ public class EventDays extends AppCompatActivity implements
 
         @Override
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-            Fragment fragment;
             switch (item.getItemId()) {
                 case R.id.navigation_day0:
                     toolbar.setTitle("DAY 0");
@@ -75,6 +76,6 @@ public class EventDays extends AppCompatActivity implements
 
     @Override
     public void onBackPressed() {
-        super.onBackPressed();
+        finish();
     }
 }
