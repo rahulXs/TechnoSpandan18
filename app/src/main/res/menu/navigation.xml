@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
+
     <item
         android:id="@+id/nav_cultural"
         android:icon="@drawable/ic_store_white_24dp"
@@ -20,5 +21,6 @@
         android:id="@+id/nav_other"
         android:icon="@drawable/ic_other"
         android:title="@string/title_other" />
+
 
 </menu>

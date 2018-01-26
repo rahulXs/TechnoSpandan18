@@ -70,7 +70,7 @@ public class FullInfoTabFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
         toolbar.setTitle(mEventCardModel.getEventTitle());
-        toolbar.setNavigationIcon(R.drawable.ic_back);
+        //toolbar.setNavigationIcon(R.drawable.ic_back);
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
