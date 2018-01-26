@@ -21,6 +21,7 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.example.streak.technospandan.R;
+import com.example.streak.technospandan.fragment.AboutFragment;
 import com.example.streak.technospandan.fragment.HomeFragment;
 import com.example.streak.technospandan.fragment.NotificationsFragment;
 import com.example.streak.technospandan.fragment.TeamFragment;
@@ -38,6 +39,7 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
     private static final int POS_HOME = 0;
     private static final int POS_TEAM = 1;
     private static final int POS_NOTIFICATIONS = 2;
+    private static final int POS_ABOUT_US = 3;
     private static final int POS_EXIT = 5;
 
     private static long back_pressed_time;
@@ -90,6 +92,7 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
                 createItemFor(POS_HOME).setChecked(true),
                 createItemFor(POS_TEAM),
                 createItemFor(POS_NOTIFICATIONS),
+                createItemFor(POS_ABOUT_US),
                 new SpaceItem(48),
                 createItemFor(POS_EXIT)));
         adapter.setListener(this);
@@ -112,6 +115,7 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
            // HomeFragment.setFlag(1);
             TeamFragment.setFlag(1);
             NotificationsFragment.setFlag(1);
+            AboutFragment.setFlag(1);
             fragment=HomeFragment.createFor(screenTitles[position]);
             showFragment(fragment);
         }
@@ -120,6 +124,7 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
             HomeFragment.setFlag(1);
             //TeamFragment.setFlag(1);
             NotificationsFragment.setFlag(1);
+            AboutFragment.setFlag(1);
             fragment= TeamFragment.createFor(screenTitles[position]);
             showFragment(fragment);
         }
@@ -128,7 +133,17 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
             HomeFragment.setFlag(1);
             TeamFragment.setFlag(1);
             //NotificationsFragment.setFlag(1);
+            AboutFragment.setFlag(1);
             fragment= NotificationsFragment.createFor(screenTitles[position]);
+            showFragment(fragment);
+        }
+        else if (position==POS_ABOUT_US){
+
+            HomeFragment.setFlag(1);
+            TeamFragment.setFlag(1);
+            NotificationsFragment.setFlag(1);
+           // AboutFragment.setFlag(1);
+            fragment= AboutFragment.createFor(screenTitles[position]);
             showFragment(fragment);
         }
 
