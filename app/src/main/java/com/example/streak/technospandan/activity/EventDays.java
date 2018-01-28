@@ -1,5 +1,6 @@
 package com.example.streak.technospandan.activity;
 
+import android.content.Intent;
 import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -9,6 +10,7 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
 
 import com.example.streak.technospandan.R;
 
@@ -27,7 +29,7 @@ public class EventDays extends AppCompatActivity implements
 
         toolbar = getSupportActionBar();
 
-        BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation1);
+        BottomNavigationView navigation =  findViewById(R.id.navigation1);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
 
         toolbar.setTitle("DAY 0");
@@ -72,6 +74,12 @@ public class EventDays extends AppCompatActivity implements
     @Override
     public void onFragmentInteraction(Uri uri){
         //you can leave it empty
+    }
+
+    public void moveActivity(View view){
+        Intent i=new Intent(this,EventDetailActivity.class);
+        startActivity(i);
+
     }
 
     @Override

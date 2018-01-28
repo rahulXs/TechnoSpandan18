@@ -55,7 +55,7 @@ public class DayFragment extends Fragment {
         // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.fragment_cultural, container, false);
 
-        RecyclerView rv = (RecyclerView) rootView.findViewById(R.id.rv_recycler_view);
+        RecyclerView rv = rootView.findViewById(R.id.rv_recycler_view);
         rv.setHasFixedSize(true);
         MyAdapter adapter = new MyAdapter(eventName);
         rv.setAdapter(adapter);
@@ -95,4 +95,5 @@ public class DayFragment extends Fragment {
         // TODO: Update argument type and name
         void onFragmentInteraction(Uri uri);
     }
+
 }

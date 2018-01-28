@@ -16,7 +16,7 @@
     <!-- TODO: Remove or change this placeholder text -->
 
     <string-array name="day_0_events">
-        <item>VC's Note</item>
+        <item>VC\'s Note</item>
         <item>Director Note</item>
         <item>TechnoSpandan Conveyor Note</item>
         <item>StartUp</item>
@@ -81,7 +81,6 @@
 
 
     </string-array>
-
 
 
     <string-array name="nav_item_activity_titles">
