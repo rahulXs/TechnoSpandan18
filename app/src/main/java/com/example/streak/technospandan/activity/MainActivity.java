@@ -1,6 +1,6 @@
 package com.example.streak.technospandan.activity;
 
-import android.app.Fragment;;
+import android.app.Fragment;
 import android.content.Intent;
 import android.content.res.TypedArray;
 import android.graphics.drawable.Drawable;
@@ -107,10 +107,7 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
     @Override
     public void onItemSelected(int position) {
         slidingRootNav.closeMenu();
-        if (position == POS_EXIT) {
-            //TO-D0 FINISH
-        }
-        else if(position==POS_HOME){
+        if(position==POS_HOME){
 
            // HomeFragment.setFlag(1);
             TeamFragment.setFlag(1);
@@ -145,6 +142,14 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
            // AboutFragment.setFlag(1);
             fragment= AboutFragment.createFor(screenTitles[position]);
             showFragment(fragment);
+        }
+        else{
+            HomeFragment.setFlag(1);
+            TeamFragment.setFlag(1);
+            NotificationsFragment.setFlag(1);
+            AboutFragment.setFlag(1);
+            Toasty.success(getBaseContext(), "Exit successfull.", Toast.LENGTH_SHORT, true).show();
+            finish();
         }
 
     }

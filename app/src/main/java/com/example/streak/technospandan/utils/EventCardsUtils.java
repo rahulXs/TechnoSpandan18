@@ -67,6 +67,27 @@ public class EventCardsUtils {
                     .build());
 
         }
+        {
+            eventCardModels.add(EventCardModel
+                    .newBuilder()
+                    .withEventTitle("Sports group")
+                    .withImageResId(R.drawable.cricket)
+                    .withDayPart("Sports")
+                    .withBackgroundColorResId(R.color.dark_orchid)
+                    .build());
+
+        }
+
+        {
+            eventCardModels.add(EventCardModel
+                    .newBuilder()
+                    .withEventTitle("Sports Solo")
+                    .withImageResId(R.drawable.badminton)
+                    .withDayPart("sports")
+                    .withBackgroundColorResId(R.color.mantis)
+                    .build());
+
+        }
         return eventCardModels;
     }
 }

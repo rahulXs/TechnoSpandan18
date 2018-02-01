@@ -59,9 +59,9 @@ public class FullInfoTabFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_full_info, container, false);
-        toolbar = (Toolbar) view.findViewById(R.id.toolbar);
-        ivPhoto = (ImageView) view.findViewById(R.id.ivPhoto);
-        rvAthletics = (RecyclerView) view.findViewById(R.id.rvAthletics);
+        toolbar = view.findViewById(R.id.toolbar);
+        ivPhoto =  view.findViewById(R.id.ivPhoto);
+        rvAthletics = view.findViewById(R.id.rvAthletics);
         return view;
     }
 
@@ -102,7 +102,7 @@ public class FullInfoTabFragment extends Fragment {
         super.onSaveInstanceState(outState);
     }
 
-    static class DividerItemDecoration extends RecyclerView.ItemDecoration {
+    private static class DividerItemDecoration extends RecyclerView.ItemDecoration {
 
         private static final int[] ATTRS = new int[]{android.R.attr.listDivider};
 
