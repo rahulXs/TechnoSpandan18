@@ -107,9 +107,9 @@ public class EventCardsAdapter extends RecyclerView.Adapter<EventCardsAdapter.Ev
 
         EventCardViewHolder(View itemView) {
             super(itemView);
-            tvEventTitle = (TextView) itemView.findViewById(R.id.tvEventTitle);
-            ivEventPreview = (ImageView) itemView.findViewById(R.id.ivEventPreview);
-            tvDayPart = (TextView) itemView.findViewById(R.id.tvDayPart);
+            tvEventTitle = itemView.findViewById(R.id.tvEventTitle);
+            ivEventPreview =itemView.findViewById(R.id.ivEventPreview);
+            tvDayPart = itemView.findViewById(R.id.tvDayPart);
         }
     }
 }

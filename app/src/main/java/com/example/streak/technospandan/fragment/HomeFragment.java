@@ -59,8 +59,8 @@ public class HomeFragment extends Fragment {
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         getActivity().setTitle("Home");
-        viewPager=(ViewPager) view.findViewById(R.id.viewPager);
-        sliderDotsPanel = (LinearLayout) view.findViewById(R.id.SliderDots);
+        viewPager= view.findViewById(R.id.viewPager);
+        sliderDotsPanel =view.findViewById(R.id.SliderDots);
 
         ViewPagerAdapter viewPagerAdapter = new ViewPagerAdapter(getActivity());
 
