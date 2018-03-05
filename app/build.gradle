@@ -1,11 +1,12 @@
 apply plugin: 'com.android.application'
 
+
 android {
     compileSdkVersion 26
     buildToolsVersion '26.0.2'
     defaultConfig {
         applicationId "com.example.streak.technospandan"
-        minSdkVersion 16
+        minSdkVersion 23
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
@@ -50,6 +51,7 @@ dependencies {
     compile 'jp.wasabeef:blurry:2.1.0'
 
     compile 'com.sylversky.fontreplacer:fontreplacer:1.0'
+    compile 'com.github.devlight.navigationtabstrip:navigationtabstrip:1.0.4'
 
     testCompile 'junit:junit:4.12'
 }
@@ -63,3 +65,5 @@ configurations.all {
         }
     }
 }
+
+apply plugin: 'com.google.gms.google-services'
