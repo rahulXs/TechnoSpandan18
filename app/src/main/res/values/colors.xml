@@ -18,6 +18,8 @@
     <color name="portland_orange">#fc5f23</color>
     <color name="usc_gold">#fec804</color>
     <color name="white">#ffffff</color>
+    <color name="md_cyan_500">#00BCD4</color>
+    <color name="md_white_1000">#ffffff</color>
 </resources>
 
 

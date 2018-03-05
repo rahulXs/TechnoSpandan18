@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.streak.technospandan">
     <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:name=".TechnoSpandan"
         android:allowBackup="true"
@@ -19,11 +21,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity android:name=".activity.SettingsActivity" />
         <activity android:name=".activity.CategoryView" />
         <activity android:name=".activity.GroupView" />
-        <activity android:name=".activity.EventDays" />
-        <activity android:name=".activity.EventDetailActivity" />
+        <activity android:name=".activity.DaysViewActivity" />
     </application>
 
 </manifest>
