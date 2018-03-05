@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "193979361818",
+    "firebase_url": "https://technospandan18-44cee.firebaseio.com",
+    "project_id": "technospandan18-44cee",
+    "storage_bucket": "technospandan18-44cee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193979361818:android:a912a11e316a32bb",
+        "android_client_info": {
+          "package_name": "com.example.streak.technospandan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "193979361818-s53ed8o7cqmh2q2e3o5nltvb8m09epk7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAM2C-0dOm1Zg2o7-hm0sOh1sbrI1IW3tI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
