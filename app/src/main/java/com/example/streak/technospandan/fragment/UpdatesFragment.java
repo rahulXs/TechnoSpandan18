@@ -22,24 +22,9 @@ import com.google.firebase.database.Query;
 
 
 public class UpdatesFragment extends Fragment {
-
-    static int flag=0;
-    private static final String EXTRA_TEXT = "text";
-
+    
     RecyclerView recyclerView;
     boolean isEventSpecific = false;
-
-    public static void setFlag(int f){
-        flag = f;
-    }
-
-    public static TeamFragment createFor(String text) {
-        TeamFragment fragment = new TeamFragment();
-        Bundle args = new Bundle();
-        args.putString(EXTRA_TEXT, text);
-        fragment.setArguments(args);
-        return fragment;
-    }
     
     public UpdatesFragment() {
         

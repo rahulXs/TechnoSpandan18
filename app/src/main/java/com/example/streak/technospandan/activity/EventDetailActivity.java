@@ -1,7 +1,6 @@
 package com.example.streak.technospandan.activity;
 
 import android.Manifest;
-import android.app.ProgressDialog;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
@@ -12,7 +11,6 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
-import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -67,7 +65,7 @@ public class EventDetailActivity extends AppCompatActivity implements ValueEvent
     ExtraInfoFragment extraInfoFragment;
     UpdatesFragment updatesFragment;
     
-    ProgressDialog progressDialog;
+   // ProgressDialog progressDialog;
     
     private static final int CALL_PERMISSSION_STATUS = 123;
     private String numberToCall;
@@ -78,13 +76,12 @@ public class EventDetailActivity extends AppCompatActivity implements ValueEvent
         setContentView(R.layout.activity_event_detail);
         ButterKnife.bind(this);
     
-        progressDialog = new ProgressDialog(this);
-        progressDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
-        progressDialog.setMessage("Loading");
-        progressDialog.show();
+
         
         eventID = getIntent().getStringExtra("eventID");
         init(savedInstanceState);
+
+        Toast.makeText(this, ""+eventID, Toast.LENGTH_SHORT).show();
         
         eventDbRef = FirebaseDatabase.getInstance().getReference().child("events").child(eventID);
         
@@ -139,16 +136,11 @@ public class EventDetailActivity extends AppCompatActivity implements ValueEvent
                         .into(eventImageView);
                     
                     eventImageViewSecond.setImageBitmap(resource);
-                    dismissLoadingDialog();
+
                 }
             });
     }
-    
-    private void dismissLoadingDialog() {
-        if(progressDialog!=null){
-            progressDialog.dismiss();
-        }
-    }
+
     
     @Override
     public void onCancelled(DatabaseError databaseError) {
@@ -183,7 +175,7 @@ public class EventDetailActivity extends AppCompatActivity implements ValueEvent
                     startActivity(intent);
                     
                 } else {
-                    Toast.makeText(this,"Calling permission not granted. Grant permission in Settings",Toast.LENGTH_SHORT);
+                    Toast.makeText(this,"Calling permission not granted. Grant permission in Settings", Toast.LENGTH_SHORT);
                 }
                 return;
             }

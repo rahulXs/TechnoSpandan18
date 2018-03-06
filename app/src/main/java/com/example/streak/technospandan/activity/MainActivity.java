@@ -22,8 +22,8 @@ import android.widget.Toast;
 import com.example.streak.technospandan.R;
 import com.example.streak.technospandan.fragment.AboutFragment;
 import com.example.streak.technospandan.fragment.HomeFragment;
+import com.example.streak.technospandan.fragment.NotificationsFragment;
 import com.example.streak.technospandan.fragment.TeamFragment;
-import com.example.streak.technospandan.fragment.UpdatesFragment;
 import com.example.streak.technospandan.menu.DrawerAdapter;
 import com.example.streak.technospandan.menu.DrawerItem;
 import com.example.streak.technospandan.menu.SimpleItem;
@@ -110,7 +110,7 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
 
            // HomeFragment.setFlag(1);
             TeamFragment.setFlag(1);
-            UpdatesFragment.setFlag(1);
+            NotificationsFragment.setFlag(1);
             AboutFragment.setFlag(1);
             fragment=HomeFragment.createFor(screenTitles[position]);
             showFragment(fragment);
@@ -119,7 +119,7 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
 
             HomeFragment.setFlag(1);
             //TeamFragment.setFlag(1);
-            UpdatesFragment.setFlag(1);
+            NotificationsFragment.setFlag(1);
             AboutFragment.setFlag(1);
             fragment= TeamFragment.createFor(screenTitles[position]);
             showFragment(fragment);
@@ -130,14 +130,14 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
             TeamFragment.setFlag(1);
             //NotificationsFragment.setFlag(1);
             AboutFragment.setFlag(1);
-            fragment= UpdatesFragment.createFor(screenTitles[position]);
+            fragment= NotificationsFragment.createFor(screenTitles[position]);
             showFragment(fragment);
         }
         else if (position==POS_ABOUT_US){
 
             HomeFragment.setFlag(1);
             TeamFragment.setFlag(1);
-            UpdatesFragment.setFlag(1);
+            NotificationsFragment.setFlag(1);
            // AboutFragment.setFlag(1);
             fragment= AboutFragment.createFor(screenTitles[position]);
             showFragment(fragment);
@@ -145,7 +145,7 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
         else{
             HomeFragment.setFlag(1);
             TeamFragment.setFlag(1);
-            UpdatesFragment.setFlag(1);
+            NotificationsFragment.setFlag(1);
             AboutFragment.setFlag(1);
             Toasty.success(getBaseContext(), "Exit successfull.", Toast.LENGTH_SHORT, true).show();
             finish();
@@ -200,7 +200,7 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
                     super.onBackPressed();
                     HomeFragment.setFlag(1);
                     TeamFragment.setFlag(1);
-                    UpdatesFragment.setFlag(1);
+                    NotificationsFragment.setFlag(1);
                 }
                 else Toasty.error(getBaseContext(), "Press once again to exit!", Toast.LENGTH_SHORT, true).show();
                 back_pressed_time = System.currentTimeMillis();

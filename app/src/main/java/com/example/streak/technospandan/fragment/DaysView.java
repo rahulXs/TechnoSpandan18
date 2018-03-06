@@ -10,9 +10,11 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.example.streak.technospandan.R;
+import com.example.streak.technospandan.activity.CategoryView;
 import com.example.streak.technospandan.activity.EventDetailActivity;
 import com.example.streak.technospandan.model.Event;
 import com.example.streak.technospandan.viewholder.EventItemViewHolder;
@@ -84,13 +86,18 @@ public class DaysView extends Fragment {
                 viewHolder.getEventImageView().setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
+                     /*   Toast.makeText(getContext(), ""+position, Toast.LENGTH_SHORT).show();
+                        String id=firebaseRecyclerAdapter.getRef(position).getKey();
+                        Toast.makeText(getContext(), ""+id, Toast.LENGTH_SHORT).show();*/
+                        Toast.makeText(getContext(), ""+position, Toast.LENGTH_SHORT).show();
                         Intent intent = new Intent(getActivity(), EventDetailActivity.class);
                         String id = firebaseRecyclerAdapter.getRef(position).getKey();
+                        Toast.makeText(getContext(), ""+id, Toast.LENGTH_SHORT).show();
                         intent.putExtra("eventID",id);
-                        getContext().startActivity(intent);
                         ((Activity) getContext()).overridePendingTransition(R.anim.slide_in, R.anim.slide_out);
                     }
                 });
+
 
             }
         };

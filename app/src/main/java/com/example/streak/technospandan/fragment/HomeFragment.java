@@ -65,8 +65,8 @@ public class HomeFragment extends Fragment {
         ViewPagerAdapter viewPagerAdapter = new ViewPagerAdapter(getActivity());
 
         viewPager.setAdapter(viewPagerAdapter);
-        try {
-        /*After setting the adapter use the timer */
+        /*try {
+        *//*After setting the adapter use the timer *//*
             final Handler handler = new Handler();
             final Runnable Update = new Runnable() {
                 public void run() {
@@ -91,7 +91,7 @@ public class HomeFragment extends Fragment {
         }catch (Exception e){
             e.printStackTrace();
         }
-
+*/
         viewPager.setPageTransformer(true,new RotateUpTransformer());
         dotsCount = viewPagerAdapter.getCount();
         dots = new ImageView[dotsCount];
