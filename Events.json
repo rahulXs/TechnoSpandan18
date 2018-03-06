@@ -1,0 +1,1201 @@
+{
+"events" : {
+  "01" : {
+    "date" : "24-03-2018",
+    "description" : "It is a programming contest held each year to promote competitive coding skills among the students of first year & second year.Students participate in teams of two and there are 2 rounds in total.",
+    "extrainfo" : {
+      "one" : {
+        "infoDetail" : "To be updated",
+        "infoTitle" : "Event Prizes"
+      }
+    },
+    "image" : "bitethebits.jpg",
+    "location" : "Advance Computer Lab",
+    "name" : "Byte The Bits",
+    "organizers" : [ {
+      "contact" : "8752356566",
+      "name" : "Shubham Verma"
+    }, {
+      "contact" : " ",
+      "name" : "Rudra"
+    }, {
+      "contact" : "8090431531",
+      "name" : "Shivangi"
+    } ] ,
+    "time" : "10:00 AM - 3:00 PM",
+    "type" : "team of two"
+  },
+  "02" : {
+    "date" : "26-03-2018",
+    "description" : "Prove your mettle in Web Development, Competetive Coding and Design",
+    "extrainfo" : {
+      "one" : {
+        "infoDetail" : "₹10k Cash Prizes",
+        "infoTitle" : "Event Prizes"
+      }
+    },
+    "image" : "appathon.jpg",
+    "location" : "Computer Lab",
+    "name" : "Appathon",
+    "organizers" : [ {
+      "contact" : " ",
+      "name" : "Vedant Sharma"
+    }, {
+      "contact" : " ",
+      "name" : "Sweta"
+    }, {
+      "contact" : " ",
+      "name" : "Shruti Naidu"
+    } ,{
+      "contact" : " ",
+      "name" : "Chaya Gupta"
+    } ] ,
+    "time" : "10:00 PM - 4:00 AM",
+    "type" : "team"
+  },
+  "03" : {
+    "date" : "24-03-2018",
+    "description" : "If computer codes fascinates you and encoding and decoding an algorithm is what really interests you,then my friend this is an event for you",
+    "extrainfo" : {
+      "one" : {
+        "infoDetail" : "To be updated",
+        "infoTitle" : "Event Prizes"
+      }
+    },
+    "image" : "crypto.jpg",
+    "location" : "T-9",
+    "name" : "CRYPTO",
+    "organizers" :  [ {
+      "contact" : "8090431531",
+      "name" : "Piyush Sharma"
+    }, {
+      "contact" : " ",
+      "name" : "Himanshu"
+    } ] ,
+    "time" : "3:00 PM - 5:00 PM",
+    "type" : "team of three"
+  },
+  "04" : {
+    "date" : "24-03-2018",
+    "description" : "If playing with the codes and knowing how to use them effectively is your cup of tea,then youre definately made for this event",
+    "extrainfo" : {
+      "one" : {
+        "infoDetail" : "₹ 4500",
+        "infoTitle" : "Event Prizes"
+      },
+      "two" : {
+        "infoDetail" : "Event Link will be posted here as well as on the app ",
+        "infoTitle" : "Event Facebook Page"
+       }
+    },
+    "image" : "codeplay.jpg",
+    "location" : "Online",
+    "name" : "Play with codes",
+    "organizers" : [  {
+      "contact" : " ",
+      "name" : "Maulikh Verma"
+    }, {
+      "contact" : " ",
+      "name" : "Risham Panshari"
+    },{
+      "contact" : " ",
+      "name" : "Raja Babu"
+    },{
+      "contact" : " ",
+      "name" : "Abhishek Patel"
+    } ] ,
+    "time" : "9:00 PM - 9:00 AM",
+    "type" : "team"
+  },
+  "05" : {
+    "date" : "25-03-2018",
+    "description" : "Rule the unbound sky with the RC Flyer ",
+    "extrainfo" : {
+      "one" : {
+        "infoDetail" : "Worth ₹4000",
+        "infoTitle" : "Event Prizes"
+      },
+      "two" : {
+        "infoDetail" : " ",
+        "infoTitle" : "Event Link On Facebook"
+      },
+      "three" : {
+        "infoDetail" : " ",
+        "infoTitle" : "Event Registration Link"
+      }
+    },
+    "image" : "rocketwar.jpg",
+    "location" : "LHC ground between corridor",
+    "name" : "Air Strike",
+    "organizers" : [  {
+      "contact" : " ",
+      "name" : "Avinash Tripathi"
+    }, {
+      "contact" : " ",
+      "name" : "Harshit Verma"
+    }, {
+      "contact" : " ",
+      "name" : " "
+    } ] ,
+    "time" : "7:00 PM - 9:00 PM",
+    "type" : "team of 2"
+  },
+  "06" : {
+    "date" : "25-03-2018",
+    "description" : "Ever get fascinated by these excellent pieces of engineering and architecture? If yes, then lets bridge the gap between our knowledge and creativity and show the innovation and the engineer you have in you",
+    "extrainfo" : {
+      "one" : {
+        "infoDetail" : "Worth ₹4500",
+        "infoTitle" : "Event Prizes"
+      },
+      "two" : {
+        "infoDetail" : " ",
+        "infoTitle" : "Event Link on Facebook"
+      }
+    },
+    "image" : "constructo.jpg",
+    "location" : "Lecture Hall Complex",
+    "name" : "Nirman",
+    "organizers" : [  {
+      "contact" : " ",
+      "name" : "Mohd Afzal"
+    }, {
+      "contact" : " ",
+      "name" : "Shubendra singh"
+    },{
+      "contact" : " ",
+      "name" : "Amit Kanaujia"
+    },{
+      "contact" : " ",
+      "name" : "Priyesh Singh"
+    }  ],
+    "time" : "12:00 AM - 12:00 PM",
+    "type" : "Team"
+  },
+  "07" : {
+    "date" : "25-03-2018",
+    "description" : "The ultimate test of engineering excellence, teamwork, strategy and gaming. You have the chance to combat in the real steel style with your own combatant of steel. Only the toughest and the smartest shall survive! Sparks shall fly and temperature will soar in this battle of metallic knights.",
+    "extrainfo" : {
+      "one" : {
+        "infoDetail" : "To be updated",
+        "infoTitle" : "Event Prizes"
+      }
+    },
+    "image" : "robo.jpg",
+    "location" : "Open Theater",
+    "name" : "The Robo Knight",
+    "organizers" : [  {
+      "contact" : " ",
+      "name" : "Rahul Maurya"
+    },{
+      "contact" : " ",
+      "name" : "Pratigya Jaiswal"
+    },{
+      "contact" : " ",
+      "name" : "Rahul Gangwar"
+    },{
+      "contact" : " ",
+      "name" : "Pushkal Pandey"
+    } ] ,
+    "time" : "12:00 PM - 2:00 PM",
+    "type" : " "
+  },
+  "08" : {
+    "date" : "26-03-2018",
+    "description" : "Many of us would have seen humans race against each but what if man made machines race against each. It is indeed fascinating to see those little machines trying to race against each other, overcoming hurdles and finally achieving the glorious. Sounds interesting, Isn’t it ? So let’s try it out... ",
+    "extrainfo" : {
+      "one" : {
+        "infoDetail" : "Total prize pool of ₹4500",
+        "infoTitle" : "Event Prizes"
+      },
+      "two" : {
+        "infoDetail" : " ",
+        "infoTitle" : "Event Link on Facebook"
+      },
+      "three" : {
+        "infoDetail" : " ",
+        "infoTitle" : "Event Registration Link"
+      }
+    },
+    "image" : "roborace.jpg",
+    "location" : "Open Theatre",
+    "name" : "Robo Race",
+      "contact" : " ",
+    "organizers" : [  {
+      "name" : "Anand Patel"
+    }, {
+      "contact" : " ",
+      "name" : "Supriya Pal"
+    },{
+	"contact" : " ",
+      "name" : "Rahul Kumar"
+    }, {
+      "contact" : " ",
+      "name" : "HarshVardhan"
+    }  ],
+    "time" : "12:00 PM - 2:00 PM",
+    "type" : "Team"
+  },
+  "09" : {
+    "date" : "24-03-2018",
+    "description" : "Flying Machines fascinate everyone, Don’t they..?? So interested in making one of those balancing flying models..This is your event, people.",
+    "extrainfo" : {
+      "one" : {
+        "infoDetail" : "Cash prizes worth 2k !!",
+        "infoTitle" : "Event Prizes"
+      }
+    },
+    "image" : "fumes.jpg",
+    "location" : "Chemistry Lab",
+    "name" : "Fumes",
+    "organizers" : [  {
+      "contact" : " ",
+      "name" : "Anurag Singh"
+    },{
+      "contact" : " ",
+      "name" : "Rainy Prajapati"
+    },{
+      "contact" : " ",
+      "name" : "Mansi Singh"
+    }],
+    "time" : "10:00 PM onwards",
+    "type" : "Individual and Team"
+  },
+  "10" : {
+    "date" : "23-03-2018",
+    "description" : "Unleash the chem wizard inside you to the full potential and let  your spell free. Use your logical ions to conduct yourself of the prize",
+	"extrainfo" : {
+      "one" : {
+        "infoDetail" : "Cash Prizes worth 3k !!",
+        "infoTitle" : "Event Prizes"
+      },
+     "two" : {
+        "infoDetail" : " ",
+        "infoTitle" : "Event Page on Facebook"
+      }
+    },
+    "image" : "chemwizz.jpg",
+    "location" : "Chemistry Lab",
+    "name" : "Chemwizz",
+    "organizers" : [  {
+      "contact" : " ",
+      "name" : "Somya Srivastav"
+    }, {
+      "contact" : " ",
+      "name" : "Deepak"
+    }, {
+      "contact" : " ",
+      "name" : "Vikas Patel"
+    },{
+      "contact" : " ",
+      "name" : "Chandra Prakash"
+    }, {
+      "contact" : " ",
+      "name" : "Shashank Dubey"
+    }  ],
+    "time" : "10:00 PM - 3:00 AM",
+    "type" : "Team"
+  },
+  "11" : {
+    "date" : "23-03-2018",
+    "description" : "Use the very basis of fluid mechanics principles and just make it fly. ",
+    "extrainfo" : {
+      "one" : {
+        "infoDetail" : "To be updated",
+        "infoTitle" : "Event Prizes"
+      }
+    },
+    "image" : "airstrike.jpg",
+    "location" : "Ground Behind Cse Department",
+    "name" : "Rule the sky",
+    "organizers" : [  {
+      "contact" : " ",
+      "name" : "Anurag Singh Rajput"
+    }, {
+      "contact" : " ",
+      "name" : "Swasthik Sharma"
+    },{
+      "contact" : " ",
+      "name" : "Saumya Singh"
+    },{
+      "contact" : " ",
+      "name" : "Nikunj"
+    } ] ,
+    "time" : "2:00 PM - 5:00 PM",
+    "type" : " "
+  },
+  "12" : {
+    "date" : "24-03-2018",
+    "description" : "Following a set path might seem easy for us, but making those toys of wires and circuits follow a line is indeed quite difficult. And if you think its child’s play, come into the arena show who’s the boss..",
+    "extrainfo" : {
+      "one" : {
+        "infoDetail" : "Total cash prize of ₹2200",
+        "infoTitle" : "Event Prizes"
+      },
+      "two" : {
+        "infoDetail" : " ",
+        "infoTitle" : "Event Link on Facebook"
+      },
+      "three" : {
+        "infoDetail" : " ",
+        "infoTitle" : "Event Registration Link"
+      }
+    },
+    "image" : "lfr.jpg",
+    "location" : "Under L1",
+    "name" : "LFR",
+    "organizers" :  [ {
+      "contact" : " ",
+      "name" : "Harshit Verma"
+    }, {
+      "contact" : " ",
+      "name" : "Subhanshu Verma"
+    },{
+      "contact" : " ",
+      "name" : "Somya Sonkar"
+    }, {
+      "contact" : " ",
+      "name" : "Poonam Nishad"
+    } ] ,
+    "time" : "2:00 PM - 5:00 PM",
+    "type" : "Individual"
+  },
+  "13" : {
+    "date" : "26-03-2018",
+    "description" : "If the world of electrons is your ideal place, then this event is for all those geeky nerds out there. Design your circuit on computer screen win adulation and of course, exciting prizes.",
+    "extrainfo" : {
+      "one" : {
+        "infoDetail" : "To be updated",
+        "infoTitle" : "Event Prizes"
+      }
+    },
+    "image" : "electrade.jpg",
+    "location" : "Electronics lab",
+    "name" : "Electrade",
+    "organizers" : [  {
+      "contact" : " ",
+      "name" : "Akansha Singh"
+    },{
+      "contact" : " ",
+      "name" : "Yashi Rastogi"
+    },{
+      "contact" : " ",
+      "name" : "Shivam Singh"
+    },{
+      "contact" : " ",
+      "name" : "Gaurav Srivastav"
+    },{
+      "contact" : " ",
+      "name" : "Mahima Singh"
+    }  ],
+    "time" : "9:00 AM - 11:00 AM",
+    "type" : "team of three"
+  },
+  "14" : {
+    "date" : "23-03-2018",
+    "description" : "Tickling your brain cells to design an electronic circuit is what gives satisfaction then polish your skills ,revise your stuff to design some mind boggling electronic circuits.",
+    "extrainfo" : {
+      "one" : {
+        "infoDetail" : "To be updated",
+        "infoTitle" : "Event Prizes"
+      }
+    },
+    "image" : "electromatrix.jpg",
+    "location" : "Computer Centre 3",
+    "name" : "ElectroMatrix",
+    "organizers" : [  {
+      "contact" : " ",
+      "name" : "Ashutosh Yadav"
+    }, {
+      "contact" : " ",
+      "name" : "Ananya Panwar"
+    },{
+      "contact" : " ",
+      "name" : "Akriti Srivastav"
+    }, {
+      "contact" : " ",
+      "name" : "Gaurav Katiyar"
+    }  ],
+    "time" : "10:00 PM onwards",
+    "type" : "team"
+  },
+  "15" : {
+    "date" : "24-03-2018",
+    "description" : "Well, for us engineers nothing is a waste. We know how to make something useful from scrape material and this is exactly what this event is all about – Utilizing waste to materials to make something innovative and interesting. ",
+    "extrainfo" : {
+      "one" : {
+        "infoDetail" : "Prizes worth ₹3000 and gaming goodies.",
+        "infoTitle" : "Event Prizes"
+      }
+    },
+    "image" : "junkyard.jpg",
+    "location" : "Workshop",
+    "name" : "The Junkyard",
+    "organizers" : [  {
+      "contact" : " ",
+      "name" : "Saurabh Sharma"
+    }, {
+      "contact" : " ",
+      "name" : "Mudit Pratap singh"
+    }, {
+      "contact" : " ",
+      "name" : "Atul Yadav"
+    },{
+      "contact" : " ",
+      "name" : "Arvind"
+    }  ],
+    "time" : "10:00 AM - 4:00 PM",
+    "type" : "team"
+  },
+  "16" : {
+    "date" : "24-03-2018",
+    "description" : "This event is all about elements and materials present around us. And it will test ones knowledge about those everyday things we see in our surroundings.",
+    "extrainfo" : {
+      "one" : {
+        "infoDetail" : "To be updated",
+        "infoTitle" : "Event Prizes"
+      }
+    },
+    "image" : "tatva.jpg",
+    "location" : "Chemistry Department",
+    "name" : "Tatva",
+    "organizers" : [  {
+      "contact" : " ",
+      "name" : "Ajay"
+    },{
+      "contact" : " ",
+      "name" : "Sonali Johari"
+    },{
+      "contact" : " ",
+      "name" : "Sakshi"
+    },{
+      "contact" : " ",
+      "name" : "Ashish Kumar"
+    }	 ],
+    "time" : "10:00 PM onwards",
+    "type" : " "
+  },
+  "17" : {
+    "date" : "25-03-2018",
+    "description" : "The name says it all. One of the most sought after events of technical section of our fest the Quizomania tests ones general knowledge and mental abilities.",
+    "extrainfo" : {
+      "one" : {
+        "infoDetail" : "To be updated",
+        "infoTitle" : "Event Prizes"
+      }
+    },
+    "image" : "quiz.jpg",
+    "location" : "L2",
+    "name" : "Brainstorm",
+    "organizers" :  [ {
+      "contact" : " ",
+      "name" : "Mayank Gautam"
+    }, {
+      "contact" : " ",
+      "name" : "Kriti Singh"
+    },{
+      "contact" : " ",
+      "name" : "Divyansh Kanaudia"
+   }  ],
+    "time" : "2:00 PM - 4:00 PM",
+    "type" : " "
+  },
+  "18" : {
+    "date" : "24-03-2018",
+    "description" : "Workshop On Startup",
+    "extrainfo" : {
+      "one" : {
+        "infoDetail" : "Total prize pool of ₹1500",
+        "infoTitle" : "Event Prizes"
+      },
+      "two" : {
+        "infoDetail" : " ",
+        "infoTitle" : "Event Link on Facebook"
+      },
+      "three" : {
+        "infoDetail" : " ",
+        "infoTitle" : "Event Registration Link"
+      }
+    },
+    "image" : "startup.jpg",
+    "location" : "L1",
+    "name" : "Startup Workshop",
+    "organizers" : [  {
+      "contact" : " ",
+      "name" : "Gaurav Porwal"
+    }, {
+      "contact" : "8896733935",
+      "name" : "Sheetal Srivastav"
+    }],
+    "time" : "7:00 PM - 9:00 PM",
+    "type" : "Team of two"
+  },
+  "19" : {
+    "date" : "23-03-2018",
+    "description" : "Do you have good management skills?? Come pitch it in the ad war",
+    "extrainfo" : {
+      "one" : {
+        "infoDetail" : "To be updated",
+        "infoTitle" : "Event Prizes"
+      }
+    },
+    "image" : "adwar.jpg",
+    "location" : "L1",
+    "name" : "Ad-War",
+    "organizers" : [  {
+      "contact" : " ",
+      "name" : "Shashank"
+    }, {
+      "contact" : " ",
+      "name" : "Amit Singh"
+    },{
+	"contact" : " ",
+	"name" : "Srasthi Tripathi"}]  ,
+    "time" : "10:00 PM - 1:00 AM",
+    "type" : " "
+  },
+  "20" : {
+    "date" : "24-03-2018",
+    "description" : "An intense battle of bands is always good enough to in captivate the audience however large so this time it’s the chance of UIET, people pull up your socks form your groups and prove metal to all.",
+    "extrainfo" : {
+      "one" : {
+        "infoDetail" : "To be updated",
+        "infoTitle" : "Event Prizes"
+      }
+    },
+    "image" : "bandwar.jpg",
+    "location" : "L1",
+    "name" : "BandWar",
+    "organizers" :  [ {
+      "contact" : " ",
+      "name" : "Md. Raza"
+    }, {
+      "contact" : " ",
+      "name" : "Shivam Kumar"
+    }]  ,
+    "time" : "11:00 AM - 2:00 PM",
+    "type" : "Individual"
+  },
+  "21" : {
+    "date" : "24-03-2018",
+    "description" : "So you can give witty replies! You can hold a group of people by your words? So welcome to this competition you're indeed tailor made for it. And to those introverts like me its time to showpeers that you are indeed made for the lime light by competing and winning this competition. ",
+    "extrainfo" : {
+      "one" : {
+        "infoDetail" : "To be updated",
+        "infoTitle" : "Event Prizes"
+      }
+    },
+    "image" : "openmic.jpg",
+    "location" : "L1",
+    "name" : "Open Mic",
+    "organizers" : [  {
+      "contact" : " ",
+      "name" : "Shalini"
+    }, {
+      "contact" : " ",
+      "name" : "Md. Ziya"
+    },{
+	"contact" : " ",
+	"name" : "Manoj Kumar"} ] ,
+    "time" : "11:00 AM - 2:00 PM",
+    "type" : " "
+  },
+  "22" : {
+    "date" : "23-03-2018",
+    "description" : "This event is all about musical battles, there will be intense competition but in a melodious way.",
+    "extrainfo" : {
+      "one" : {
+        "infoDetail" : "To be updated",
+        "infoTitle" : "Event Prizes"
+      }
+    },
+    "image" : "voice.jpg",
+    "location" : "L1",
+    "name" : "The Voice",
+    "organizers" :  [ {
+      "contact" : " ",
+      "name" : "Haseeb Alam"
+    }, {
+      "contact" : " ",
+      "name" : "Mansi "
+    },{
+	"contact" : " ",
+	"name" : "Sumit Kumar"} ] ,
+    "time" : "10:00 AM onwards",
+    "type" : " "
+  },
+  "23" : {
+    "date" : "24-03-2018",
+    "description" : "Bringing the crowds to their feet by showing off your dance moves is a dream for many. And for those crazy Michael Jacksons and Prabhu devas ,this is the platform to show off your dance moves",
+    "extrainfo" : {
+      "one" : {
+        "infoDetail" : "To be updated",
+        "infoTitle" : "Event Prizes"
+      }
+    },
+    "image" : "dance.jpg",
+    "location" : "L1",
+    "name" : "DANCE",
+    "organizers" :  [ {
+      "contact" : " ",
+      "name" : "Akhil(AKM)"
+    }, {
+      "contact" : " ",
+      "name" : "Shubhangi Jaiswal"
+    },{
+      "contact" : " ",
+      "name" : "Amitabh Singh"
+    },{
+      "contact" : " ",
+      "name" : "Supriya Pal"
+    } ] ,
+    "time" : "7:00 PM onwards",
+    "type" : " "
+  },
+  "24" : {
+    "date" : "24-03-2018",
+    "description" : "The “Parliament Direct” is a platform for the youth to speak up and make an impact on the change agenda for the country. To take on the policy makers and highlight the need for new thinking that will take the country forward. The Parliament Direct will be a debate between the best debaters and policy makers and opinion makers.",
+    "extrainfo" : {
+      "one" : {
+        "infoDetail" : "To be updated",
+        "infoTitle" : "Event Prizes"
+      }
+    },
+    "image" : "youthparliament.jpg",
+    "location" : "MSME 3",
+    "name" : "Youth Parliament",
+    "organizers" : [  {
+      "contact" : " ",
+      "name" : "Sameer Shukla"
+    }, {
+      "contact" : " ",
+      "name" : "Deeksha Bajpai"
+    }, {
+      "contact" : " ",
+      "name" : "Rahul Pal"
+    }  ],
+    "time" : "5:00 PM - 8:00 PM",
+    "type" : " "
+  },
+  "25" : {
+    "date" : "26-03-2018",
+    "description" : "Storytelling is the social and cultural activity of sharing stories, often with improvisation, theatrics, or embellishment. Stories or narratives have been shared in every culture as a means of entertainment, education, cultural preservation and instilling moral values.",
+    "extrainfo" : {
+      "one" : {
+        "infoDetail" : "Cash Prizes Worth Rs 2200",
+        "infoTitle" : "Event Prizes"
+      },
+      "two" : {
+        "infoDetail" : " ",
+        "infoTitle" : "Facebook Event Link"
+      }
+    },
+    "image" : "storytelling.jpg",
+    "location" : "L1",
+    "name" : "Story Telling",
+    "organizers" : [  {
+      "contact" : " ",
+      "name" : "Abhishek Garg"
+    }, {
+      "contact" : " ",
+      "name" : "Tejasva Singh"
+    } ] ,
+    "time" : "10:00 AM - 12:00 AM",
+    "type" : "Individual"
+  },
+  "26" : {
+    "date" : "25-03-2018",
+    "description" : "There is a belief that conveying a message to a crowd is difficult especially when it is related to social order. And that’s where we have Nukkad Nataks. An effective way to convey a social message to the masses .So want to be a part of the change, Step forward and be the change. ",
+    "extrainfo" : {
+      "one" : {
+        "infoDetail" : "To be updated",
+        "infoTitle" : "Event Prizes"
+      }
+    },
+    "image" : "nukkadnatak.jpg",
+    "location" : "Ground",
+    "name" : "Nukkad Natak",
+    "organizers" : [  {
+      "contact" : " ",
+      "name" : "Shipra"
+    }, {
+      "contact" : " ",
+      "name" : "Pratyaksha Pathak"
+    } ] ,
+    "time" : "2:00 PM - 4:00 PM",
+    "type" : " "
+  },
+  "27" : {
+    "date" : "25-03-2018",
+    "description" : " It is said that the world is a stage and we all are actors, playing our parts an d then going back into anonymity. This explains our event so gather a group select a theme, compete and win.",
+    "extrainfo" : {
+      "one" : {
+        "infoDetail" : " ",
+        "infoTitle" : "Event Page on Facebook"
+      },
+      "two" : {
+        "infoDetail" : "Rs 3000",
+        "infoTitle" : "Prize Money"
+      }
+    },
+    "image" : "thestage.jpg",
+    "location" : "L1",
+    "name" : "The Stage",
+    "organizers" :  [ {
+      "contact" : " ",
+      "name" : "Shubham Tiwari"
+    }, {
+      "contact" : " ",
+      "name" : "Vedant"
+    } ] ,
+    "time" : "8:00 PM - 9:30 PM",
+    "type" : "Individual"
+  },
+  "28" : {
+    "date" : "26-03-2018",
+    "description" : "Jalwa is the event for you knowing how to carry oneself in public with grace and confidence is the trademark for a successful fashion model and so this event is for our future models who’ll set the stage on fire.",
+    "extrainfo" : {
+      "one" : {
+        "infoDetail" : "To be updated",
+        "infoTitle" : "Event Prizes"
+      }
+
+    },
+    "image" : "jalwa.jpg",
+    "location" : "L1",
+    "name" : "Jalwa",
+    "organizers" : [  {
+      "contact" : " ",
+      "name" : "Rohan"
+    },{
+	"contact" : " ",
+	"name" : "Ramsha Alam"
+	} ] ,
+    "time" : "2-3pm",
+    "type" : " "
+  },
+  "29" : {
+    "date" : "23-03-2018",
+    "description" : "Beauty with brains is a rare combination and indeed, difficult to find. So in this event we will be on our quest to find those special ones..",
+    "extrainfo" : {
+      "one" : {
+        "infoDetail" : " ",
+        "infoTitle" : "Event Website"
+      },
+      "two" : {
+        "infoDetail" : "Rs 100000",
+        "infoTitle" : "Prize Worth"
+      }
+    },
+    "image" : "ritambhara.jpg",
+    "location" : "L1",
+    "name" : "Ritambhara",
+    "organizers" : [  {
+      "contact" : " ",
+      "name" : "Shubhi Verma"
+    },
+    {
+      "contact" : " ",
+      "name" : "Anushka Singh"
+    } ] ,
+    "time" : "23 - 25 March",
+    "type" : "Team"
+  },
+  "30" : {
+    "date" : "25-03-2018",
+    "description" : "Kisi ne bahut khoob likha hai",
+    "extrainfo" : {
+      "one" : {
+        "infoDetail" : " ",
+        "infoTitle" : "Event Website"
+      },
+       "two" : {
+        "infoDetail" : "Rs 45000",
+        "infoTitle" : "Prize Worth"
+      }
+
+    },
+    "image" : "shayarana.jpg",
+    "location" : "L1",
+    "name" : "Mizaz Huya Shayarana",
+    "organizers" :  [ {
+      "contact" : " ",
+      "name" : "Neha Rawat"
+    }, {
+      "contact" : " ",
+      "name" : "Shashank"
+    } ] ,
+    "time" : "2:00 PM-7:00 PM",
+    "type" : "Team Event"
+  },
+  "31" : {
+    "date" : "26-03-2018",
+    "description" : "Movie reflects the state of a contemporary society. Knowing and learning the art to portray in a 70mm screen is an achievement in itself. So pull up your socks, take your cameras, tickle you creativity and lets learn about life.",
+    "extrainfo" : {
+      "one" : {
+        "infoDetail" : "To be updated",
+        "infoTitle" : "Event Prizes"
+      }
+    },
+    "image" : "showbuzz.jpg",
+    "location" : "L1",
+    "name" : "Show Buzz",
+    "organizers" : [  {
+      "contact" : " ",
+      "name" : "Ravi Kishan"
+    }, {
+      "contact" : " ",
+      "name" : "Vijay"
+    },{
+      "contact" : " ",
+      "name" : "Farman"
+    } ] ,
+    "time" : "10:00 AM - 1:00 PM",
+    "type" : " "
+  },
+  "32" : {
+    "date" : "24-03-2018",
+    "description" : "Photo story provides an opportunity for participants to develop or explore on theme or subject in a deeper, more comprehensive manner by using a series of photograph the participants are required to submit a set of photos depicting a particular story theme.",
+    "extrainfo" : {
+      "one" : {
+        "infoDetail" : "To be updated",
+        "infoTitle" : "Event Prizes"
+      }
+    },
+    "image" : "pixel.jpg",
+    "location" : "L1",
+    "name" : "Pixel",
+    "organizers" : [  {
+      "contact" : " ",
+      "name" : "Nishar Ahmed"
+    }, {
+      "contact" : " ",
+      "name" : "Tanuja Gautam"
+    }  ],
+    "time" : "9:00 PM - 2:00 AM",
+    "type" : "Individual"
+  },
+  "33" : {
+    "date" : "21-03-2018",
+    "description" : "Well, it is important to warn where, what how to invest something be it our own time in our daily lives or our money in stock market. And if you really find the act “Investing” is interesting . So here is the game for you. Playing this game, is all about stocks , market and investment.",
+    "extrainfo" : {
+      "one" : {
+        "infoDetail" : "Worth Rs. 3000",
+        "infoTitle" : "Event Prizes"
+      }
+    },
+    "image" : "stockking.jpg",
+    "location" : "MEE 2",
+    "name" : "Stock King",
+    "organizers" :  [ {
+      "contact" : " ",
+      "name" : "Deepak Dutt"
+    }, {
+      "contact" : " ",
+      "name" : "Sonam"
+    },{
+      "contact" : " ",
+      "name" : "Nitin Sehgal"
+    } ] ,
+    "time" : "11PM onwards",
+    "type" : "Individual"
+  },
+  "34" : {
+    "date" : "21-03-2018",
+    "description" : "If you are a person who loves solving riddles, If the word “Adventure” adrenaline rush through your body, If you want to explore the campus or just want to make some new friends – TREASURE HUNT is what might catch you fancy. Seek and you shall find. Fight for glory!",
+    "extrainfo" : {
+      "one" : {
+        "infoDetail" : "Worth Rs. 3000",
+        "infoTitle" : "Event Prizes"
+      }
+    },
+    "image" : "treasurehunt.jpg",
+    "location" : "MEE 2",
+    "name" : "Treasure Hunt",
+    "organizers" : [  {
+      "contact" : " ",
+      "name" : "Jaswant Pal"
+    }, {
+      "contact" : " ",
+      "name" : "Ajay"
+    },{
+      "contact" : " ",
+      "name" : "Vipul"
+    } ] ,
+    "time" : "11PM onwards",
+    "type" : "Individual"
+  },
+  "35" : {
+    "date" : "21-03-2018",
+    "description" : "A spelling bee is a competition in which contestants are asked to spell a broad selection of words, usually with a varying degree of difficulty.",
+    "extrainfo" : {
+      "one" : {
+        "infoDetail" : "Worth Rs. 3000",
+        "infoTitle" : "Event Prizes"
+      }
+    },
+    "image" : "spellbee.jpg",
+    "location" : "L5",
+    "name" : "Spell Bee",
+    "organizers" : [  {
+      "contact" : " ",
+      "name" : "Naman Dixit"
+    }, {
+      "contact" : " ",
+      "name" : "Vishal"
+    } ] ,
+    "time" : "11PM onwards",
+    "type" : "Individual"
+  },
+  "36" : {
+    "date" : "21-03-2018",
+    "description" : "The chessboard is the world, the pieces are the phenomena of the Universe, the rules of the game are what we call the laws of Nature and the player on the other side is hidden from us",
+    "extrainfo" : {
+      "one" : {
+        "infoDetail" : "Worth Rs. 3000",
+        "infoTitle" : "Event Prizes"
+      }
+    },
+    "image" : "chess.jpg",
+    "location" : "Sports complex",
+    "name" : "Chess",
+    "organizers" : [  {
+      "contact" : " ",
+      "name" : "Sachin Harsh"
+    }, {
+      "contact" : " ",
+      "name" : "Kapil Vishwakarma"
+    },{
+      "contact" : " ",
+      "name" : "Sweta kumari"
+    },{
+      "contact" : " ",
+      "name" : "Nikunj Verma"
+    } ] ,
+    "time" : "11PM onwards",
+    "type" : "Individual"
+  },
+  "37" : {
+    "date" : "21-03-2018",
+    "description" : "The famous ping pong is a pretty exciting game. Tapping that small ping pong ball in play and trying to outplay the opponent with smashes and drops is indeed a pleasure for anyone to watch and play",
+    "extrainfo" : {
+	"one" : {
+        "infoDetail" : "Worth Rs. 3000",
+        "infoTitle" : "Event Prizes"
+      }
+    },
+    "image" : "tabletennis.jpg",
+    "location" : "Sports complex",
+    "name" : "Table Tennis",
+    "organizers" :  [ {
+      "contact" : " ",
+      "name" : "Rishabh Gupta"
+    } ] ,
+    "time" : "11PM onwards",
+    "type" : "Individual"
+  },
+  "38" : {
+    "date" : "21-03-2018",
+    "description" : "With the great China staring to crumble in this very popular game, the Indian shuttlers are beginning to leave their mark on the world map. Its times for the shuttlers of our college to step forward and join the rallies",
+    "extrainfo" : {
+      "one" : {
+        "infoDetail" : "Worth Rs. 3000",
+        "infoTitle" : "Event Prizes"
+      }
+    },
+    "image" : "badminton.jpg",
+    "location" : "Sports complex",
+    "name" : "Badminton",
+    "organizers" : [  {
+      "contact" : " ",
+      "name" : "Ashutosh singh"
+    },{
+      "contact" : " ",
+      "name" : "Annanya Panwar"
+    } ] ,
+    "time" : "11PM onwards",
+    "type" : "Individual"
+  },
+  "39" : {
+    "date" : "21-03-2018",
+    "description" : "Pushing yourself to run that extra mile is what makes a true sportsperson. Moreover, athletics stretches us to our maximum and keeps us fit and healthy.",
+    "extrainfo" : {
+      "one" : {
+        "infoDetail" : "Worth Rs. 3000",
+        "infoTitle" : "Event Prizes"
+      }
+    },
+    "image" : "marathon.jpg",
+    "location" : "Sports complex",
+    "name" : "Marathon",
+    "organizers" : [  {
+      "contact" : " ",
+      "name" : "Raghvendra"
+    },{
+      "contact" : " ",
+      "name" : "Abhishek Kumar"
+    } ] ,
+    "time" : "11PM onwards",
+    "type" : "Individual"
+  },
+  "40" : {
+    "date" : "21-03-2018",
+    "description" : "“Just play. Have fun. Enjoy the game. “ These words by legendary Michael Jordan beautifully sums up the game",
+    "extrainfo" : {
+      "one" : {
+        "infoDetail" : "Worth Rs. 3000",
+        "infoTitle" : "Event Prizes"
+      }
+    },
+    "image" : "basketball.jpg",
+    "location" : "Sports complex",
+    "name" : "BasketBall",
+    "organizers" : [  {
+      "contact" : " ",
+      "name" : "Ramesh Yadav"
+    },{
+      "contact" : " ",
+      "name" : "Satyam Nigam"
+    },{
+      "contact" : " ",
+      "name" : "Shivani Verma"
+    } ] ,
+    "time" : "11PM onwards",
+    "type" : "Individual"
+  },
+  "41" : {
+    "date" : "21-03-2018",
+    "description" : "One of most popular sports of our country has finallystarted getting its due and its time for the footballers of our college to weave the magic with the ball at their feet",
+    "extrainfo" : {
+      "one" : {
+        "infoDetail" : "Worth Rs. 3000",
+        "infoTitle" : "Event Prizes"
+      }
+    },
+    "image" : "football.jpg",
+    "location" : "Sports complex",
+    "name" : "Street Soccer",
+    "organizers" :  [ {
+      "contact" : " ",
+      "name" : "Prashant Singh"
+    },{
+      "contact" : " ",
+      "name" : "Manas Gupta"
+    } ],
+    "time" : "11PM onwards",
+    "type" : "Individual"
+  },
+  "42" : {
+    "date" : "21-03-2018",
+    "description" : "It wouldn’t be wrong to assert that cricket is not just a sport but a religion in our nation. The most popular game needs nothing more than a playing field, a bat , a ball and two groups of 22 enthusiastic athletes willing to compete.",
+    "extrainfo" : {
+      "one" : {
+        "infoDetail" : "Worth Rs. 3000",
+        "infoTitle" : "Event Prizes"
+      }
+    },
+    "image" : "cricket.jpg",
+    "location" : "Stadium",
+    "name" : "Cricket",
+    "organizers" : [  {
+      "contact" : " ",
+      "name" : "Anil Rajpoot"
+    },{
+      "contact" : " ",
+      "name" : "Brajesh Verma"
+    },{
+      "contact" : " ",
+      "name" : "Quasim Sami"
+    },{
+      "contact" : " ",
+      "name" : "Abhishek Pratap Mal"
+    },{
+      "contact" : " ",
+      "name" : "Sudhanshu"
+    },{
+      "contact" : " ",
+      "name" : "Manish"
+    },{
+      "contact" : " ",
+      "name" : "Subham Gupta"
+    },{
+      "contact" : " ",
+      "name" : "Ambresh Kumar"
+    } ,{
+      "contact" : " ",
+      "name" : "Ashish Dinker"
+    },{
+      "contact" : " ",
+      "name" : "Aditya Nath Dubey"
+    },{
+      "contact" : " ",
+      "name" : "Abhay Dwivedi"
+    } ],
+    "time" : "11PM onwards",
+    "type" : "Individual"
+  }
+  ,"43" : {
+    "date" : "21-03-2018",
+    "description" : "Make your clan of gamers and shooters ,plan your strategy to conquer everything and let the begin because there are some really exciting prizes to be won.",
+    "extrainfo" : {
+      "one" : {
+        "infoDetail" : "Worth Rs. 3000",
+        "infoTitle" : "Event Prizes"
+      }
+    },
+    "image" : "cs.jpg",
+    "location" : "It Lab",
+    "name" : "Counter Strike",
+    "organizers" :  [ {
+      "contact" : " ",
+      "name" : "Anup Chaturvedi"
+    },{
+      "contact" : " ",
+      "name" : "Shubham Vishwakarma"
+    } ] ,
+    "time" : "11PM onwards",
+    "type" : "Individual"
+  },
+  "44" : {
+    "date" : "21-03-2018",
+    "description" : "Race your cars against each other and win prizes. Pretty straightforward, Right No !! Not the real world but the virtua world of Need For speed is waiting to begin the race.",
+    "extrainfo" : {
+      "one" : {
+        "infoDetail" : "Worth Rs. 3000",
+        "infoTitle" : "Event Prizes"
+      }
+    },
+    "image" : "nfs.jpg",
+    "location" : "It Lab",
+    "name" : "Need For Speed",
+    "organizers" : [  {
+      "contact" : " ",
+      "name" : "Pankaj"
+    } ] ,
+    "time" : "11PM onwards",
+    "type" : "Individual"
+  }
+  ,"45" : {
+    "date" : "21-03-2018",
+    "description" : "Wanna challenge your body above the limits",
+    "extrainfo" : {
+      "one" : {
+        "infoDetail" : "Worth Rs. 3000",
+        "infoTitle" : "Event Prizes"
+      }
+    },
+    "image" : "strength.jpg",
+    "location" : "Complex",
+    "name" : "Test your Strength",
+    "organizers" : [  {
+      "contact" : " ",
+      "name" : "Prashant"
+    },{
+      "contact" : " ",
+      "name" : "Pradeep"
+    } ] ,
+    "time" : "11PM onwards",
+    "type" : "Individual"
+  }
+}
+}
