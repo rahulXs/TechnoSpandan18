@@ -13,6 +13,8 @@
     <string name="title_day1">Day 1</string>
     <string name="title_day2">Day 2</string>
 
+    <string name="description">Humblefoolcup is a contest under Aparoksha 2017, annual Tech Fest of IIIT Allahabad conducted in the memory of Harsha SuryaNarayana A.K.A Humblefool. Harsha Suryanarayana, popularly known as humblefool to the coding community, and as Lord among his friends and the people close to him. He Died in an accident on the night of 15th June\'14</string>
+
     <!-- TODO: Remove or change this placeholder text -->
 
     <string-array name="day_0_events">
@@ -81,7 +83,6 @@
 
 
     </string-array>
-
 
 
     <string name="about_clg">The University Institute of Engineering and Technology (UIET), Kanpur, India, founded in 1996 (earlier known as Institute of Engineering and Technology, Kanpur), is an engineering and technology institute located in Kanpur, India.

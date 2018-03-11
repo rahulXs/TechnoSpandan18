@@ -58,7 +58,7 @@ public class HomeFragment extends Fragment {
 
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
-        getActivity().setTitle("Home");
+        getActivity().setTitle("TechnoSpandan");
         viewPager= view.findViewById(R.id.viewPager);
         sliderDotsPanel =view.findViewById(R.id.SliderDots);
 
@@ -66,7 +66,6 @@ public class HomeFragment extends Fragment {
 
         viewPager.setAdapter(viewPagerAdapter);
         try {
-        /*After setting the adapter use the timer */
             final Handler handler = new Handler();
             final Runnable Update = new Runnable() {
                 public void run() {

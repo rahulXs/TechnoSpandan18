@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.streak.technospandan.fragment.HomeFragment"
-    android:background="@drawable/home_background">
+    android:background="@drawable/ba">
 
     <LinearLayout
         android:id="@+id/SliderDots"
@@ -31,26 +31,10 @@
         android:layout_marginTop="270dp"
         android:weightSum="1">
 
-
-        <Button
-            android:id="@+id/button4"
-            android:layout_width="160dp"
-            android:layout_height="60dp"
-            android:layout_alignEnd="@+id/button2"
-            android:layout_alignRight="@+id/button2"
-            android:layout_alignTop="@+id/button3"
-            android:drawableLeft="@drawable/log"
-            android:elevation="0dp"
-            android:text="Signup/Login"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintLeft_toRightOf="@+id/button3"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button2" />
-
         <Button
             android:id="@+id/button1"
             android:layout_width="160dp"
-            android:layout_height="60dp"
+            android:layout_height="80dp"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
@@ -60,7 +44,7 @@
             android:alpha="1"
             android:drawableLeft="@drawable/cal1"
             android:onClick="buttonOnClick"
-            android:text="Events by Day"
+            android:text="Technical Section"
             app:layout_constraintBottom_toTopOf="@+id/button3"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -71,7 +55,7 @@
         <Button
             android:id="@+id/button2"
             android:layout_width="160dp"
-            android:layout_height="60dp"
+            android:layout_height="80dp"
             android:layout_above="@+id/button3"
             android:layout_marginLeft="15dp"
             android:layout_marginStart="15dp"
@@ -79,24 +63,39 @@
             android:layout_toRightOf="@+id/button1"
             android:drawableLeft="@drawable/categ"
             android:onClick="buttonOnClick"
-            android:text="Category View"
+            android:text="Cultural Section"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
             android:id="@+id/button3"
             android:layout_width="160dp"
-            android:layout_height="60dp"
+            android:layout_height="80dp"
             android:layout_alignLeft="@+id/button1"
             android:layout_alignStart="@+id/button1"
             android:layout_below="@+id/button1"
             android:layout_marginTop="56dp"
             android:drawableLeft="@drawable/qr1"
             android:onClick="buttonOnClick"
-            android:text="Group view"
+            android:text="Sports Section"
             app:layout_constraintLeft_toLeftOf="parent"
             tools:layout_editor_absoluteY="174dp" />
 
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="160dp"
+            android:layout_height="80dp"
+            android:layout_alignEnd="@+id/button2"
+            android:layout_alignRight="@+id/button2"
+            android:layout_alignTop="@+id/button3"
+            android:drawableLeft="@drawable/log"
+            android:elevation="0dp"
+            android:onClick="buttonOnClick"
+            android:text="Group View"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toRightOf="@+id/button3"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button2" />
     </RelativeLayout>
 
 

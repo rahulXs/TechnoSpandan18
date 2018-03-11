@@ -33,11 +33,11 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
 
-        app:icon_one="@drawable/ic_store_white_24dp"
-        app:icon_two="@drawable/ic_logout_grey600_24dp"
-        app:icon_three="@drawable/home_background"
-        app:icon_four="@drawable/ic_action_home"
-        app:icon_five="@drawable/active_dot"
+        app:icon_one="@drawable/ic_timer_black_24dp"
+        app:icon_two="@drawable/ic_info_black_24dp"
+        app:icon_three="@drawable/ic_person_black_24dp"
+        app:icon_four="@drawable/ic_extra_info_black_24dp"
+        app:icon_five="@drawable/ic_updates_black_24dp"
 
         app:number_of_tabs="five"
         app:starting_position="two"/>
@@ -56,7 +56,6 @@
         app:layout_constraintVertical_bias="0.0"/>
 
     <ImageView
-        android:src="@drawable/cricket"
         android:id="@+id/event_image_view_second"
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -118,9 +117,9 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
-        android:text="Cricket Cup"
-        android:textColor="@color/cardview_light_background"
-        android:textAppearance="@style/AppThemeNav"
+        android:text="HumbleFool Cup"
+        android:textColor="@color/md_white_1000"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         app:layout_constraintBottom_toBottomOf="@+id/eventImageView"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"

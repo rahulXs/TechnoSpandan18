@@ -12,24 +12,25 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 /**
- * Created by PIYUSH on 28-01-2018.
+ * Created by betterclever on 3/14/2017.
  */
 
-public class ExtraInfoViewHolder extends RecyclerView.ViewHolder{
+public class ExtraInfoViewHolder extends RecyclerView.ViewHolder {
+    
     @BindView(R.id.info_title)
     TextView infoTitleTV;
-
+    
     @BindView(R.id.info_detail)
     TextView infoDetailTV;
-
+    
     public ExtraInfoViewHolder(View itemView) {
         super(itemView);
         ButterKnife.bind(this,itemView);
     }
-
+    
     public void updateData(ExtraInfo info){
         Log.d("ExtraInfoVH",info.getInfoTitle());
-
+        
         infoTitleTV.setText(info.getInfoTitle());
         infoDetailTV.setText(info.getInfoDetail());
     }
