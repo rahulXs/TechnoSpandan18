@@ -24,7 +24,7 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.example.streak.technospandan.R;
-import com.example.streak.technospandan.fragment.EventsInfoFragment;
+import com.example.streak.technospandan.fragment.GallaryFragment;
 import com.example.streak.technospandan.fragment.HomeFragment;
 import com.example.streak.technospandan.fragment.NotificationsFragment;
 import com.example.streak.technospandan.fragment.TeamFragment;
@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
     private static final int POS_HOME = 0;
     private static final int POS_TEAM = 1;
     private static final int POS_NOTIFICATIONS = 2;
-    private static final int POS_EVENTS_INFO = 3;
+    private static final int POS_GALLARY = 3;
     private static final int POS_EXIT = 5;
 
     private static long back_pressed_time;
@@ -79,6 +79,11 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
             Intent i=new Intent(this,CategoryView.class);
             startActivity(i);
         }
+        else if (id==R.id.imageupload){
+            Intent i=new Intent(this,ImgUploadActivity.class);
+            startActivity(i);
+        }
+
         return super.onOptionsItemSelected(item);
     }
 
@@ -105,7 +110,7 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
                 createItemFor(POS_HOME).setChecked(true),
                 createItemFor(POS_TEAM),
                 createItemFor(POS_NOTIFICATIONS),
-                createItemFor(POS_EVENTS_INFO),
+                createItemFor(POS_GALLARY),
                 new SpaceItem(48),
                 createItemFor(POS_EXIT)));
         adapter.setListener(this);
@@ -125,7 +130,7 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
            // HomeFragment.setFlag(1);
             TeamFragment.setFlag(1);
             NotificationsFragment.setFlag(1);
-            EventsInfoFragment.setFlag(1);
+            GallaryFragment.setFlag(1);
             fragment=HomeFragment.createFor(screenTitles[position]);
             showFragment(fragment);
         }
@@ -134,7 +139,7 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
             HomeFragment.setFlag(1);
             //TeamFragment.setFlag(1);
             NotificationsFragment.setFlag(1);
-            EventsInfoFragment.setFlag(1);
+            GallaryFragment.setFlag(1);
             fragment= TeamFragment.createFor(screenTitles[position]);
             showFragment(fragment);
         }
@@ -143,23 +148,23 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
             HomeFragment.setFlag(1);
             TeamFragment.setFlag(1);
             //NotificationsFragment.setFlag(1);
-            EventsInfoFragment.setFlag(1);
+            GallaryFragment.setFlag(1);
             fragment= NotificationsFragment.createFor(screenTitles[position]);
             showFragment(fragment);
         }
-        else if (position==POS_EVENTS_INFO){
+        else if (position==POS_GALLARY){
             HomeFragment.setFlag(1);
             TeamFragment.setFlag(1);
             //NotificationsFragment.setFlag(1);
-            EventsInfoFragment.setFlag(1);
-            fragment= EventsInfoFragment.createFor(screenTitles[position]);
+            GallaryFragment.setFlag(1);
+            fragment= GallaryFragment.createFor(screenTitles[position]);
             showFragment(fragment);
         }
         else{
             HomeFragment.setFlag(1);
             TeamFragment.setFlag(1);
             NotificationsFragment.setFlag(1);
-            EventsInfoFragment.setFlag(1);
+            GallaryFragment.setFlag(1);
             Toasty.success(getBaseContext(), "Exit successfull.", Toast.LENGTH_SHORT, true).show();
             finish();
         }

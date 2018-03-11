@@ -34,7 +34,8 @@
         <activity android:name=".activity.AboutUsActivity" />
         <activity android:name=".activity.TechnicalSectionActivity" />
         <activity android:name=".activity.SportsSectionActivity" />
-        <activity android:name=".activity.CulturalSectionActivity"></activity>
+        <activity android:name=".activity.CulturalSectionActivity" />
+        <activity android:name=".activity.ImgUploadActivity"></activity>
     </application>
 
 </manifest>

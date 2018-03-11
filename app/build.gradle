@@ -19,6 +19,12 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    packagingOptions {
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE-FIREBASE.txt'
+        exclude 'META-INF/NOTICE'
+
+    }
 }
 
 dependencies {
@@ -57,7 +63,7 @@ dependencies {
     compile 'com.github.glomadrian:Grav:1.1'
     compile 'com.sylversky.fontreplacer:fontreplacer:1.0'
     compile 'com.github.devlight.navigationtabstrip:navigationtabstrip:1.0.4'
-    compile 'com.alexvasilkov:foldable-layout:1.0.1'
+    compile 'com.alexvasilkov:android-commons:1.2.3'
     testCompile 'junit:junit:4.12'
     annotationProcessor 'com.jakewharton:butterknife:8.5.1'
 }

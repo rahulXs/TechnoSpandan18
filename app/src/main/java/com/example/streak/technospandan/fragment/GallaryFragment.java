@@ -17,21 +17,22 @@ import android.widget.Toast;
 import com.example.streak.technospandan.R;
 import com.example.streak.technospandan.utils.ViewPagerAdapter;
 
-public class EventsInfoFragment extends Fragment {
+public class GallaryFragment extends Fragment {
 
 
     static int flag=0;                     //to make app not to crash
     int currentPage = 0;
     ViewPager viewPager;
     private static final String EXTRA_TEXT = "text";
+    public static final String ARG_PLANET_NUMBER = "planet_number";
 
     public static void setFlag(int f){
         flag = f;
     }
 
 
-    public static EventsInfoFragment createFor(String text) {
-        EventsInfoFragment fragment = new EventsInfoFragment();
+    public static GallaryFragment createFor(String text) {
+        GallaryFragment fragment = new GallaryFragment();
         Bundle args = new Bundle();
         args.putString(EXTRA_TEXT, text);
         fragment.setArguments(args);
@@ -41,12 +42,12 @@ public class EventsInfoFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_events_info, container, false);
+        return inflater.inflate(R.layout.fragment_gallary, container, false);
     }
 
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
-        getActivity().setTitle("Events ");
+        getActivity().setTitle("Gallary");
         final String text = getArguments().getString(EXTRA_TEXT);
         TextView textView = view.findViewById(R.id.text);
         textView.setText(text);

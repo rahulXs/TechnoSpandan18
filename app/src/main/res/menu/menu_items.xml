@@ -8,4 +8,7 @@
     <item
         android:id="@+id/CategoryView"
         android:title="Category view"/>
+    <item
+        android:id="@+id/imageupload"
+        android:title="Images upload"/>
 </menu>
