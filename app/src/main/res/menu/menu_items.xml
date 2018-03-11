@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:title="Sponsors List"/>
+    <item android:title="Firebase dayview"
+          android:id="@+id/dayviewact"/>
     <item
         android:id="@+id/Settings"
-        android:title="Settings"/>
+        android:title="ABOUT US"/>
+    <item
+        android:id="@+id/CategoryView"
+        android:title="Category view"/>
 </menu>
