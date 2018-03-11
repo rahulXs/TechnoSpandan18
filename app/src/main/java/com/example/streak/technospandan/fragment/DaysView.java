@@ -14,8 +14,6 @@ import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.example.streak.technospandan.R;
-import com.example.streak.technospandan.activity.CategoryView;
-import com.example.streak.technospandan.activity.EventDetailActivity;
 import com.example.streak.technospandan.model.Event;
 import com.example.streak.technospandan.viewholder.EventItemViewHolder;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
@@ -90,10 +88,6 @@ public class DaysView extends Fragment {
                         String id=firebaseRecyclerAdapter.getRef(position).getKey();
                         Toast.makeText(getContext(), ""+id, Toast.LENGTH_SHORT).show();*/
                         Toast.makeText(getContext(), ""+position, Toast.LENGTH_SHORT).show();
-                        Intent intent = new Intent(getActivity(), EventDetailActivity.class);
-                        String id = firebaseRecyclerAdapter.getRef(position).getKey();
-                        Toast.makeText(getContext(), ""+id, Toast.LENGTH_SHORT).show();
-                        intent.putExtra("eventID",id);
                         ((Activity) getContext()).overridePendingTransition(R.anim.slide_in, R.anim.slide_out);
                     }
                 });

@@ -58,15 +58,14 @@ public class HomeFragment extends Fragment {
 
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
-        getActivity().setTitle("Home");
+        getActivity().setTitle("TechnoSpandan");
         viewPager= view.findViewById(R.id.viewPager);
         sliderDotsPanel =view.findViewById(R.id.SliderDots);
 
         ViewPagerAdapter viewPagerAdapter = new ViewPagerAdapter(getActivity());
 
         viewPager.setAdapter(viewPagerAdapter);
-        /*try {
-        *//*After setting the adapter use the timer *//*
+        try {
             final Handler handler = new Handler();
             final Runnable Update = new Runnable() {
                 public void run() {
@@ -91,7 +90,7 @@ public class HomeFragment extends Fragment {
         }catch (Exception e){
             e.printStackTrace();
         }
-*/
+
         viewPager.setPageTransformer(true,new RotateUpTransformer());
         dotsCount = viewPagerAdapter.getCount();
         dots = new ImageView[dotsCount];

@@ -12,7 +12,6 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.streak.technospandan.R;
-import com.example.streak.technospandan.activity.EventDetailActivity;
 import com.example.streak.technospandan.model.Update;
 import com.example.streak.technospandan.viewholder.UpdateViewholder;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
@@ -84,10 +83,10 @@ public class UpdatesFragment extends Fragment {
                             if(model.getEventID().equals("100")){
                                 return;
                             }
-                            
+                    /*
                             Intent intent = new Intent(getActivity(), EventDetailActivity.class);
                             intent.putExtra("eventID", model.getEventID());
-                            startActivity(intent);
+                            startActivity(intent);*/
                             ((Activity) getContext()).overridePendingTransition(R.anim.slide_in, R.anim.slide_out);
                     
                         }

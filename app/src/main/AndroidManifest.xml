@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.streak.technospandan">
-    <uses-permission android:name="android.permission.CALL_PHONE"/>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:name=".TechnoSpandan"
         android:allowBackup="true"
@@ -12,28 +14,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-        <activity
-            android:name=".activity.EventDetailActivity" />
-        <activity
-            android:name=".activity.DaysViewActivity">
-        </activity>
-        <activity android:name=".activity.CategoryView">
-        </activity>
-
-        <service android:name=".FcmService">
-            <intent-filter>
-                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
-            </intent-filter>
-
-            <meta-data
-                android:name="com.google.firebase.messaging.default_notification_icon"
-                android:resource="@drawable/ic_notifications_black_24dp"/>
-        </service>
+        <activity android:name=".activity.DaysViewActivity" />
+        <activity android:name=".activity.CategoryView" />
 
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_icon"
-            android:resource="@drawable/ic_notifications_black_24dp"/>
+            android:resource="@drawable/ic_notifications_black_24dp" />
+
         <activity
             android:name=".activity.MainActivity"
             android:screenOrientation="portrait">
@@ -43,9 +30,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".activity.SettingsActivity" />
         <activity android:name=".activity.GroupView" />
+        <activity android:name=".activity.AboutUsActivity" />
+        <activity android:name=".activity.TechnicalSectionActivity" />
+        <activity android:name=".activity.SportsSectionActivity" />
+        <activity android:name=".activity.CulturalSectionActivity"></activity>
     </application>
 
 </manifest>

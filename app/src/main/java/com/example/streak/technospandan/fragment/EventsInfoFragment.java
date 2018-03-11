@@ -17,7 +17,7 @@ import android.widget.Toast;
 import com.example.streak.technospandan.R;
 import com.example.streak.technospandan.utils.ViewPagerAdapter;
 
-public class TeamFragment extends Fragment {
+public class EventsInfoFragment extends Fragment {
 
 
     static int flag=0;                     //to make app not to crash
@@ -30,8 +30,8 @@ public class TeamFragment extends Fragment {
     }
 
 
-    public static TeamFragment createFor(String text) {
-        TeamFragment fragment = new TeamFragment();
+    public static EventsInfoFragment createFor(String text) {
+        EventsInfoFragment fragment = new EventsInfoFragment();
         Bundle args = new Bundle();
         args.putString(EXTRA_TEXT, text);
         fragment.setArguments(args);
@@ -41,12 +41,12 @@ public class TeamFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_notifications, container, false);
+        return inflater.inflate(R.layout.fragment_events_info, container, false);
     }
 
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
-        getActivity().setTitle("Team Info");
+        getActivity().setTitle("Events ");
         final String text = getArguments().getString(EXTRA_TEXT);
         TextView textView = view.findViewById(R.id.text);
         textView.setText(text);
