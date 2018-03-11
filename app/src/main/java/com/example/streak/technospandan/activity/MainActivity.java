@@ -247,8 +247,10 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
                 startActivity(myIntent3);
                 break;
             case R.id.button6:
-                Intent myIntent4 = new Intent(this,GroupView.class);
-                startActivity(myIntent4);
+                Intent viewIntent =
+                        new Intent("android.intent.action.VIEW",
+                                Uri.parse("https://technospandan.com/registration"));
+                startActivity(viewIntent);
         }
     }
 

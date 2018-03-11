@@ -17,7 +17,7 @@ public class TEventCardsUtils {
             eventCardModels.add(EventCardModel
                     .newBuilder()
                     .withEventTitle("AIR STRIKE")
-                    .withImageResId(R.drawable.robotics)
+                    .withImageResId(R.drawable.airstrike)
                     .withDayPart("TECHNICAL")
                     .withBackgroundColorResId(R.color.dark_orchid)
                     .build());
@@ -28,7 +28,7 @@ public class TEventCardsUtils {
             eventCardModels.add(EventCardModel
                     .newBuilder()
                     .withEventTitle("NIRMAAN")
-                    .withImageResId(R.drawable.coding)
+                    .withImageResId(R.drawable.nirmaan)
                     .withDayPart("TECHNICAL")
                     .withBackgroundColorResId(R.color.mantis)
                     .build());
@@ -39,7 +39,7 @@ public class TEventCardsUtils {
             eventCardModels.add(EventCardModel
                     .newBuilder()
                     .withEventTitle("THE ROBO KNIGHT")
-                    .withImageResId(R.drawable.pic_card_3)
+                    .withImageResId(R.drawable.robowar)
                     .withDayPart("TECHNICAL")
                     .withBackgroundColorResId(R.color.usc_gold)
                     .build());
@@ -49,7 +49,7 @@ public class TEventCardsUtils {
             eventCardModels.add(EventCardModel
                     .newBuilder()
                     .withEventTitle("ROBORACE")
-                    .withImageResId(R.drawable.singing)
+                    .withImageResId(R.drawable.roborace)
                     .withDayPart("TECHNICAL")
                     .withBackgroundColorResId(R.color.portland_orange)
                     .build());
@@ -60,7 +60,7 @@ public class TEventCardsUtils {
             eventCardModels.add(EventCardModel
                     .newBuilder()
                     .withEventTitle("FUMES")
-                    .withImageResId(R.drawable.dancing)
+                    .withImageResId(R.drawable.fumes)
                     .withDayPart("TECHNICAL")
                     .withBackgroundColorResId(R.color.dodger_blue)
                     .build());
@@ -70,7 +70,7 @@ public class TEventCardsUtils {
             eventCardModels.add(EventCardModel
                     .newBuilder()
                     .withEventTitle("CHEMWIZZ")
-                    .withImageResId(R.drawable.cricket)
+                    .withImageResId(R.drawable.chemwizz)
                     .withDayPart("TECHNICAL")
                     .withBackgroundColorResId(R.color.dark_orchid)
                     .build());
@@ -81,7 +81,7 @@ public class TEventCardsUtils {
             eventCardModels.add(EventCardModel
                     .newBuilder()
                     .withEventTitle("CODETREX")
-                    .withImageResId(R.drawable.badminton)
+                    .withImageResId(R.drawable.codetrex)
                     .withDayPart("TECHNICAL")
                     .withBackgroundColorResId(R.color.mantis)
                     .build());
@@ -91,7 +91,7 @@ public class TEventCardsUtils {
             eventCardModels.add(EventCardModel
                     .newBuilder()
                     .withEventTitle("APP-ATHON")
-                    .withImageResId(R.drawable.pic_card_3)
+                    .withImageResId(R.drawable.appathon)
                     .withDayPart("TECHNICAL")
                     .withBackgroundColorResId(R.color.usc_gold)
                     .build());
@@ -101,7 +101,7 @@ public class TEventCardsUtils {
             eventCardModels.add(EventCardModel
                     .newBuilder()
                     .withEventTitle("RULE THE SKY")
-                    .withImageResId(R.drawable.singing)
+                    .withImageResId(R.drawable.rocketwar)
                     .withDayPart("TECHNICAL")
                     .withBackgroundColorResId(R.color.portland_orange)
                     .build());
@@ -112,7 +112,7 @@ public class TEventCardsUtils {
             eventCardModels.add(EventCardModel
                     .newBuilder()
                     .withEventTitle("LFR")
-                    .withImageResId(R.drawable.dancing)
+                    .withImageResId(R.drawable.lfr)
                     .withDayPart("TECHNICAL")
                     .withBackgroundColorResId(R.color.dodger_blue)
                     .build());
@@ -122,7 +122,7 @@ public class TEventCardsUtils {
             eventCardModels.add(EventCardModel
                     .newBuilder()
                     .withEventTitle("CRYPTO")
-                    .withImageResId(R.drawable.cricket)
+                    .withImageResId(R.drawable.crypto)
                     .withDayPart("TECHNICAL")
                     .withBackgroundColorResId(R.color.dark_orchid)
                     .build());
@@ -133,7 +133,7 @@ public class TEventCardsUtils {
             eventCardModels.add(EventCardModel
                     .newBuilder()
                     .withEventTitle("PLAY WITH CODES")
-                    .withImageResId(R.drawable.badminton)
+                    .withImageResId(R.drawable.codeplay)
                     .withDayPart("TECHNICAL")
                     .withBackgroundColorResId(R.color.mantis)
                     .build());
@@ -143,7 +143,7 @@ public class TEventCardsUtils {
             eventCardModels.add(EventCardModel
                     .newBuilder()
                     .withEventTitle("ELECTRADE")
-                    .withImageResId(R.drawable.pic_card_3)
+                    .withImageResId(R.drawable.electrade)
                     .withDayPart("TECHNICAL")
                     .withBackgroundColorResId(R.color.usc_gold)
                     .build());
@@ -153,7 +153,7 @@ public class TEventCardsUtils {
             eventCardModels.add(EventCardModel
                     .newBuilder()
                     .withEventTitle("ELECTROMATRIX")
-                    .withImageResId(R.drawable.singing)
+                    .withImageResId(R.drawable.electromatrix)
                     .withDayPart("TECHNICAL")
                     .withBackgroundColorResId(R.color.portland_orange)
                     .build());
@@ -164,7 +164,7 @@ public class TEventCardsUtils {
             eventCardModels.add(EventCardModel
                     .newBuilder()
                     .withEventTitle("THE JUNKYARD")
-                    .withImageResId(R.drawable.dancing)
+                    .withImageResId(R.drawable.junkyard)
                     .withDayPart("TECHNICAL")
                     .withBackgroundColorResId(R.color.dodger_blue)
                     .build());
@@ -174,7 +174,7 @@ public class TEventCardsUtils {
             eventCardModels.add(EventCardModel
                     .newBuilder()
                     .withEventTitle("TATVA")
-                    .withImageResId(R.drawable.cricket)
+                    .withImageResId(R.drawable.tatva)
                     .withDayPart("TECHNICAL")
                     .withBackgroundColorResId(R.color.dark_orchid)
                     .build());
@@ -185,7 +185,7 @@ public class TEventCardsUtils {
             eventCardModels.add(EventCardModel
                     .newBuilder()
                     .withEventTitle("QUIZ")
-                    .withImageResId(R.drawable.badminton)
+                    .withImageResId(R.drawable.pic_card_3)
                     .withDayPart("TECHNICAL")
                     .withBackgroundColorResId(R.color.mantis)
                     .build());
@@ -195,7 +195,7 @@ public class TEventCardsUtils {
             eventCardModels.add(EventCardModel
                     .newBuilder()
                     .withEventTitle("STARTUP")
-                    .withImageResId(R.drawable.pic_card_3)
+                    .withImageResId(R.drawable.startup)
                     .withDayPart("TECHNICAL")
                     .withBackgroundColorResId(R.color.usc_gold)
                     .build());

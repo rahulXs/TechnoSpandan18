@@ -17,7 +17,7 @@ public class CEventCardsUtils {
             eventCardModels.add(EventCardModel
                     .newBuilder()
                     .withEventTitle("AD WAR")
-                    .withImageResId(R.drawable.robotics)
+                    .withImageResId(R.drawable.adwar)
                     .withDayPart("CULTURAL")
                     .withBackgroundColorResId(R.color.dark_orchid)
                     .build());
@@ -28,7 +28,7 @@ public class CEventCardsUtils {
             eventCardModels.add(EventCardModel
                     .newBuilder()
                     .withEventTitle("BAND WAR")
-                    .withImageResId(R.drawable.coding)
+                    .withImageResId(R.drawable.bandwar)
                     .withDayPart("CULTURAL")
                     .withBackgroundColorResId(R.color.mantis)
                     .build());
@@ -39,7 +39,7 @@ public class CEventCardsUtils {
             eventCardModels.add(EventCardModel
                     .newBuilder()
                     .withEventTitle("OPEN MIC")
-                    .withImageResId(R.drawable.pic_card_3)
+                    .withImageResId(R.drawable.openmic)
                     .withDayPart("CULTURAL")
                     .withBackgroundColorResId(R.color.usc_gold)
                     .build());
@@ -70,7 +70,7 @@ public class CEventCardsUtils {
             eventCardModels.add(EventCardModel
                     .newBuilder()
                     .withEventTitle("PARLIAMENT DIRECT")
-                    .withImageResId(R.drawable.cricket)
+                    .withImageResId(R.drawable.debate)
                     .withDayPart("CULTURAL")
                     .withBackgroundColorResId(R.color.dark_orchid)
                     .build());
@@ -81,7 +81,7 @@ public class CEventCardsUtils {
             eventCardModels.add(EventCardModel
                     .newBuilder()
                     .withEventTitle("ONCE UPON A TIME")
-                    .withImageResId(R.drawable.badminton)
+                    .withImageResId(R.drawable.storytelling)
                     .withDayPart("CULTURAL")
                     .withBackgroundColorResId(R.color.mantis)
                     .build());
@@ -91,7 +91,7 @@ public class CEventCardsUtils {
             eventCardModels.add(EventCardModel
                     .newBuilder()
                     .withEventTitle("NUKKAD NATAK")
-                    .withImageResId(R.drawable.pic_card_3)
+                    .withImageResId(R.drawable.nn)
                     .withDayPart("CULTURAL")
                     .withBackgroundColorResId(R.color.usc_gold)
                     .build());
@@ -101,7 +101,7 @@ public class CEventCardsUtils {
             eventCardModels.add(EventCardModel
                     .newBuilder()
                     .withEventTitle("THE STAGE")
-                    .withImageResId(R.drawable.singing)
+                    .withImageResId(R.drawable.pic_card_3)
                     .withDayPart("CULTURAL")
                     .withBackgroundColorResId(R.color.portland_orange)
                     .build());
@@ -112,7 +112,7 @@ public class CEventCardsUtils {
             eventCardModels.add(EventCardModel
                     .newBuilder()
                     .withEventTitle("JALWA")
-                    .withImageResId(R.drawable.dancing)
+                    .withImageResId(R.drawable.dance)
                     .withDayPart("CULTURAL")
                     .withBackgroundColorResId(R.color.dodger_blue)
                     .build());
@@ -122,7 +122,7 @@ public class CEventCardsUtils {
             eventCardModels.add(EventCardModel
                     .newBuilder()
                     .withEventTitle("RITAMBHARA")
-                    .withImageResId(R.drawable.cricket)
+                    .withImageResId(R.drawable.ritambhara)
                     .withDayPart("CULTURAL")
                     .withBackgroundColorResId(R.color.dark_orchid)
                     .build());
@@ -133,7 +133,7 @@ public class CEventCardsUtils {
             eventCardModels.add(EventCardModel
                     .newBuilder()
                     .withEventTitle("KISINE KHOOB LIKHA HAI")
-                    .withImageResId(R.drawable.badminton)
+                    .withImageResId(R.drawable.shayarana)
                     .withDayPart("CULTURAL")
                     .withBackgroundColorResId(R.color.mantis)
                     .build());
@@ -143,7 +143,7 @@ public class CEventCardsUtils {
             eventCardModels.add(EventCardModel
                     .newBuilder()
                     .withEventTitle("SHOWBUZZ")
-                    .withImageResId(R.drawable.pic_card_3)
+                    .withImageResId(R.drawable.showbuzz)
                     .withDayPart("CULTURAL")
                     .withBackgroundColorResId(R.color.usc_gold)
                     .build());
@@ -153,7 +153,7 @@ public class CEventCardsUtils {
             eventCardModels.add(EventCardModel
                     .newBuilder()
                     .withEventTitle("PIXEL")
-                    .withImageResId(R.drawable.singing)
+                    .withImageResId(R.drawable.pic_card_3)
                     .withDayPart("CULTURAL")
                     .withBackgroundColorResId(R.color.portland_orange)
                     .build());
@@ -164,7 +164,7 @@ public class CEventCardsUtils {
             eventCardModels.add(EventCardModel
                     .newBuilder()
                     .withEventTitle("STOCK-KING")
-                    .withImageResId(R.drawable.dancing)
+                    .withImageResId(R.drawable.stockking)
                     .withDayPart("CULTURAL")
                     .withBackgroundColorResId(R.color.dodger_blue)
                     .build());
@@ -174,7 +174,7 @@ public class CEventCardsUtils {
             eventCardModels.add(EventCardModel
                     .newBuilder()
                     .withEventTitle("TREASURE HUNT")
-                    .withImageResId(R.drawable.cricket)
+                    .withImageResId(R.drawable.treasurehunt)
                     .withDayPart("CULTURAL")
                     .withBackgroundColorResId(R.color.dark_orchid)
                     .build());
@@ -185,7 +185,7 @@ public class CEventCardsUtils {
             eventCardModels.add(EventCardModel
                     .newBuilder()
                     .withEventTitle("THE SPELLING BEE")
-                    .withImageResId(R.drawable.badminton)
+                    .withImageResId(R.drawable.spellbee)
                     .withDayPart("CULTURAL")
                     .withBackgroundColorResId(R.color.mantis)
                     .build());

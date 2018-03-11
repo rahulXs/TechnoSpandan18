@@ -17,7 +17,7 @@ public class SEventCardsUtils {
             eventCardModels.add(EventCardModel
                     .newBuilder()
                     .withEventTitle("CHECKMATE")
-                    .withImageResId(R.drawable.robotics)
+                    .withImageResId(R.drawable.chess)
                     .withDayPart("SPORTS")
                     .withBackgroundColorResId(R.color.dark_orchid)
                     .build());
@@ -28,7 +28,7 @@ public class SEventCardsUtils {
             eventCardModels.add(EventCardModel
                     .newBuilder()
                     .withEventTitle("TABLE TENNIS")
-                    .withImageResId(R.drawable.coding)
+                    .withImageResId(R.drawable.tt)
                     .withDayPart("SPORTS")
                     .withBackgroundColorResId(R.color.mantis)
                     .build());
@@ -39,7 +39,7 @@ public class SEventCardsUtils {
             eventCardModels.add(EventCardModel
                     .newBuilder()
                     .withEventTitle("BADMINTON")
-                    .withImageResId(R.drawable.pic_card_3)
+                    .withImageResId(R.drawable.badminton)
                     .withDayPart("SPORTS")
                     .withBackgroundColorResId(R.color.usc_gold)
                     .build());
@@ -49,7 +49,7 @@ public class SEventCardsUtils {
             eventCardModels.add(EventCardModel
                     .newBuilder()
                     .withEventTitle("MARATHON")
-                    .withImageResId(R.drawable.singing)
+                    .withImageResId(R.drawable.marathon)
                     .withDayPart("SPORTS")
                     .withBackgroundColorResId(R.color.portland_orange)
                     .build());
@@ -60,7 +60,7 @@ public class SEventCardsUtils {
             eventCardModels.add(EventCardModel
                     .newBuilder()
                     .withEventTitle("BASKETBALL")
-                    .withImageResId(R.drawable.dancing)
+                    .withImageResId(R.drawable.bb)
                     .withDayPart("SPORTS")
                     .withBackgroundColorResId(R.color.dodger_blue)
                     .build());
@@ -70,7 +70,7 @@ public class SEventCardsUtils {
             eventCardModels.add(EventCardModel
                     .newBuilder()
                     .withEventTitle("STREET SOCCER")
-                    .withImageResId(R.drawable.cricket)
+                    .withImageResId(R.drawable.pic_card_3)
                     .withDayPart("SPORTS")
                     .withBackgroundColorResId(R.color.dark_orchid)
                     .build());
@@ -81,7 +81,7 @@ public class SEventCardsUtils {
             eventCardModels.add(EventCardModel
                     .newBuilder()
                     .withEventTitle("CRICKET")
-                    .withImageResId(R.drawable.badminton)
+                    .withImageResId(R.drawable.cricket)
                     .withDayPart("SPORTS")
                     .withBackgroundColorResId(R.color.mantis)
                     .build());
@@ -91,7 +91,7 @@ public class SEventCardsUtils {
             eventCardModels.add(EventCardModel
                     .newBuilder()
                     .withEventTitle("COUNTER STRIKE")
-                    .withImageResId(R.drawable.pic_card_3)
+                    .withImageResId(R.drawable.langame)
                     .withDayPart("SPORTS")
                     .withBackgroundColorResId(R.color.usc_gold)
                     .build());
@@ -101,7 +101,7 @@ public class SEventCardsUtils {
             eventCardModels.add(EventCardModel
                     .newBuilder()
                     .withEventTitle("NEED FOR SPEED")
-                    .withImageResId(R.drawable.singing)
+                    .withImageResId(R.drawable.langame)
                     .withDayPart("SPORTS")
                     .withBackgroundColorResId(R.color.portland_orange)
                     .build());
