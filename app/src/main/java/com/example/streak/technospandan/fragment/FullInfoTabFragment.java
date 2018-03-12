@@ -37,7 +37,9 @@ public class FullInfoTabFragment extends Fragment {
     private ImageView ivPhoto;
     private RecyclerView rvAthletics;
 
+
     public static FullInfoTabFragment newInstance(EventCardModel eventCardModel) {
+
         FullInfoTabFragment fragment = new FullInfoTabFragment();
         Bundle args = new Bundle();
         args.putParcelable(EXTRA_SRORT_CARD_MODEL, eventCardModel);
@@ -98,7 +100,7 @@ public class FullInfoTabFragment extends Fragment {
         rvAthletics.addItemDecoration(new DividerItemDecoration(getContext()));
 */
 
-        PagerAdapter pagerAdapter=new PagerAdapter(mEventCardModel.getEventTitle());
+        PagerAdapter pagerAdapter=new PagerAdapter(mEventCardModel.getEventTitle(),mEventCardModel.getDayPart());
         rvAthletics.setAdapter(pagerAdapter);
         rvAthletics.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false));
         rvAthletics.setItemAnimator(new DefaultItemAnimator());
