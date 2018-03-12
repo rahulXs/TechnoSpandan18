@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.streak.technospandan.activity.ImgUploadActivity"
-    android:layout_margin="20dp">
+    android:layout_margin="20dp"
+    android:background="@drawable/ba">
 
     <TextView
         android:layout_width="fill_parent"

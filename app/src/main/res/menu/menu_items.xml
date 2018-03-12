@@ -3,9 +3,6 @@
     <item android:title="Firebase dayview"
           android:id="@+id/dayviewact"/>
     <item
-        android:id="@+id/Settings"
-        android:title="ABOUT US"/>
-    <item
         android:id="@+id/CategoryView"
         android:title="Category view"/>
 </menu>
