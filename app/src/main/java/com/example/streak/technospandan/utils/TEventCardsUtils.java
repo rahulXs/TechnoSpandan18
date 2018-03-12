@@ -10,7 +10,8 @@ import java.util.List;
 
 public class TEventCardsUtils {
 
-    public static Collection<EventCardModel> generateSportCards() {
+
+    /*public static Collection<EventCardModel> generateSportCards() {
         List<EventCardModel> eventCardModels = new ArrayList<>(5);
 
         {
@@ -201,6 +202,32 @@ public class TEventCardsUtils {
                     .build());
 
         }
+
+        return eventCardModels;
+    }*/
+
+
+    public static Collection<EventCardModel> generateTechnicalCards() {
+        String technical[]=new String[]{"Air Strike", "Nirmaan", "The Robo Knight", "Robo Race", "Fumes" , "Chemwizz" , "Codetrex","App-athon", "Rule the Sky", "LFR", "Crypto" , "Play with codes", "Electrade", "Electromatrix", "The Junkyard" , "Tatva", "Quiz" , "Startup"};
+
+        int technicalImages[]={R.drawable.airstrike,R.drawable.nirmaan,R.drawable.robowar,R.drawable.roborace,R.drawable.fumes,R.drawable.chemwizz,
+                R.drawable.codetrex,R.drawable.appathon,R.drawable.airstrike,R.drawable.lfr,R.drawable.crypto,R.drawable.codeplay,
+                R.drawable.electrade,R.drawable.electromatrix,R.drawable.junkyard,R.drawable.tatva,R.drawable.pic_card_3,R.drawable.startup};
+
+        List<EventCardModel> eventCardModels = new ArrayList<>(technical.length);
+
+        for(int i=0;i<technical.length;i++)
+        {
+            eventCardModels.add(EventCardModel
+                    .newBuilder()
+                    .withEventTitle(technical[i])
+                    .withImageResId(technicalImages[i])
+                    .withDayPart("Technical")
+                    .withBackgroundColorResId(R.color.dark_orchid)
+                    .build());
+
+        }
+
 
         return eventCardModels;
     }

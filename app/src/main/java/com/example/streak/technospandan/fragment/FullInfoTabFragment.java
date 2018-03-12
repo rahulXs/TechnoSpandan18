@@ -19,6 +19,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import com.example.streak.technospandan.R;
+import com.example.streak.technospandan.adapters.PagerAdapter;
 import com.example.streak.technospandan.model.AllEvents;
 import com.example.streak.technospandan.model.EventCardModel;
 import com.example.streak.technospandan.model.EventsModel;
@@ -61,7 +62,8 @@ public class FullInfoTabFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_full_info, container, false);
         toolbar = view.findViewById(R.id.toolbar);
         ivPhoto =  view.findViewById(R.id.ivPhoto);
-        rvAthletics = view.findViewById(R.id.rvAthletics);
+        rvAthletics=view.findViewById(R.id.rv);
+        /*rvAthletics = view.findViewById(R.id.rvAthletics);*/
         return view;
     }
 
@@ -79,13 +81,13 @@ public class FullInfoTabFragment extends Fragment {
         });
         toolbar.setBackgroundColor(ContextCompat.getColor(getContext(), mEventCardModel.getBackgroundColorResId()));
         ivPhoto.setImageResource(mEventCardModel.getImageResId());
-        List<EventsModel> items = new ArrayList<>();
-        for (int i = 10; i > 0; i--) {
-            int points = i * 100;
+        /*List<EventsModel> items = new ArrayList<>();
+       // for (int i = 10; i > 0; i--) {
+       //     int points = i * 100;
             items.add(new EventsModel("Event name here", AllEvents.CODING));
             items.add(new EventsModel("event name herer", AllEvents.ROBOTICS));
             items.add(new EventsModel("evente name here", AllEvents.ELECTRONICS));
-        }
+        //}
 
         MyAdapter2 myAdapter2 = new MyAdapter2();
         myAdapter2.addItems(items);
@@ -94,6 +96,15 @@ public class FullInfoTabFragment extends Fragment {
         rvAthletics.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false));
         rvAthletics.setItemAnimator(new DefaultItemAnimator());
         rvAthletics.addItemDecoration(new DividerItemDecoration(getContext()));
+*/
+
+        PagerAdapter pagerAdapter=new PagerAdapter(mEventCardModel.getEventTitle());
+        rvAthletics.setAdapter(pagerAdapter);
+        rvAthletics.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false));
+        rvAthletics.setItemAnimator(new DefaultItemAnimator());
+        rvAthletics.addItemDecoration(new DividerItemDecoration(getContext()));
+
+
     }
 
     @Override
