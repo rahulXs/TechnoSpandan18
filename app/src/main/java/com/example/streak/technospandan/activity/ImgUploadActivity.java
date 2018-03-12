@@ -36,10 +36,10 @@ public class ImgUploadActivity extends AppCompatActivity {
     String Storage_Path = "All_Image_Uploads/";
 
     // Root Database Name for Firebase Database.
-    String Database_Path = "All_Image_Uploads_Database";
+    public static final String Database_Path = "All_Image_Uploads_Database";
 
     // Creating button.
-    Button ChooseButton, UploadButton;
+    Button ChooseButton, UploadButton, DisplayImageButton;
 
     // Creating EditText.
     EditText ImageName;
@@ -74,6 +74,7 @@ public class ImgUploadActivity extends AppCompatActivity {
         ChooseButton = findViewById(R.id.ButtonChooseImage);
         UploadButton = findViewById(R.id.ButtonUploadImage);
 
+        DisplayImageButton = findViewById(R.id.DisplayImagesButton);
         // Assign ID's to EditText.
         ImageName = findViewById(R.id.ImageNameEditText);
 
@@ -107,6 +108,15 @@ public class ImgUploadActivity extends AppCompatActivity {
 
                 // Calling method to upload selected image on Firebase storage.
                 UploadImageFileToFirebaseStorage();
+
+            }
+        });
+        DisplayImageButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(ImgUploadActivity.this, DisplayImagesActivity.class);
+                startActivity(intent);
 
             }
         });

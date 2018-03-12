@@ -47,5 +47,12 @@
         android:layout_below="@+id/ImageNameEditText"
         android:layout_marginTop="20dp"
         android:text="Upload image to Firebase Storage"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/DisplayImagesButton"
+        android:layout_below="@+id/ButtonUploadImage"
+        android:text="Show Gallery Images"/>
 
 </RelativeLayout>

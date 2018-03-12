@@ -36,6 +36,8 @@
         <activity android:name=".activity.SportsSectionActivity" />
         <activity android:name=".activity.CulturalSectionActivity" />
         <activity android:name=".activity.ImgUploadActivity"></activity>
+        <activity android:name=".activity.DisplayImagesActivity"></activity>
+        <activity android:name=".activity.SignInActivity"></activity>
     </application>
 
 </manifest>

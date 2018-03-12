@@ -59,6 +59,8 @@ dependencies {
     compile 'com.google.firebase:firebase-messaging:10.2.1'
     compile 'com.google.firebase:firebase-storage:10.2.1'
     compile 'com.google.firebase:firebase-auth:10.2.1'
+    compile 'com.google.firebase:firebase-core:10.2.1'
+    compile 'com.google.android.gms:play-services-auth:10.2.1'
     compile 'jp.wasabeef:blurry:2.1.0'
     compile 'com.github.glomadrian:Grav:1.1'
     compile 'com.sylversky.fontreplacer:fontreplacer:1.0'

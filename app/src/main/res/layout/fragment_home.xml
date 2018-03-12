@@ -92,7 +92,7 @@
             android:drawableLeft="@drawable/log"
             android:elevation="0dp"
             android:onClick="buttonOnClick"
-            android:text="Register for Events"
+            android:text="Login/ Gallery"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintLeft_toRightOf="@+id/button3"
             app:layout_constraintRight_toRightOf="parent"
