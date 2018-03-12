@@ -1,4 +1,5 @@
-{
+﻿{
+"events" : {
   "01" : {
     "date" : "24-03-2018",
     "description" : "It is a programming contest held each year to promote competitive coding skills among the students of first year & second year.Students participate in teams of two and there are 2 rounds in total.",
@@ -1196,4 +1197,5 @@
     "time" : "11PM onwards",
     "type" : "Individual"
   }
+}
 }

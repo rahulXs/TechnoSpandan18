@@ -64,7 +64,7 @@ public class TMainFragment extends Fragment {
         recyclerView.setItemAnimator(new DefaultItemAnimator());
 
         mAdapter = new EventCardsAdapter(getContext());
-        mAdapter.addAll(TEventCardsUtils.generateSportCards());
+        mAdapter.addAll(TEventCardsUtils.generateTechnicalCards());
 
         mAdapter.setOnItemClickListener(new EventCardsAdapter.OnItemClickListener() {
             @Override
