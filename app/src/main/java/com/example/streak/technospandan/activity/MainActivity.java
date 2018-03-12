@@ -24,10 +24,9 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.example.streak.technospandan.R;
-import com.example.streak.technospandan.fragment.EventsInfoFragment;
+import com.example.streak.technospandan.fragment.AboutFragment;
 import com.example.streak.technospandan.fragment.HomeFragment;
 import com.example.streak.technospandan.fragment.NotificationsFragment;
-import com.example.streak.technospandan.fragment.TeamFragment;
 import com.example.streak.technospandan.menu.DrawerAdapter;
 import com.example.streak.technospandan.menu.DrawerItem;
 import com.example.streak.technospandan.menu.SimpleItem;
@@ -42,7 +41,7 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
     private static final int POS_HOME = 0;
     private static final int POS_TEAM = 1;
     private static final int POS_NOTIFICATIONS = 2;
-    private static final int POS_EVENTS_INFO = 3;
+    private static final int POS_REGISTER = 3;
     private static final int POS_EXIT = 5;
 
     private static long back_pressed_time;
@@ -67,11 +66,7 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id=item.getItemId();
-        if(id==R.id.Settings){
-            Intent i=new Intent(this,AboutUsActivity.class);
-            startActivity(i);
-        }
-        else if (id==R.id.dayviewact){
+        if (id==R.id.dayviewact){
             Intent i=new Intent(this,DaysViewActivity.class);
             startActivity(i);
         }
@@ -105,7 +100,7 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
                 createItemFor(POS_HOME).setChecked(true),
                 createItemFor(POS_TEAM),
                 createItemFor(POS_NOTIFICATIONS),
-                createItemFor(POS_EVENTS_INFO),
+                createItemFor(POS_REGISTER),
                 new SpaceItem(48),
                 createItemFor(POS_EXIT)));
         adapter.setListener(this);
@@ -123,9 +118,8 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
         if(position==POS_HOME){
 
            // HomeFragment.setFlag(1);
-            TeamFragment.setFlag(1);
+            AboutFragment.setFlag(1);
             NotificationsFragment.setFlag(1);
-            EventsInfoFragment.setFlag(1);
             fragment=HomeFragment.createFor(screenTitles[position]);
             showFragment(fragment);
         }
@@ -134,32 +128,27 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
             HomeFragment.setFlag(1);
             //TeamFragment.setFlag(1);
             NotificationsFragment.setFlag(1);
-            EventsInfoFragment.setFlag(1);
-            fragment= TeamFragment.createFor(screenTitles[position]);
+            fragment= AboutFragment.createFor(screenTitles[position]);
             showFragment(fragment);
         }
         else if (position==POS_NOTIFICATIONS){
 
             HomeFragment.setFlag(1);
-            TeamFragment.setFlag(1);
+            AboutFragment.setFlag(1);
             //NotificationsFragment.setFlag(1);
-            EventsInfoFragment.setFlag(1);
             fragment= NotificationsFragment.createFor(screenTitles[position]);
             showFragment(fragment);
         }
-        else if (position==POS_EVENTS_INFO){
-            HomeFragment.setFlag(1);
-            TeamFragment.setFlag(1);
-            //NotificationsFragment.setFlag(1);
-            EventsInfoFragment.setFlag(1);
-            fragment= EventsInfoFragment.createFor(screenTitles[position]);
-            showFragment(fragment);
+        else if (position==POS_REGISTER){
+            Intent viewIntent =
+                    new Intent("android.intent.action.VIEW",
+                            Uri.parse("https://technospandan.com/registration"));
+            startActivity(viewIntent);
         }
         else{
             HomeFragment.setFlag(1);
-            TeamFragment.setFlag(1);
+            AboutFragment.setFlag(1);
             NotificationsFragment.setFlag(1);
-            EventsInfoFragment.setFlag(1);
             Toasty.success(getBaseContext(), "Exit successfull.", Toast.LENGTH_SHORT, true).show();
             finish();
         }
@@ -212,7 +201,7 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
                 if (back_pressed_time + PERIOD > System.currentTimeMillis()) {
                     super.onBackPressed();
                     HomeFragment.setFlag(1);
-                    TeamFragment.setFlag(1);
+                    AboutFragment.setFlag(1);
                     NotificationsFragment.setFlag(1);
                 }
                 else Toasty.error(getBaseContext(), "Press once again to exit!", Toast.LENGTH_SHORT, true).show();
@@ -247,7 +236,7 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
                 startActivity(myIntent3);
                 break;
             case R.id.button6:
-                Intent myIntent4 = new Intent(this,GroupView.class);
+                Intent myIntent4 = new Intent(this,SignInActivity.class);
                 startActivity(myIntent4);
         }
     }

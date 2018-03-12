@@ -3,9 +3,9 @@
 
     <string-array name="ld_activityScreenTitles">
         <item>Home</item>
-        <item>Team</item>
+        <item>About Us</item>
         <item>Notifications</item>
-        <item>Events</item>
+        <item>Register for Events</item>
         <item />
         <item>Exit</item>
     </string-array>

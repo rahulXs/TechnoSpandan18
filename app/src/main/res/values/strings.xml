@@ -85,11 +85,10 @@
     </string-array>
 
 
-    <string name="about_clg">The University Institute of Engineering and Technology (UIET), Kanpur, India, founded in 1996 (earlier known as Institute of Engineering and Technology, Kanpur), is an engineering and technology institute located in Kanpur, India.
-
-UIET is an autonomous institute of the Kanpur University (officially known as CSJM University, with its premises within the university campus.</string>
+    <string name="about_clg">The University Institute of Engineering and Technology (UIET), Kanpur, India, founded in 1996 (earlier known as Institute of Engineering and Technology, Kanpur), is an
+        autonomous institute of the Kanpur University (officially known as CSJM University.</string>
     <string name="about_techsp">TechnoSpandan is annual technical,cultural and sports fest of UIET, CSJMU, Kanpur. Its a three day extravaganza which has students from different colleges participating in various out of the box events.</string>
-    <string name="about_web">TechnoSpandan Official Website\nLink - www.kjfdkjskldfjkl.com</string>
+    <string name="about_web">TechnoSpandan Official Website\nLink - https://technospandan.com</string>
     <string name="about_git">Get the source code here\nGithub  - https://github.com/rahulXs/TechnoSpandan18</string>
 
 

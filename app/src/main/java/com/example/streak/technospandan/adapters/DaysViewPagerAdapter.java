@@ -26,7 +26,8 @@ public class DaysViewPagerAdapter extends FragmentPagerAdapter {
         fragments.add(DaysView.newInstance("23-03-2017"));
         fragments.add(DaysView.newInstance("24-03-2017"));
         fragments.add(DaysView.newInstance("25-03-2017"));
-        
+
+
     }
 
     @Override
