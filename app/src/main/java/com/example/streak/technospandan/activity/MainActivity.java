@@ -231,9 +231,10 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
                 Intent myIntent3 = new Intent(this,SportsSectionActivity.class);
                 startActivity(myIntent3);
                 break;
-            case R.id.button6:
+            case R.id.buttonlog:
                 Intent myIntent4 = new Intent(this,SignInActivity.class);
                 startActivity(myIntent4);
+                break;
             case R.id.button4:
                 Intent myIntent5 = new Intent(this,DaysViewActivity.class);
                 startActivity(myIntent5);
