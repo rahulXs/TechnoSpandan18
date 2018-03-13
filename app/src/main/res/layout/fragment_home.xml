@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.streak.technospandan.fragment.HomeFragment"
-    android:background="@drawable/home4">
+    android:background="@drawable/home6">
 
     <LinearLayout
         android:id="@+id/SliderDots"
@@ -19,7 +19,7 @@
     <android.support.v4.view.ViewPager
         android:id="@+id/viewPager"
         android:layout_width="wrap_content"
-        android:layout_height="248dp"
+        android:layout_height="240dp"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
@@ -27,15 +27,19 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="395dp"
-        android:layout_marginTop="270dp"
+        android:layout_height="251dp"
+        android:layout_marginTop="300dp"
         android:weightSum="1">
 
         <Button
             android:id="@+id/button1"
             android:layout_width="160dp"
             android:layout_height="80dp"
+            android:layout_above="@+id/button3"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="24dp"
             android:alpha="1"
+            android:backgroundTint="#B2DFDB"
             android:drawableLeft="@drawable/cal1"
             android:onClick="buttonOnClick"
             android:text="Technical Section"
@@ -44,22 +48,20 @@
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toLeftOf="@+id/button2"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.191"
-            android:layout_marginStart="24dp"
-            android:layout_above="@+id/button3"
-            android:layout_alignParentStart="true" />
+            app:layout_constraintVertical_bias="0.191" />
 
         <Button
             android:id="@+id/button2"
             android:layout_width="160dp"
             android:layout_height="80dp"
+            android:layout_above="@+id/buttonlog"
+            android:layout_toEndOf="@+id/button1"
+            android:backgroundTint="#B2DFDB"
             android:drawableLeft="@drawable/categ"
             android:onClick="buttonOnClick"
             android:text="Cultural Section"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            android:layout_above="@+id/button6"
-            android:layout_toEndOf="@+id/button1" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <Button
             android:id="@+id/button3"
@@ -67,6 +69,7 @@
             android:layout_height="80dp"
             android:layout_alignStart="@+id/button1"
             android:layout_centerVertical="true"
+            android:backgroundTint="#B2DFDB"
             android:drawableLeft="@drawable/qr1"
             android:onClick="buttonOnClick"
             android:text="Sports Section"
@@ -74,12 +77,13 @@
             tools:layout_editor_absoluteY="174dp" />
 
         <Button
-            android:id="@+id/button6"
+            android:id="@+id/buttonlog"
             android:layout_width="160dp"
             android:layout_height="80dp"
             android:layout_alignEnd="@+id/button2"
             android:layout_alignRight="@+id/button2"
             android:layout_alignTop="@+id/button3"
+            android:backgroundTint="#B2DFDB"
             android:drawableLeft="@drawable/log"
             android:elevation="0dp"
             android:onClick="buttonOnClick"
@@ -88,6 +92,18 @@
             app:layout_constraintLeft_toRightOf="@+id/button3"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="240dp"
+            android:layout_height="60dp"
+            android:layout_alignEnd="@+id/buttonlog"
+            android:layout_alignStart="@+id/button3"
+            android:layout_below="@+id/button3"
+            android:layout_marginTop="17dp"
+            android:backgroundTint="#B2DFDB"
+            android:onClick="buttonOnClick"
+            android:text="Organising Team Info" />
     </RelativeLayout>
 
 

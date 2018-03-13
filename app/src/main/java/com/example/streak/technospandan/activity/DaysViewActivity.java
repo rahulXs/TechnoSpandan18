@@ -17,7 +17,6 @@ public class DaysViewActivity extends AppCompatActivity {
 
     ViewPager viewPager;
     NavigationTabStrip tabStrip;
-    ImageView gear1, gear2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,27 +28,7 @@ public class DaysViewActivity extends AppCompatActivity {
 
         viewPager.setAdapter(new DaysViewPagerAdapter(getSupportFragmentManager()));
         tabStrip.setViewPager(viewPager,0);
-        tabStrip.setTitles("Day 0" ,"Day 1", "Day 2");
-
-    /*    gear1 = (ImageView) findViewById(R.id.gear1);
-        gear2 = (ImageView) findViewById(R.id.gear2);
-
-        RotateAnimation rotate = new RotateAnimation(0, 360,
-                Animation.RELATIVE_TO_SELF, 0.5f, Animation.RELATIVE_TO_SELF,
-                0.5f);
-        rotate.setInterpolator(new LinearInterpolator());
-        rotate.setDuration(2000);
-        rotate.setRepeatCount(Animation.INFINITE);
-
-        RotateAnimation rotate2 = new RotateAnimation(0, -360,
-                Animation.RELATIVE_TO_SELF, 0.5f, Animation.RELATIVE_TO_SELF,
-                0.5f);
-        rotate2.setInterpolator(new LinearInterpolator());
-        rotate2.setDuration(3000);
-        rotate2.setRepeatCount(Animation.INFINITE);
-
-        gear1.startAnimation(rotate);
-        gear2.startAnimation(rotate2);  */
+        tabStrip.setTitles("Head" ,"Developers", "Core");  /*change of development strategy leads to using this days view activity in the form of team info view. Lazy, I know that ;) */
 
     }
 

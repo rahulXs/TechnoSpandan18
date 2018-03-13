@@ -55,7 +55,7 @@
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_below="@+id/topic"
-                android:textSize="14sp"
+                android:textSize="16sp"
                 android:text="Hello Description"
                 android:padding="10dp"
                 android:maxLines="3"/>

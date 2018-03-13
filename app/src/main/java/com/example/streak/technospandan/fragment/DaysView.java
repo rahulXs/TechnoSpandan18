@@ -29,7 +29,7 @@ public class DaysView extends Fragment {
     public static final String TAG = DaysView.class.getSimpleName();
     FirebaseRecyclerAdapter firebaseRecyclerAdapter;
 
-    String date = "24-03-2017";
+    String date = "24-03-2018";
 
     public DaysView() {}
 

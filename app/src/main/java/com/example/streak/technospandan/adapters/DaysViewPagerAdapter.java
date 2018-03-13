@@ -10,10 +10,6 @@ import com.example.streak.technospandan.fragment.DaysView;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by betterclever on 21/01/17.
- */
-
 public class DaysViewPagerAdapter extends FragmentPagerAdapter {
 
     List<Fragment> fragments;
@@ -23,11 +19,9 @@ public class DaysViewPagerAdapter extends FragmentPagerAdapter {
         super(fm);
 
         fragments = new ArrayList<>();
-        fragments.add(DaysView.newInstance("23-03-2017"));
-        fragments.add(DaysView.newInstance("24-03-2017"));
-        fragments.add(DaysView.newInstance("25-03-2017"));
-
-
+        fragments.add(DaysView.newInstance("23-03-2018"));
+        fragments.add(DaysView.newInstance("24-03-2018"));
+        fragments.add(DaysView.newInstance("25-03-2018"));
     }
 
     @Override

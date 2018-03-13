@@ -29,39 +29,39 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
             R.drawable.codetrex,
             R.drawable.roborace,
             R.drawable.electrade,
-            R.drawable.rocketwar,
+            R.drawable.rulethesky,
             R.drawable.langame,
-            R.drawable.codeplay,
+            R.drawable.playwithcodes,
             R.drawable.tatva,
-            R.drawable.constructo,
+            R.drawable.nirman,
             R.drawable.openmic,
-            R.drawable.viralvoice,
-            R.drawable.stockking,
-            R.drawable.storytelling,
+            R.drawable.thevoice,
+            R.drawable.stocking,
+            R.drawable.onceuponatime,
             R.drawable.adwar,
             R.drawable.dance,
             R.drawable.marathon,
-            R.drawable.pushup,
-            R.drawable.skipping,
+            R.drawable.marathon,
+            R.drawable.marathon,
             R.drawable.cricket,
             R.drawable.badminton,
             R.drawable.chess};
 
 
-    private int image2[]={R.drawable.robowar,R.drawable.crypto,R.drawable.chemwizz,R.drawable.fumes,R.drawable.appathon,
-            R.drawable.electromatrix,R.drawable.nirmaan,R.drawable.spellbee,R.drawable.thestage,R.drawable.debate,R.drawable.adwar,
-            R.drawable.showbuzz,R.drawable.bandwar,R.drawable.pushup,R.drawable.skipping,R.drawable.cricket,R.drawable.badminton,
-            R.drawable.chess,R.drawable.tt,R.drawable.bb};
+    private int image2[]={R.drawable.roboknight,R.drawable.crypto,R.drawable.chemwizz,R.drawable.fumes,R.drawable.appathon,
+            R.drawable.electromatrix,R.drawable.nirman,R.drawable.spellbee,R.drawable.thestage,R.drawable.parliament,R.drawable.adwar,
+            R.drawable.showbuzz,R.drawable.bandwar,R.drawable.bandwar,R.drawable.bandwar,R.drawable.cricket,R.drawable.badminton,
+            R.drawable.chess,R.drawable.tabletennis,R.drawable.bandwar};
     private int image3[]={R.drawable.junkyard,R.drawable.lfr,R.drawable.airstrike,R.drawable.treasurehunt,R.drawable.shayarana,
-            R.drawable.dance,R.drawable.nn,R.drawable.ritambhara,R.drawable.cricket};
-    private int image4[]={R.drawable.adwar,R.drawable.bandwar,R.drawable.openmic,R.drawable.viralvoice,R.drawable.dance,R.drawable.debate,
-            R.drawable.storytelling,R.drawable.nn,R.drawable.thestage,R.drawable.home_background,R.drawable.ritambhara,
-            R.drawable.shayarana,R.drawable.showbuzz,R.drawable.pic_card_3,R.drawable.stockking,R.drawable.treasurehunt,R.drawable.spellbee};
-    private int image5[]={R.drawable.airstrike,R.drawable.nirmaan,R.drawable.robowar,R.drawable.roborace,R.drawable.fumes,R.drawable.chemwizz,
-            R.drawable.codetrex,R.drawable.appathon,R.drawable.airstrike,R.drawable.lfr,R.drawable.crypto,R.drawable.codeplay,
+            R.drawable.dance,R.drawable.nukkadnatak,R.drawable.dance,R.drawable.cricket};
+    private int image4[]={R.drawable.adwar,R.drawable.bandwar,R.drawable.openmic,R.drawable.thevoice,R.drawable.dance,R.drawable.parliament,
+            R.drawable.onceuponatime,R.drawable.nukkadnatak,R.drawable.thestage,R.drawable.home_background,R.drawable.dance,
+            R.drawable.shayarana,R.drawable.showbuzz,R.drawable.pic_card_3,R.drawable.stocking,R.drawable.treasurehunt,R.drawable.spellbee};
+    private int image5[]={R.drawable.airstrike,R.drawable.nirman,R.drawable.roboknight,R.drawable.roborace,R.drawable.fumes,R.drawable.chemwizz,
+            R.drawable.codetrex,R.drawable.appathon,R.drawable.airstrike,R.drawable.lfr,R.drawable.crypto,R.drawable.playwithcodes,
             R.drawable.electrade,R.drawable.electromatrix,R.drawable.junkyard,R.drawable.tatva,R.drawable.pic_card_3,R.drawable.startup};
-    private int image6[]={R.drawable.chess,R.drawable.tt,R.drawable.badminton,R.drawable.marathon,R.drawable.bb,R.drawable.slide3,R.drawable.cricket,
-            R.drawable.langame,R.drawable.nn,R.drawable.langame};
+    private int image6[]={R.drawable.chess,R.drawable.tabletennis,R.drawable.badminton,R.drawable.marathon,R.drawable.bandwar,R.drawable.bandwar,R.drawable.cricket,
+            R.drawable.langame,R.drawable.nukkadnatak,R.drawable.langame};
     private int image7[]={R.drawable.vcnote,R.drawable.directornote,R.drawable.qr_code,R.drawable.startup};
     public static class MyViewHolder extends RecyclerView.ViewHolder {
         private ImageView imageView;
