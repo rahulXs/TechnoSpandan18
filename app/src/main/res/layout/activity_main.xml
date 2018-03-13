@@ -14,7 +14,7 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#F06292" />
+            android:background="#4DB6AC" />
     </android.support.design.widget.AppBarLayout>
 
     <FrameLayout
