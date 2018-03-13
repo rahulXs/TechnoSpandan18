@@ -3,6 +3,7 @@ package com.example.streak.technospandan;
 import android.app.Application;
 import android.support.v7.app.AppCompatDelegate;
 
+import com.google.firebase.database.FirebaseDatabase;
 import com.sylversky.fontreplacer.FontReplacer;
 import com.sylversky.fontreplacer.Replacer;
 
@@ -14,6 +15,7 @@ public class TechnoSpandan extends Application {
 
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
 
+        FirebaseDatabase.getInstance().setPersistenceEnabled(true);
         Replacer replacer = FontReplacer.Build(getApplicationContext());
         replacer.setDefaultFont("Comfortaa-Bold.ttf");
         replacer.setBoldFont("Comfortaa-Bold.ttf");

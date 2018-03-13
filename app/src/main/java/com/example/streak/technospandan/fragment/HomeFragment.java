@@ -109,6 +109,7 @@ public class HomeFragment extends Fragment {
 
         }
 
+
         dots[0].setImageDrawable(ContextCompat.getDrawable(getActivity(), R.drawable.active_dot));
 
         viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
@@ -135,6 +136,16 @@ public class HomeFragment extends Fragment {
         });
     }
 
+    @Override
+    public void onResume() {
+        super.onResume();
+    }
+
+
+    @Override
+    public void onViewStateRestored(@Nullable Bundle savedInstanceState) {
+        super.onViewStateRestored(savedInstanceState);
+    }
 
 
 
