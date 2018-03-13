@@ -11,6 +11,9 @@ import android.widget.Toast;
 
 import com.example.streak.technospandan.R;
 import com.google.android.gms.auth.api.Auth;
+import com.google.android.gms.auth.api.signin.GoogleSignIn;
+import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
+import com.google.android.gms.auth.api.signin.GoogleSignInApi;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 import com.google.android.gms.auth.api.signin.GoogleSignInResult;
 import com.google.android.gms.common.ConnectionResult;
@@ -105,9 +108,16 @@ public class SignInActivity extends AppCompatActivity {
             GoogleSignInResult googleSignInResult = Auth.GoogleSignInApi.getSignInResultFromIntent(data);
 
             if (googleSignInResult.isSuccess()){
-                Toasty.success(getBaseContext(), "SignIn Successfull...", Toast.LENGTH_LONG, true).show();
 
-                Toasty.info(getBaseContext(), "Welcome User...", Toast.LENGTH_SHORT, true).show();
+                Toasty.success(getBaseContext(), "SignIn Successfull...", Toast.LENGTH_SHORT, true).show();
+
+
+                GoogleSignInAccount acct= GoogleSignIn.getLastSignedInAccount(this);
+                if(acct!=null){
+                    String personName=acct.getDisplayName();
+                    Toasty.info(getBaseContext(), "Welcome "+ personName, Toast.LENGTH_LONG, true).show();
+                }
+
 
                Intent intent = new Intent(this, ImgUploadActivity.class);
                 startActivity(intent);

@@ -59,6 +59,7 @@ public class HomeFragment extends Fragment {
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         getActivity().setTitle("TechnoSpandan");
+
         viewPager= view.findViewById(R.id.viewPager);
         sliderDotsPanel =view.findViewById(R.id.SliderDots);
 

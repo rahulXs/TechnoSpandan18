@@ -13,11 +13,11 @@ public class EventCardsUtils {
     public static Collection<EventCardModel> generateSportCards() {
         List<EventCardModel> eventCardModels = new ArrayList<>(5);
 
-        {
+       /* {
             eventCardModels.add(EventCardModel
                     .newBuilder()
                     .withEventTitle("Robotics")
-                    .withImageResId(R.drawable.robotics)
+                    .withImageResId(R.drawable.)
                     .withDayPart("Technical")
                     .withBackgroundColorResId(R.color.dark_orchid)
                     .build());
@@ -87,7 +87,7 @@ public class EventCardsUtils {
                     .withBackgroundColorResId(R.color.mantis)
                     .build());
 
-        }
+        }*/
         return eventCardModels;
     }
 }

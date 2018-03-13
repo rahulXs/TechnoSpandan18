@@ -29,7 +29,7 @@ public class DaysViewActivity extends AppCompatActivity {
 
         viewPager.setAdapter(new DaysViewPagerAdapter(getSupportFragmentManager()));
         tabStrip.setViewPager(viewPager,0);
-        tabStrip.setTitles("Day 0" ,"Day 1", "Day 2");
+        tabStrip.setTitles("Core" ,"Developers", "Others");
 
     /*    gear1 = (ImageView) findViewById(R.id.gear1);
         gear2 = (ImageView) findViewById(R.id.gear2);

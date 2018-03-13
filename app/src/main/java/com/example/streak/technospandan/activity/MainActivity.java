@@ -66,11 +66,7 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id=item.getItemId();
-        if (id==R.id.dayviewact){
-            Intent i=new Intent(this,DaysViewActivity.class);
-            startActivity(i);
-        }
-        else if (id==R.id.CategoryView){
+       if (id==R.id.CategoryView){
             Intent i=new Intent(this,CategoryView.class);
             startActivity(i);
         }
@@ -238,6 +234,9 @@ public class MainActivity extends AppCompatActivity implements DrawerAdapter.OnI
             case R.id.button6:
                 Intent myIntent4 = new Intent(this,SignInActivity.class);
                 startActivity(myIntent4);
+            case R.id.button4:
+                Intent myIntent5 = new Intent(this,DaysViewActivity.class);
+                startActivity(myIntent5);
         }
     }
 

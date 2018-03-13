@@ -10,12 +10,13 @@
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Image Upload"
+        android:text="TechnoSpandan Gallery"
         android:id="@+id/textview"
         android:textStyle="bold"
         android:textSize="20dp"
         android:gravity="center"
-        android:layout_marginTop="20dp"/>
+        android:layout_marginTop="20dp"
+        android:textColor="@color/dark_orchid"/>
 
     <ImageView
         android:layout_width="fill_parent"
@@ -38,7 +39,7 @@
         android:id="@+id/ImageNameEditText"
         android:layout_below="@+id/ButtonChooseImage"
         android:layout_marginTop="20dp"
-        android:hint="Enter Image Name Here"
+        android:hint="Caption this picture"
         android:gravity="center"/>
 
     <Button
@@ -47,7 +48,7 @@
         android:id="@+id/ButtonUploadImage"
         android:layout_below="@+id/ImageNameEditText"
         android:layout_marginTop="20dp"
-        android:text="Upload image to Firebase Storage"/>
+        android:text="Upload image"/>
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"

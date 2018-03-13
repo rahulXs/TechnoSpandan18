@@ -28,7 +28,7 @@ public class SEventCardsUtils {
             eventCardModels.add(EventCardModel
                     .newBuilder()
                     .withEventTitle("TABLE TENNIS")
-                    .withImageResId(R.drawable.tt)
+                    .withImageResId(R.drawable.tabletennis)
                     .withDayPart("SPORTS")
                     .withBackgroundColorResId(R.color.mantis)
                     .build());
@@ -60,7 +60,7 @@ public class SEventCardsUtils {
             eventCardModels.add(EventCardModel
                     .newBuilder()
                     .withEventTitle("BASKETBALL")
-                    .withImageResId(R.drawable.bb)
+                    .withImageResId(R.drawable.basketball)
                     .withDayPart("SPORTS")
                     .withBackgroundColorResId(R.color.dodger_blue)
                     .build());
