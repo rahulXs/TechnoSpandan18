@@ -33,6 +33,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginBottom="4dp"></TextView>
 
+<!--
 
             <TextView
                 android:text="Time:"
@@ -48,6 +49,7 @@
                   android:layout_height="wrap_content"
                   android:layout_below="@+id/about"
                   android:layout_toRightOf="@+id/time"/>
+-->
 
 
             <TextView
@@ -55,14 +57,14 @@
                 android:textSize="14dp"
                 android:layout_height="20dp"
                 android:layout_width="wrap_content"
-                android:layout_below="@+id/time"
+                android:layout_below="@+id/about"
                 android:id="@+id/dates"/>
             <TextView
                 android:id="@+id/date"
                 android:textSize="14dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/time"
+                android:layout_below="@+id/about"
                 android:layout_toRightOf="@+id/dates"/>
 
 
@@ -82,6 +84,24 @@
                 android:layout_toRightOf="@id/organiser">
 
             </TextView>
+
+            <TextView
+                android:text="Venue:"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_below="@+id/organizer"
+                android:id="@+id/venues" ></TextView>
+            <TextView
+                android:id="@+id/venue"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/organizer"
+                android:layout_toRightOf="@id/venues">
+
+            </TextView>
+
 
 
         </RelativeLayout>
