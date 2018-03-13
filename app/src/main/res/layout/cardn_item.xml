@@ -24,45 +24,84 @@
             <TextView
                 android:id="@+id/about"
                 android:layout_marginTop="1dp"
-                android:textSize="20sp"
+                android:textSize="20dp"
+                android:textColor="#000000"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/iv_image"
                 android:gravity="center"
-                android:layout_centerHorizontal="true"></TextView>
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="4dp"></TextView>
 
+<!--
 
             <TextView
-                android:text="Time and Date:"
-                android:layout_height="20dp"
+                android:text="Time:"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
                 android:layout_width="wrap_content"
                 android:layout_below="@+id/about"
                 android:id="@+id/time"/>
               <TextView
                   android:id="@+id/location"
+                  android:textSize="14dp"
                   android:layout_width="wrap_content"
                   android:layout_height="wrap_content"
                   android:layout_below="@+id/about"
-                  android:layout_toRightOf="@+id/time">
+                  android:layout_toRightOf="@+id/time"/>
+-->
 
-              </TextView>
 
+            <TextView
+                android:text="Date:"
+                android:textSize="14dp"
+                android:layout_height="20dp"
+                android:layout_width="wrap_content"
+                android:layout_below="@+id/about"
+                android:id="@+id/dates"/>
+            <TextView
+                android:id="@+id/date"
+                android:textSize="14dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/about"
+                android:layout_toRightOf="@+id/dates"/>
 
 
             <TextView
                 android:text="Organisers:"
+                android:textSize="15dp"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
-                android:layout_below="@+id/location"
+                android:layout_below="@+id/date"
                 android:id="@+id/organiser" ></TextView>
             <TextView
                 android:id="@+id/organizer"
+                android:textSize="15dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/location"
+                android:layout_below="@+id/date"
                 android:layout_toRightOf="@id/organiser">
 
             </TextView>
+
+            <TextView
+                android:text="Venue:"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_below="@+id/organizer"
+                android:id="@+id/venues" ></TextView>
+            <TextView
+                android:id="@+id/venue"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/organizer"
+                android:layout_toRightOf="@id/venues">
+
+            </TextView>
+
 
 
         </RelativeLayout>
