@@ -19,15 +19,15 @@
     <android.support.v4.view.ViewPager
         android:id="@+id/viewPager"
         android:layout_width="wrap_content"
-        android:layout_height="240dp"
+        android:layout_height="226dp"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:layout_marginTop="10dp" />
+        android:layout_marginTop="25dp" />
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="251dp"
+        android:layout_height="245dp"
         android:layout_marginTop="300dp"
         android:weightSum="1">
 
@@ -96,11 +96,10 @@
         <Button
             android:id="@+id/button4"
             android:layout_width="240dp"
-            android:layout_height="60dp"
+            android:layout_height="50dp"
             android:layout_alignEnd="@+id/buttonlog"
             android:layout_alignStart="@+id/button3"
             android:layout_below="@+id/button3"
-            android:layout_marginTop="17dp"
             android:backgroundTint="#B2DFDB"
             android:onClick="buttonOnClick"
             android:text="Organising Team Info" />
