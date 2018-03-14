@@ -10,8 +10,7 @@ import java.util.List;
 
 public class TEventCardsUtils {
 
-
-    /*public static Collection<EventCardModel> generateSportCards() {
+    public static Collection<EventCardModel> generateTechnicalCards() {
         List<EventCardModel> eventCardModels = new ArrayList<>(5);
 
         {
@@ -29,7 +28,7 @@ public class TEventCardsUtils {
             eventCardModels.add(EventCardModel
                     .newBuilder()
                     .withEventTitle("NIRMAAN")
-                    .withImageResId(R.drawable.nirmaan)
+                    .withImageResId(R.drawable.nirman)
                     .withDayPart("TECHNICAL")
                     .withBackgroundColorResId(R.color.mantis)
                     .build());
@@ -40,7 +39,7 @@ public class TEventCardsUtils {
             eventCardModels.add(EventCardModel
                     .newBuilder()
                     .withEventTitle("THE ROBO KNIGHT")
-                    .withImageResId(R.drawable.robowar)
+                    .withImageResId(R.drawable.roboknight)
                     .withDayPart("TECHNICAL")
                     .withBackgroundColorResId(R.color.usc_gold)
                     .build());
@@ -54,7 +53,6 @@ public class TEventCardsUtils {
                     .withDayPart("TECHNICAL")
                     .withBackgroundColorResId(R.color.portland_orange)
                     .build());
-
         }
 
         {
@@ -75,7 +73,6 @@ public class TEventCardsUtils {
                     .withDayPart("TECHNICAL")
                     .withBackgroundColorResId(R.color.dark_orchid)
                     .build());
-
         }
 
         {
@@ -86,7 +83,6 @@ public class TEventCardsUtils {
                     .withDayPart("TECHNICAL")
                     .withBackgroundColorResId(R.color.mantis)
                     .build());
-
         }
         {
             eventCardModels.add(EventCardModel
@@ -102,13 +98,11 @@ public class TEventCardsUtils {
             eventCardModels.add(EventCardModel
                     .newBuilder()
                     .withEventTitle("RULE THE SKY")
-                    .withImageResId(R.drawable.rocketwar)
+                    .withImageResId(R.drawable.rulethesky)
                     .withDayPart("TECHNICAL")
                     .withBackgroundColorResId(R.color.portland_orange)
                     .build());
-
         }
-
         {
             eventCardModels.add(EventCardModel
                     .newBuilder()
@@ -134,7 +128,7 @@ public class TEventCardsUtils {
             eventCardModels.add(EventCardModel
                     .newBuilder()
                     .withEventTitle("PLAY WITH CODES")
-                    .withImageResId(R.drawable.codeplay)
+                    .withImageResId(R.drawable.codetrex)
                     .withDayPart("TECHNICAL")
                     .withBackgroundColorResId(R.color.mantis)
                     .build());
@@ -204,9 +198,11 @@ public class TEventCardsUtils {
         }
 
         return eventCardModels;
-    }*/
+    }
 
 
+
+/*
     public static Collection<EventCardModel> generateTechnicalCards() {
         String technical[]=new String[]{"Air Strike", "Nirmaan", "The Robo Knight", "Robo Race", "Fumes" , "Chemwizz" , "Codetrex","App-athon", "Rule the Sky", "LFR", "Crypto" , "Play with codes", "Electrade", "Electromatrix", "The Junkyard" , "Tatva", "Quiz" , "Startup","Hitz","Crack Cat"};
 
@@ -231,4 +227,5 @@ public class TEventCardsUtils {
 
         return eventCardModels;
     }
+*/
 }
