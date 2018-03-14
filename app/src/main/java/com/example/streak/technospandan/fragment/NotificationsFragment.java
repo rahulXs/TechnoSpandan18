@@ -54,6 +54,7 @@ public class NotificationsFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        getActivity().setTitle("Notifications");
         View v =  inflater.inflate(R.layout.fragment_updates, container, false);
         recyclerView = v.findViewById(R.id.recyclerView);
 

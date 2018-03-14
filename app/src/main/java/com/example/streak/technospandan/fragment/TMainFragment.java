@@ -53,7 +53,7 @@ public class TMainFragment extends Fragment {
         FanLayoutManagerSettings fanLayoutManagerSettings = FanLayoutManagerSettings
                 .newBuilder(getContext())
                 .withFanRadius(true)
-                .withAngleItemBounce(5)
+                .withAngleItemBounce(2)
                 .withViewHeightDp(160)
                 .withViewWidthDp(120)
                 .build();

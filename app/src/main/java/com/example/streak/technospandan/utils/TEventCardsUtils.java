@@ -204,11 +204,11 @@ public class TEventCardsUtils {
 
 /*
     public static Collection<EventCardModel> generateTechnicalCards() {
-        String technical[]=new String[]{"Air Strike", "Nirmaan", "The Robo Knight", "Robo Race", "Fumes" , "Chemwizz" , "Codetrex","App-athon", "Rule the Sky", "LFR", "Crypto" , "Play with codes", "Electrade", "Electromatrix", "The Junkyard" , "Tatva", "Quiz" , "Startup"};
+        String technical[]=new String[]{"Air Strike", "Nirmaan", "The Robo Knight", "Robo Race", "Fumes" , "Chemwizz" , "Codetrex","App-athon", "Rule the Sky", "LFR", "Crypto" , "Play with codes", "Electrade", "Electromatrix", "The Junkyard" , "Tatva", "Quiz" , "Startup","Hitz","Crack Cat"};
 
         int technicalImages[]={R.drawable.airstrike,R.drawable.nirman,R.drawable.roboknight,R.drawable.roborace,R.drawable.fumes,R.drawable.chemwizz,
                 R.drawable.codetrex,R.drawable.appathon,R.drawable.airstrike,R.drawable.lfr,R.drawable.crypto,R.drawable.playwithcodes,
-                R.drawable.electrade,R.drawable.electromatrix,R.drawable.junkyard,R.drawable.tatva,R.drawable.quiz,R.drawable.startup};
+                R.drawable.electrade,R.drawable.electromatrix,R.drawable.junkyard,R.drawable.tatva,R.drawable.quiz,R.drawable.startup,R.drawable.hitz,R.drawable.crack};
 
         List<EventCardModel> eventCardModels = new ArrayList<>(technical.length);
 

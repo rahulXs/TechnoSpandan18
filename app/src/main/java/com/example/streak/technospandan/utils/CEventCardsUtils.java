@@ -27,17 +27,6 @@ public class CEventCardsUtils {
         {
             eventCardModels.add(EventCardModel
                     .newBuilder()
-                    .withEventTitle("BAND WAR")
-                    .withImageResId(R.drawable.bandwar)
-                    .withDayPart("CULTURAL")
-                    .withBackgroundColorResId(R.color.mantis)
-                    .build());
-
-        }
-
-        {
-            eventCardModels.add(EventCardModel
-                    .newBuilder()
                     .withEventTitle("OPEN MIC")
                     .withImageResId(R.drawable.openmic)
                     .withDayPart("CULTURAL")
@@ -111,20 +100,10 @@ public class CEventCardsUtils {
         {
             eventCardModels.add(EventCardModel
                     .newBuilder()
-                    .withEventTitle("JALWA")
+                    .withEventTitle("FASHIONOVA")
                     .withImageResId(R.drawable.dance)
                     .withDayPart("CULTURAL")
                     .withBackgroundColorResId(R.color.dodger_blue)
-                    .build());
-
-        }
-        {
-            eventCardModels.add(EventCardModel
-                    .newBuilder()
-                    .withEventTitle("RITAMBHARA")
-                    .withImageResId(R.drawable.dance)
-                    .withDayPart("CULTURAL")
-                    .withBackgroundColorResId(R.color.dark_orchid)
                     .build());
 
         }

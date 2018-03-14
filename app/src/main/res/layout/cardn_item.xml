@@ -32,75 +32,104 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginBottom="4dp"></TextView>
 
-<!--
 
             <TextView
-                android:text="Time:"
-                android:layout_height="wrap_content"
-                android:textSize="14dp"
+                android:id="@+id/dates"
                 android:layout_width="wrap_content"
-                android:layout_below="@+id/about"
-                android:id="@+id/time"/>
-              <TextView
-                  android:id="@+id/location"
-                  android:textSize="14dp"
-                  android:layout_width="wrap_content"
-                  android:layout_height="wrap_content"
-                  android:layout_below="@+id/about"
-                  android:layout_toRightOf="@+id/time"/>
--->
-
-
-            <TextView
-                android:text="Date:"
-                android:textSize="14dp"
                 android:layout_height="20dp"
-                android:layout_width="wrap_content"
                 android:layout_below="@+id/about"
-                android:id="@+id/dates"/>
+                android:layout_margin="6dp"
+                android:text="Date:"
+                android:textSize="20dp" />
+
             <TextView
                 android:id="@+id/date"
-                android:textSize="14dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/about"
-                android:layout_toRightOf="@+id/dates"/>
+                android:layout_margin="6dp"
+                android:layout_toRightOf="@+id/dates"
+                android:textSize="18dp" />
 
 
             <TextView
-                android:text="Organisers:"
-                android:textSize="15dp"
-                android:layout_height="wrap_content"
+                android:id="@+id/organiser"
                 android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_below="@+id/date"
-                android:id="@+id/organiser" ></TextView>
+                android:layout_margin="6dp"
+                android:text="Organisers:"
+                android:textSize="20dp"></TextView>
+
             <TextView
                 android:id="@+id/organizer"
-                android:textSize="15dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/date"
-                android:layout_toRightOf="@id/organiser">
+                android:layout_margin="6dp"
+                android:layout_toRightOf="@id/organiser"
+                android:textSize="18dp">
 
             </TextView>
 
             <TextView
-                android:text="Venue:"
-                android:textSize="20dp"
-                android:layout_height="wrap_content"
+                android:id="@+id/venues"
                 android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_below="@+id/organizer"
-                android:id="@+id/venues" ></TextView>
+                android:layout_margin="6dp"
+                android:text="Venue:"
+                android:textSize="20dp"></TextView>
+
             <TextView
                 android:id="@+id/venue"
-                android:textSize="20dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/organizer"
-                android:layout_toRightOf="@id/venues">
+                android:layout_margin="6dp"
+                android:layout_toRightOf="@id/venues"
+                android:textSize="18dp">
+
+            </TextView>
+            <TextView
+                android:id="@+id/entry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/venues"
+                android:layout_margin="6dp"
+                android:text="Entry Fee:"
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:id="@+id/entryfee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/venues"
+                android:layout_margin="6dp"
+                android:layout_toRightOf="@id/entry"
+                android:textSize="18dp">
 
             </TextView>
 
+            <TextView
+                android:id="@+id/rule"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/entry"
+                android:layout_margin="6dp"
+                android:text="Rules:"
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:id="@+id/rules"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/entry"
+                android:layout_margin="6dp"
+                android:layout_toRightOf="@id/rule"
+                android:textSize="18dp">
+
+            </TextView>
 
 
         </RelativeLayout>
