@@ -59,18 +59,8 @@ public class SEventCardsUtils {
         {
             eventCardModels.add(EventCardModel
                     .newBuilder()
-                    .withEventTitle("BASKETBALL")
-                    .withImageResId(R.drawable.basketball)
-                    .withDayPart("SPORTS")
-                    .withBackgroundColorResId(R.color.dodger_blue)
-                    .build());
-
-        }
-        {
-            eventCardModels.add(EventCardModel
-                    .newBuilder()
                     .withEventTitle("STREET SOCCER")
-                    .withImageResId(R.drawable.pic_card_3)
+                    .withImageResId(R.drawable.streetsoccer)
                     .withDayPart("SPORTS")
                     .withBackgroundColorResId(R.color.dark_orchid)
                     .build());
@@ -80,27 +70,7 @@ public class SEventCardsUtils {
         {
             eventCardModels.add(EventCardModel
                     .newBuilder()
-                    .withEventTitle("CRICKET")
-                    .withImageResId(R.drawable.cricket)
-                    .withDayPart("SPORTS")
-                    .withBackgroundColorResId(R.color.mantis)
-                    .build());
-
-        }
-        {
-            eventCardModels.add(EventCardModel
-                    .newBuilder()
-                    .withEventTitle("COUNTER STRIKE")
-                    .withImageResId(R.drawable.langame)
-                    .withDayPart("SPORTS")
-                    .withBackgroundColorResId(R.color.usc_gold)
-                    .build());
-
-        }
-        {
-            eventCardModels.add(EventCardModel
-                    .newBuilder()
-                    .withEventTitle("NEED FOR SPEED")
+                    .withEventTitle("LAN GAMING")
                     .withImageResId(R.drawable.langame)
                     .withDayPart("SPORTS")
                     .withBackgroundColorResId(R.color.portland_orange)
