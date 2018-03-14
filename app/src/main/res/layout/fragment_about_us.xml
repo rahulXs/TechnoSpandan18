@@ -89,7 +89,7 @@
                 android:layout_width="0dp"
                 android:adjustViewBounds="true"
                 android:layout_height="wrap_content"
-                android:src="@drawable/phoenix"
+                android:src="@drawable/logo1"
 
                 android:layout_weight=".3" />
 
