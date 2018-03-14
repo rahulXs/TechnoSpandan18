@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.streak.technospandan.R;
 import com.example.streak.technospandan.utils.MyAdapter;
@@ -19,7 +20,7 @@ import com.example.streak.technospandan.utils.MyAdapter;
 
 public class PagerAdapter extends RecyclerView.Adapter<PagerAdapter.MyPagerAdapter>{
     String title;
-    String technical[] = new String[]{"Air Strike", "Nirmaan", "The Robo Knight", "Robo Race", "Fumes" , "Chemwizz" , "Codetrex","App-athon", "Rule the Sky", "LFR", "Crypto" , "Play with codes", "Electrade", "Electromatrix", "The Junkyard" , "Tatva", "Quiz" , "Startup"};
+    String technical[] = new String[]{"AIR STRIKE", "NIRMAAN", "THE ROBO KNIGHT", "ROBORACE", "FUMES" , "CHEMWIZZ" , "CODETREX","APP-ATHON", "RULE THE SKY", "LFR", "CRYPTO" , "PLAY WITH CODES", "ELECTRADE", "ELECTROMATRIX", "THE JUNKYARD" , "TATVA", "QUIZ" , "STARTUP"};
     //String tlocation[] = new String[]{" 7 PM - 9 PM ","10 AM - 12 PM "," 10 AM - 2 PM"," 10 AM - 2 PM"," 10 AM - 2 PM"," 10 AM - 2 PM"," 10 AM - 2 PM"," 10 AM - 2 PM"," 10 AM - 2 PM"," 10 AM - 2 PM"," 10 AM - 2 PM"," 10 AM - 2 PM"," 10 AM - 2 PM"," 10 AM - 2 PM"," 10 AM - 2 PM"};
     String tdates[]= new String[]{"22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018"};
     String tVenu[]= new String[]{"CSE Coridoor Area","Lecture Hall ","OT","OT","MEE Building ","Chemical Building","CSE Lab","IT Building","CSE Cooridate Area","Lecture Hall Complex","CSE Advance Lab","IT Building","ECE Building","ECE Building","Workshop","MSME Building","Lecture Hall","L1"," "," "," "," "};
@@ -72,7 +73,9 @@ public class PagerAdapter extends RecyclerView.Adapter<PagerAdapter.MyPagerAdapt
 
     @Override
     public void onBindViewHolder(PagerAdapter.MyPagerAdapter holder, int position) {
-        if(type.equalsIgnoreCase("technical")){
+
+
+        if(type.equalsIgnoreCase("TECHNICAL")){
         for(int i=0;i<technical.length;i++) {
             if (title.equals(technical[i])) {
                 holder.mTextView.setText(tAbout[i]);

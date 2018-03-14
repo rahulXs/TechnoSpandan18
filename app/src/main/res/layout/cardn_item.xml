@@ -11,8 +11,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         card_view:cardCornerRadius="4dp"
-        card_view:elevation="14dp"
-        android:onClick="moveActivity">
+        card_view:elevation="14dp">
 
         <RelativeLayout
             android:layout_width="wrap_content"
