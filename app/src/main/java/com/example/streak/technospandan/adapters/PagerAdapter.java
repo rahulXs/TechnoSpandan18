@@ -20,7 +20,7 @@ import com.example.streak.technospandan.utils.MyAdapter;
 
 public class PagerAdapter extends RecyclerView.Adapter<PagerAdapter.MyPagerAdapter>{
     String title;
-    String technical[] = new String[]{"AIR STRIKE", "NIRMAAN", "THE ROBO KNIGHT", "ROBORACE", "FUMES" , "CHEMWIZZ" , "CODETREX","APP-ATHON", "RULE THE SKY", "LFR", "CRYPTO" , "PLAY WITH CODES", "ELECTRADE", "ELECTROMATRIX", "THE JUNKYARD" , "TATVA", "QUIZ" , "STARTUP"};
+    String technical[] = new String[]{"AIR STRIKE", "NIRMAAN", "THE ROBO KNIGHT", "ROBORACE", "FUMES" , "CHEMWIZZ" , "CODETREX","APP-ATHON", "RULE THE SKY", "LFR", "CRYPTO" , "PLAY WITH CODES", "ELECTRADE", "ELECTROMATRIX", "THE JUNKYARD" , "TATVA", "QUIZ" , "STARTUP","HITZ", "CRACK CAT"};
     String type;
     //String tlocation[] = new String[]{" 7 PM - 9 PM ","10 AM - 12 PM "," 10 AM - 2 PM"," 10 AM - 2 PM"," 10 AM - 2 PM"," 10 AM - 2 PM"," 10 AM - 2 PM"," 10 AM - 2 PM"," 10 AM - 2 PM"," 10 AM - 2 PM"," 10 AM - 2 PM"," 10 AM - 2 PM"," 10 AM - 2 PM"," 10 AM - 2 PM"," 10 AM - 2 PM"};
     String tdates[]= new String[]{"22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018","22-03-2018"};

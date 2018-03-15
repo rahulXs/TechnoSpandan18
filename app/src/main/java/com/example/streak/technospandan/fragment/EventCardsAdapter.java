@@ -88,6 +88,7 @@ public class EventCardsAdapter extends RecyclerView.Adapter<EventCardsAdapter.Ev
 
     void setOnItemClickListener(OnItemClickListener onItemClickListener) {
         mOnItemClickListener = onItemClickListener;
+
     }
 
     EventCardModel getModelByPos(int pos) {

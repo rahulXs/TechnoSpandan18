@@ -197,6 +197,27 @@ public class TEventCardsUtils {
 
         }
 
+        {
+            eventCardModels.add(EventCardModel
+                    .newBuilder()
+                    .withEventTitle("HITZ")
+                    .withImageResId(R.drawable.hitz)
+                    .withDayPart("TECHNICAL")
+                    .withBackgroundColorResId(R.color.dodger_blue)
+                    .build());
+
+        }
+        {
+            eventCardModels.add(EventCardModel
+                    .newBuilder()
+                    .withEventTitle("CRACK CAT")
+                    .withImageResId(R.drawable.crack)
+                    .withDayPart("TECHNICAL")
+                    .withBackgroundColorResId(R.color.dark_orchid)
+                    .build());
+        }
+
+
         return eventCardModels;
     }
 
