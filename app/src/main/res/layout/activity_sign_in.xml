@@ -7,23 +7,16 @@
     android:background="@drawable/ba"
     tools:context="com.example.streak.technospandan.activity.SignInActivity">
 
-    <com.google.android.gms.common.SignInButton
-        android:id="@+id/sign_in_button"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="98dp" />
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/sign_in_button"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="85dp"
-        android:text="Please sign in first to access gallery features."
-        android:textSize="18sp"/>
+        android:layout_above="@+id/button5"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="53dp"
+        android:layout_marginStart="44dp"
+        android:text="Welcome to TechnoSpandan Gallery.\n You can Upload and share pics with other users.\n Gallery will be updated in Real time."
+        android:textSize="24sp" />
 
     <TextView
         android:id="@+id/textView2"
@@ -33,5 +26,16 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="76dp"
         android:text="The More We Share,\n The More We Have."
-        android:textSize="22sp"/>
+        android:textSize="26sp"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="89dp"
+        android:background="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+        android:onClick="buttonOn"
+        android:text="Enter Gallery" />
 </RelativeLayout>
