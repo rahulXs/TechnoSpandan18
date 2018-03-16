@@ -4,7 +4,6 @@ import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Canvas;
 import android.graphics.drawable.Drawable;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -20,13 +19,7 @@ import android.widget.ImageView;
 
 import com.example.streak.technospandan.R;
 import com.example.streak.technospandan.adapters.PagerAdapter;
-import com.example.streak.technospandan.model.AllEvents;
 import com.example.streak.technospandan.model.EventCardModel;
-import com.example.streak.technospandan.model.EventsModel;
-import com.example.streak.technospandan.utils.MyAdapter2;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class FullInfoTabFragment extends Fragment {
 

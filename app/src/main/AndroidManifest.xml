@@ -15,7 +15,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".activity.DaysViewActivity" />
-        <activity android:name=".activity.CategoryView" />
 
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_icon"

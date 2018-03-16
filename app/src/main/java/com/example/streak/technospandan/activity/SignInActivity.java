@@ -25,7 +25,6 @@ public class SignInActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_in);
-        Toasty.success(getBaseContext(), "Welcome to TechnoSpandan Gallery.", Toast.LENGTH_LONG, true).show();
 
 
 
@@ -34,6 +33,7 @@ public class SignInActivity extends AppCompatActivity {
     public void buttonOn(View view){
         switch(view.getId()) {
             case R.id.button5:
+                Toasty.success(getBaseContext(), "Welcome to TechnoSpandan Gallery.", Toast.LENGTH_LONG, true).show();
                 Intent myIndent = new Intent(this, ImgUploadActivity.class);
                 startActivity(myIndent);
                 break;
