@@ -5,6 +5,12 @@
 TechnoSpandan is annual technical,cultural and sports fest of UIET, CSJMU, Kanpur.
 Its a three day extravaganza which has students from different colleges participating in various out of the box events.
 
+![alt text](https://raw.githubusercontent.com/rahulXs/TechnoSpandan18/pic/pic1.png)
+
+![alt text](https://raw.githubusercontent.com/rahulXs/TechnoSpandan18/pic/pic2.png)
+
+![alt text](https://raw.githubusercontent.com/rahulXs/TechnoSpandan18/pic/pic3.png)
+
 ### Application Features
 
 #### Different Sections for Events
