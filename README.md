@@ -3,13 +3,13 @@
 ### Android Application Source for TechnoSpandan 2018.
 
 
-<div><div>
+<div>
 <img src="https://raw.githubusercontent.com/rahulXs/TechnoSpandan18/master/pic/pic1.png" height="400" width="200">
-  </div><div>
+ 
 <img src="https://raw.githubusercontent.com/rahulXs/TechnoSpandan18/master/pic/pic2.png" height="400" width="200">
-  </div><div>
+ 
 <img src="https://raw.githubusercontent.com/rahulXs/TechnoSpandan18/master/pic/pic3.png" height="400" width="200">
-  </div>
+  
 </div>
 
 
