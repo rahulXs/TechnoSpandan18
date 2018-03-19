@@ -7,28 +7,29 @@ Its a three day extravaganza which has students from different colleges particip
 
 ### Application Features
 
-#### Different Views for Events
+#### Different Sections for Events
 Searching for any event is fun and super easy now.
 
-- Events by day
-
-- Events by Category (bottom navigation view)
-
-- Events classified under various groups (fanlayout manager)
+- Events classified under different sections for ease of use, technical section, cultural section, sports section. (fanlayout manager)
 
 #### Event Notifications
 We know how important it is to be at the right time at a must attend event, thus we have a remind feature for you. In case of change in venue or timing of any event, you will get notifications regarding the same.
 
-#### Register/Login
-Register and login feature for participants.
+-Push notifications
+-In App notifications
+-Scheduled notifications
+
+#### Gallery feature
+User can upload and share pictures with others, gallery will be updated in real time. Firebase database.
 
 #### Organising Team Info
 
-#### Sponsors List
+#### About Us section
+about college and technospandan
 
-#### Settings Activity
+#### Register for Events
+Redirected to google forms for event registration.
 
 #### Open Source
 We Share love | We share Code.
 
-### This project is under development now. More features coming soon...
