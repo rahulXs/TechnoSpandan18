@@ -2,14 +2,20 @@
 
 ### Android Application Source for TechnoSpandan 2018.
 
+
+<div><div>
+<img src="https://raw.githubusercontent.com/rahulXs/TechnoSpandan18/master/pic/pic1.png" height="400" width="200">
+  </div><div>
+<img src="https://raw.githubusercontent.com/rahulXs/TechnoSpandan18/master/pic/pic2.png" height="400" width="200">
+  </div><div>
+<img src="https://raw.githubusercontent.com/rahulXs/TechnoSpandan18/master/pic/pic3.png" height="400" width="200">
+  </div>
+</div>
+
+
 TechnoSpandan is annual technical,cultural and sports fest of UIET, CSJMU, Kanpur.
 Its a three day extravaganza which has students from different colleges participating in various out of the box events.
 
-![alt text](https://raw.githubusercontent.com/rahulXs/TechnoSpandan18/pic/pic1.png)
-
-![alt text](https://raw.githubusercontent.com/rahulXs/TechnoSpandan18/pic/pic2.png)
-
-![alt text](https://raw.githubusercontent.com/rahulXs/TechnoSpandan18/pic/pic3.png)
 
 ### Application Features
 
